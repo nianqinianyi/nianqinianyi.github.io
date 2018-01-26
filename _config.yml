@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title:  六楼实验室 - Github 分站
-subtitle: 
-description:
-author: John Doe
-language:
-timezone:
+title: 六楼实验室
+subtitle: 六楼的雨的博客
+description: 六楼实验室，六楼的雨的博客
+author: 六楼的雨
+language: zh-cn
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://io.sixlab.cn
+url: https://blog.sixlab.cn
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:id/
 permalink_defaults:
 
 # Directory
