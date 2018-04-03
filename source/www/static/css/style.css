@@ -107,7 +107,7 @@ body {
 .left_canvas {
 	float: left;
 	width: 451px;
-	height: 738px;
+	height: 600px;
 	padding-top: 50px;
 }
 .sixlab_foot {
@@ -116,6 +116,7 @@ body {
 	height: 70px;
 	font-size: 12px;
 	color: #FFF;
+	clear:both;
 }
 .footcopyright {
 	text-align: center;
