@@ -1,31 +1,45 @@
-<!doctype html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="renderer" content="webkit" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <title>六楼实验室</title>
+    <meta name="keywords" content="六楼实验室,sixlab,六楼的雨,PatrickRoot,nianqinianyi" />
+    <meta name="description" content="六楼实验室是由六楼的雨（Patrick Root/nianqinianyi）自行搭建的网站，域名为sixlab.cn，包含了博客、简介等内容" />
+    <link href="static/css/style.css" media="all" rel="stylesheet" type="text/css">
 
-    <title>Sixlab·六楼实验室 | 六楼的雨</title>
-
-    <link href="/static/css/index_style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
-    <script src="/static/js/index.js"></script>
-    <!--<script src="/static/js/index.bio.js"></script>-->
+    <script src="static/js/index.js"></script>
 </head>
+
 <body>
-
-<div id="btns">
-    <a class="pure-button" id="reset" href="###">重置</a>
-    <a class="pure-button" href="https://blog.sixlab.cn" style="margin-left: 80px;">进入我的博客</a>
+<div class="top_nav">
+    <div class="nav_main">
+        <div class="nav_logo"></div>
+        <div class="top_share">
+            <div class="share_sina"><a href="https://weibo.com/314566975" title="微博" target="_blank"></a></div>
+            <div class="share_github"><a href="https://github.com/PatrickRoot?tab=repositories" title="Github" target="_blank"></a></div>
+        </div>
+    </div>
 </div>
-
-<div id="foots">点击网格并拖拽试试看 | 豫ICP备15033629号</div>
-
-<canvas id="clothes"></canvas>
-<canvas id="bio"></canvas>
-
+<div class="pagezone">
+    <div class="contentzone">
+        <div class="main_content">
+            <div class="left_canvas">
+                <canvas id="clothes"></canvas>
+            </div>
+            <div class="right_btns">
+                <div class="pagebtns">
+                    <div class="pagebtn"><a href="https://blog.sixlab.cn" target="_blank">访问博客</a></div>
+                    <div class="pagebtn secondbtn"><a id="reset" href="###">重置游戏</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sixlab_foot">
+    <div class="foottips">上方的小游戏点击网格并拖拽试试看，可以通过重置按钮重置。</div>
+    <div class="footcopyright">Copyright © 2018 sixlab.cn. 保留所有权利 <a href="http://www.miibeian.gov.cn" target="_blank"><font color=#FFFFFF>豫ICP备15033629号</font></a></div>
+</div>
 </body>
 </html>
+

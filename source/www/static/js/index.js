@@ -213,7 +213,7 @@ $(function () {
         //设置字体样式
         ctx.font = "70px Courier New";
         //从坐标点(50,50)开始绘制文字
-        ctx.fillText("六楼实验室", 325, 180);
+        ctx.fillText("六楼实验室", 180, 180);
 
         cloth.update();
         cloth.draw();
@@ -255,7 +255,7 @@ $(function () {
         boundsx = canvas.width - 1;
         boundsy = canvas.height - 1;
 
-        ctx.strokeStyle = 'coral';
+        ctx.strokeStyle = '#CCCCCC';
 
         cloth = new Cloth();
 
@@ -266,8 +266,8 @@ $(function () {
         canvas = document.getElementById('clothes');
         ctx = canvas.getContext('2d');
 
-        canvas.width = 1000;
-        canvas.height = 600;
+        canvas.width = 700;
+        canvas.height = 500;
 
         start();
     }
