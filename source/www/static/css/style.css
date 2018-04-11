@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font: normal 100% Verdana, Arial, Helvetica, sans-serif;
-	line-height: 150%;
+	line-height: 100%;
 }
 .clearfix:after {
 	content: ".";
@@ -15,12 +15,11 @@ body {
 }
 .pagezone {
 	width: 100%;
-	background-color: #FFFFFF;
 	background-color: #191b21;
 }
 .top_nav{
 	width: 100%;
-	background-color: #323643;
+	background-color: #F3F3F3;
 }
 .nav_main {
 	width: 1000px;
@@ -111,12 +110,16 @@ body {
 	padding-top: 50px;
 }
 .sixlab_foot {
-	padding: 30px 0 0 0;
+	padding: 5px 0;
 	background: #323643;
-	height: 70px;
+	background-color: #F3F3F3;
+	height: 30px;
 	font-size: 12px;
-	color: #FFF;
+	color: #666;
 	clear:both;
+}
+.sixlab_foot font{
+	color: #666;
 }
 .footcopyright {
 	text-align: center;
