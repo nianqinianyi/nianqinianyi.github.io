@@ -1,0 +1,91 @@
+---
+title: 【Spring Cloud学习笔记】03：服务消费者（Feign）
+tags:
+  - 【Spring Cloud学习笔记】
+url: 700.html
+id: 700
+categories:
+  - Spring
+date: 2017-06-27 23:56:14
+---
+
+教程：[http://blog.csdn.net/forezp/article/details/69808079](http://blog.csdn.net/forezp/article/details/69808079)  
+
+一、创建 Feign 服务模块
+---------------
+
+1.  使用 IDEA 的 Spring Initializr 模块。选择 Cloud Discovery 下的 Eureka Discovery、Web 下的 Web和 Cloud Routing 下的 Feign 共3个依赖。
+2.  在Application 类加上 @EnableDiscoveryClient 注解和 @EnableFeignClients 注解。
+3.  在配置文件中添加配置，指定应用信息及注册中心地址。
+
+配置文件：
+
+    spring:
+      application:
+        name: learn-sc-service-feign
+    server:
+      port: 8300
+    eureka:
+      client:
+        serviceUrl:
+          defaultZone: http://localhost:8000/eureka/
+
+二、编写调用代码
+--------
+
+定义 Feign 接口，来指定调用服务。
+
+IHelloService 代码：
+
+    package cn.sixlab.learn.spring.cloud.inter;
+    
+    import org.springframework.cloud.netflix.feign.FeignClient;
+    import org.springframework.web.bind.annotation.RequestMapping;
+    import org.springframework.web.bind.annotation.RequestParam;
+    
+    @FeignClient(value = "learn-sc-service")
+    public interface IHelloService {
+        @RequestMapping("/hello")
+        String sayHiFromClientOne(@RequestParam(value = "name")String name);
+    }
+
+编写 Controller，来调用接口。
+
+HelloController 代码：
+
+    package cn.sixlab.learn.spring.cloud.controller;
+    
+    import cn.sixlab.learn.spring.cloud.inter.IHelloService;
+    import org.springframework.beans.factory.annotation.Autowired;
+    import org.springframework.web.bind.annotation.RequestMapping;
+    import org.springframework.web.bind.annotation.RequestMethod;
+    import org.springframework.web.bind.annotation.RequestParam;
+    import org.springframework.web.bind.annotation.RestController;
+    
+    @RestController
+    public class HelloController {
+        
+        @Autowired
+        IHelloService helloService;
+        
+        @RequestMapping(value = "/hi", method = RequestMethod.GET)
+        public String sayHi(@RequestParam String name) {
+            return helloService.sayHiFromClientOne(name);
+        }
+    }
+
+三、测试
+----
+
+1.  启动 learn-sc-server 注册中心。
+2.  启动 learn-sc-service01 服务提供者。
+3.  启动 learn-sc-service02 服务提供者。
+4.  启动 learn-sc-service-feign 服务消费者。
+5.  访问 [http://localhost:8300/hi?name=Patrick](http://localhost:8300/hi?name=Patrick)  ，多次刷新，显示的输出分别为：Hello, Patrick from 8101 和 Hello, Patrick from 8102
+
+四、代码
+----
+
+Github 地址：[https://github.com/PatrickRoot/learn-spring-cloud](https://github.com/PatrickRoot/learn-spring-cloud)
+
+对应分支：[https://github.com/PatrickRoot/learn-spring-cloud/tree/lsc03](https://github.com/PatrickRoot/learn-spring-cloud/tree/lsc03)

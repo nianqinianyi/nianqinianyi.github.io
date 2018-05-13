@@ -1,0 +1,26 @@
+---
+title: 重拾Python笔记一
+tags:
+  - python
+  - 重拾Python笔记
+url: 71.html
+id: 71
+categories:
+  - Python
+date: 2013-05-06 11:24:51
+---
+
+笔记中仅仅记录一些不太熟悉的东西。
+
+1.  `type(a)`可返回a的类型。
+2.  元组tuple不可变，列表list可变。
+3.  元组和列表的索引为`a[index]`形式，且支持切片`a[起：终：步长]`。
+4.  字符串其实就是元组。
+5.  `and`、`or`和`not`是逻辑运算符。
+6.  其他语言中的`else if`在python中是`elif`。
+7.  for循环为：`for i in a`，a是tuple或者list。
+8.  `range(a)`函数定义一个从0到a(不包含)的列表。
+9.  `def fun_name(para):`为定义一个函数，可以有多个参数，可以返回多个值(实际返回的是元组)，如果没有返回默认其实返回的是None(python的数据类型)。
+10.  给函数传参数，基本数据类型是传的值，其他的是传的指针。
+
+这篇文章是我于2013-05-06发表于oschina.net的文章。http://my.oschina.net/sixlab/blog/127789

@@ -1,0 +1,135 @@
+---
+title: 【Spring Cloud学习笔记】05：路由网关（zuul）
+tags:
+  - 【Spring Cloud学习笔记】
+url: 714.html
+id: 714
+categories:
+  - Spring
+date: 2017-06-29 01:17:37
+---
+
+教程：[http://blog.csdn.net/forezp/article/details/69939114](http://blog.csdn.net/forezp/article/details/69939114)
+
+一、创建 Zuul 路由模块
+--------------
+
+1.  使用 IDEA 的 Spring Initializr 模块。选择 Cloud Discovery 下的 Eureka Discovery、Web 下的 Web和 Cloud Routing 下的 Zuul 共3个依赖。
+2.  在Application 类加上 @EnableEurekaClient 注解和 @EnableZuulProxy 注解。
+3.  在配置文件中添加配置，指定应用信息及注册中心地址。
+
+配置文件：
+
+    spring:
+      application:
+        name: learn-sc-service-zuul
+    server:
+      port: 8400
+    eureka:
+      client:
+        serviceUrl:
+          defaultZone: http://localhost:8000/eureka/
+    zuul:
+      routes:
+        api-a:
+          path: /api-a/**
+          serviceId: learn-sc-service-ribbon
+        api-b:
+          path: /api-b/**
+          serviceId: learn-sc-service-feign
+
+二、测试
+----
+
+1.  启动 learn-sc-server 注册中心。
+2.  启动 learn-sc-service01 服务提供者。
+3.  启动 learn-sc-service-ribbon 服务消费者。
+4.  启动 learn-sc-service-feign 服务消费者。
+5.  启动 learn-sc-service-zuul 路由模块。
+6.  访问 [http://localhost:8400/api-a/hi?name=Patrick](http://localhost:8400/api-a/hi?name=Patrick) ，页面显示：Hello, Patrick from 8101
+7.  访问 [http://localhost:8400/api-b/hi?name=Patrick](http://localhost:8400/api-b/hi?name=Patrick) ，页面显示：Hello, Patrick from 8101
+8.  关闭 learn-sc-service01。
+9.  访问 [http://localhost:8400/api-a/hi?name=Patrick](http://localhost:8400/api-a/hi?name=Patrick) ，页面显示：Hello,Patrick, ribbon error!
+10.  访问 [http://localhost:8400/api-b/hi?name=Patrick](http://localhost:8400/api-b/hi?name=Patrick) ，页面显示：Hello,Patrick, feign error!
+
+三、过滤器
+-----
+
+新建 Filter 类，代码如下：
+
+    package cn.sixlab.learn.spring.cloud.learnscservicezuul.filter;
+    
+    import com.netflix.zuul.ZuulFilter;
+    import com.netflix.zuul.context.RequestContext;
+    import org.slf4j.Logger;
+    import org.slf4j.LoggerFactory;
+    import org.springframework.stereotype.Component;
+    
+    import javax.servlet.http.HttpServletRequest;
+    
+    @Component
+    public class MyFilter extends ZuulFilter {
+        private static Logger log = LoggerFactory.getLogger(MyFilter.class);
+        
+        @Override
+        public String filterType() {
+            return "pre";
+        }
+        
+        @Override
+        public int filterOrder() {
+            return 0;
+        }
+        
+        @Override
+        public boolean shouldFilter() {
+            return true;
+        }
+        
+        @Override
+        public Object run() {
+            RequestContext ctx = RequestContext.getCurrentContext();
+            HttpServletRequest request = ctx.getRequest();
+            log.info(String.format("%s >>> %s", request.getMethod(), request.getRequestURL().toString()));
+            Object accessToken = request.getParameter("token");
+            if (accessToken == null) {
+                log.warn("token is empty");
+                ctx.setSendZuulResponse(false);
+                ctx.setResponseStatusCode(401);
+                try {
+                    ctx.getResponse().getWriter().write("token is empty");
+                } catch (Exception e) {
+                }
+                return null;
+            }
+            log.info("ok");
+            return null;
+        }
+    }
+
+1.  filterType方法返回字符串，代表过滤器类型，有四种：
+    1.  pre：路由之前
+    2.  routing：路由之时
+    3.  post：路由之后
+    4.  error：错误时调用
+2.  filterOrder：返回过滤器的顺序
+3.  shouldFilter：是否需要过滤，true 需要过滤
+4.  run：过滤的逻辑
+
+四、测试
+----
+
+1.  启动 learn-sc-server 注册中心。
+2.  启动 learn-sc-service01 服务提供者。
+3.  启动 learn-sc-service-ribbon 服务消费者。
+4.  启动 learn-sc-service-feign 服务消费者。
+5.  启动 learn-sc-service-zuul 路由模块。
+6.  访问 [http://localhost:8400/api-a/hi?name=Patrick](http://localhost:8400/api-a/hi?name=Patrick)  ，页面显示：token is empty
+7.  访问 [http://localhost:8400/api-a/hi?name=Patrick&token=1](http://localhost:8400/api-a/hi?name=Patrick&token=1) ，页面显示：Hello, Patrick from 8101
+
+五、代码
+----
+
+Github 地址：[https://github.com/PatrickRoot/learn-spring-cloud](https://github.com/PatrickRoot/learn-spring-cloud)
+
+对应分支：[https://github.com/PatrickRoot/learn-spring-cloud/tree/lsc05](https://github.com/PatrickRoot/learn-spring-cloud/tree/lsc05)
