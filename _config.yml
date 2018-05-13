@@ -4,17 +4,18 @@
 
 # Site
 title: 六楼实验室
-subtitle: 六楼的雨的博客
-description: 六楼实验室，六楼的雨的博客
+subtitle: 博客 By 六楼的雨
+description: 六楼实验室，博客 By 六楼的雨
 author: 六楼的雨
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blog.sixlab.cn
 root: /
-permalink: :year/:month/:day/:id/
+# permalink: :year/:month/:day/:id/
+permalink: archives/:id/
 permalink_defaults:
 
 # Directory
@@ -72,8 +73,9 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-xups
+# theme: hexo-theme-xups
 # theme: next
+theme: indigo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
