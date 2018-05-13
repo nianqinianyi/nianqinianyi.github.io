@@ -20,6 +20,14 @@ menu:
     name: 关于
     link: /about/
     icon: icon-about
+  tags:
+    name: 标签
+    link: /tags/
+    icon: icon-price-tags
+  categore:
+    name: 分类
+    link: /categories/
+    icon: icon-paragraph-justify
   comment:
     name: 留言
     link: /comment/
@@ -29,7 +37,7 @@ menu:
 # 副导航
 #----------------------------
 subnav:
-  github: "#"
+  github: "#11111"
   weibo: "#"
   rss: "#"
   zhihu: "#"
@@ -65,9 +73,9 @@ weibo_show:
 # 是否开启评论
 #----------------------------
 comment:
-  enable: true
-  owner: jangdelong
-  repo: blog_comments
+  enable: false
+  owner: PatrickRoot
+  repo: Mine13
   client_id: b08ed25e52c57993e69c
   client_secret: 1cb9545488f0380904b87350e7c5a270ae03bab7
 
@@ -83,14 +91,18 @@ friends:
   enable: true
   list:
     1:
+      name: Lseal博客
+      title: Lseal博客
+      link: http://lseal.cn/
+    2:
       name: Haoren博客
       title: 网络安全博客
       link: http://blog.sina.com.cn/u/1825875765
-    2:
+    3:
       name: Maxwell博客
       title: 技术博客
       link: http://blog.csdn.net/yeweiouyang
-    3:
+    4:
       name: 朱旋个人博客
       title: 技术博客
       link: http://xuanzh.cc/
@@ -104,23 +116,27 @@ head_links:
     sup:
       0:
         name: Github
-        link: https://github.com/jangdelong
+        link: https://github.com/PatrickRoot
       last:
-        name: Hosted by Coding Pages
-        link: https://pages.coding.me
+        name: 码云
+        link: https://gitee.com/PatrickRoot
     sub:
       sinaweibo:
         name: 新浪微博
-        link: http://weibo.com/jangdelong
-      qqweibo:
+        link: http://weibo.com/314566975
+      facebook:
         name: Facebook
-        link: https://www.facebook.com/profile.php?id=100011855760219&ref=bookmarks
+        link: https://www.facebook.com/nianqinianyi
+      twitter:
+        name: Twitter
+        link: https://twitter.com/nianqinianyi
+
 #----------------------------
 # SEO
 #----------------------------
 SEO:
-  keywords: Jelon, 前端, Web, 张德龙, 前端开发
-  description: Jelon个人前端小站
+  keywords: Sixlab, 六楼实验室, 六楼的雨, 开发
+  description: 六楼的雨个人小站
 
 #----------------------------
 # 百度分析

@@ -7,7 +7,7 @@ title: 六楼实验室
 subtitle: 六楼的雨的博客
 description: 六楼实验室，六楼的雨的博客
 author: 六楼的雨
-language: zh-cn
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -73,6 +73,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-xups
+# theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
