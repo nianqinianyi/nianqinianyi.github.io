@@ -7,8 +7,6 @@ categories:
 tags:
 ---
 
-\[toc\]
-
 在Atom中运行脚本
 ----------
 
