@@ -1,45 +1,55 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn">
+<!DOCTYPE HTML>
+<html lang="zh-cn">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>六楼实验室</title>
-    <meta name="keywords" content="六楼实验室,sixlab,六楼的雨,PatrickRoot,nianqinianyi" />
-    <meta name="description" content="六楼实验室是由六楼的雨（Patrick Root/nianqinianyi）自行搭建的网站，域名为sixlab.cn，包含了博客、简介等内容" />
-    <link href="static/css/style.css?_t=20180411" media="all" rel="stylesheet" type="text/css">
-
-    <script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
-    <script src="static/js/index.js?_t=20180403174715"></script>
+<title>六楼实验室</title>
+<!-- Meta tag Keywords -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="六楼实验室,sixlab,六楼的雨,sixlab.cn,六楼的博客" />
+<link rel="shortcut icon" href="favicon.ico">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Meta tag Keywords -->
+<!-- css files -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+<link rel="stylesheet" href="css/jquery.countup.css" />
+<!-- //css files -->
+<!-- online-fonts -->
+<link href="//fonts.loli.net/css?family=Alegreya+Sans+SC:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+<link href="//fonts.loli.net/css?family=Open+Sans+Condensed:300,300i,700&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<link href="//fonts.loli.net/css?family=Tangerine:400,700" rel="stylesheet">
+<!-- //online-fonts -->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
 </head>
-
 <body>
-<div class="top_nav">
-    <div class="nav_main">
-        <div class="nav_logo"></div>
-        <div class="top_share">
-            <div class="share_sina"><a href="https://weibo.com/314566975" title="微博" target="_blank"></a></div>
-            <div class="share_github"><a href="https://github.com/PatrickRoot?tab=repositories" title="Github" target="_blank"></a></div>
-        </div>
-    </div>
+<div class="main">
+	<div class="header">
+		<img src="images/logo@50.png">
+		<h1>六楼实验室 -- 始于2011-09-11</h1>
+	</div>
+	<div class="content">
+		<div class="content2">
+			<div class="timer_wrap">
+				<div id="counter"> </div>		
+			</div>
+		</div>
+		<div class="content3">				
+			<form action="https://blog.sixlab.cn/" method="get">
+				<input type="email" placeholder="待实现">
+				<input type="submit" value="访问博客">
+				<div class="clear"></div>
+			</form>
+		</div>
+	</div>
+	<div class="footer">
+		<h2><a href="http://www.miitbeian.gov.cn/" target="_blank">豫ICP备15033629号</a> | 2011 -- 2018 © <a href="https://www.sixlab.cn/">六楼实验室</a></h2>
+	</div>
 </div>
-<div class="pagezone">
-    <div class="contentzone">
-        <div class="main_content">
-            <div class="left_canvas">
-                <canvas id="clothes"></canvas>
-            </div>
-            <div class="right_btns">
-                <div class="pagebtns">
-                    <div class="pagebtn"><a href="https://blog.sixlab.cn" target="_blank">访问博客</a></div>
-                    <div class="pagebtn secondbtn"><a id="reset" href="###">重置游戏</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="sixlab_foot">
-    <div class="foottips">上方的小游戏点击网格并拖拽试试看，可以通过重置按钮重置。</div>
-    <div class="footcopyright">Copyright © 2018 sixlab.cn. 保留所有权利 <a href="http://www.miibeian.gov.cn" target="_blank"><font color=#FFFFFF>豫ICP备15033629号</font></a></div>
-</div>
+<!--js-->
+<script src="js/jquery.countup.js"></script>
+<script src="js/script.js"></script>
+<!--js-->
 </body>
-</html>
-
+</html>	

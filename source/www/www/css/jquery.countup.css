@@ -1,0 +1,72 @@
+.countupHolder{
+	font: 23px/0.8 'Open Sans Condensed', sans-serif;
+    height: 89px;
+}
+.position {
+    display: inline-block;
+    height: 1em;
+    overflow: hidden;
+    position: relative;
+    width: 40px;
+    font-size: 1em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.digit {
+    color: #fff;
+    left: 0px;
+    bottom: 0;
+    position: absolute;
+}
+.countDays{
+    background:transparent;
+	/* display:none !important;*/ 
+}
+.countDiv0{ /* display:none !important;*/ }
+.countHours {
+    background: transparent;
+}
+.countDiv1{}
+.countMinutes {
+    background:  transparent;
+}
+.countDiv2{}
+.countSeconds{
+    background: transparent;
+}
+.countDiv{
+	/*--display:inline-block;
+	width:16px;
+	height:1.6em;
+	position:relative;--*/
+	display:none;
+}
+.countDiv:after{
+	top:0.9em;
+}
+/*--responsive design--*/
+@media(max-width:800px){
+	.position {
+		width: 30px;
+    }
+}
+@media(max-width:640px){
+	.position {
+		font-size: .9em;
+	}
+}
+@media(max-width:480px){
+	.position {
+		font-size: .8em;
+	}
+}
+@media(max-width:414px){
+	.digit {
+		font-size: 35px;
+		left: 4px;
+	}
+	.position {
+		width: 22px;
+		height: 38px;
+	}
+}
+/*--/responsive design--*/
