@@ -5,3 +5,16 @@
     padding-right: map-get($main-content, padding-right-left);
     padding-left:  map-get($main-content, padding-right-left);
 }
+
+#main-content-toc {
+    float: right;
+    position: relative;
+    padding-left: 30px;
+    min-height: 1px;
+}
+
+#toc-content{
+    position: fixed;
+    overflow-x: hidden;
+    width: 20%;
+}
