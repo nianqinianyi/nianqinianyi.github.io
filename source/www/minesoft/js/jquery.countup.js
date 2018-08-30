@@ -29,9 +29,9 @@
 			
 			// Number of days left
 			d = Math.floor(left / days);
-			switchDigit(positions.eq(0),Math.floor(d/1000)%10);
-			switchDigit(positions.eq(1),Math.floor(d/100)%10);
-			switchDigit(positions.eq(2),Math.floor(d/10)%10);
+			switchDigit(positions.eq(0),Math.floor(d/1000)%10,Math.floor(d/1000)%10==0);
+			switchDigit(positions.eq(1),Math.floor(d/100)%10,Math.floor(d/100)==0);
+			switchDigit(positions.eq(2),Math.floor(d/10)%10,Math.floor(d/10)==0);
 			switchDigit(positions.eq(3),d%10);
 			left -= d*days;
 			
@@ -125,7 +125,7 @@
 	}
 
 	// Creates an animated transition between the two numbers
-	function switchDigit(position,number){
+	function switchDigit(position,number,ignore){
 		
 		var digit = position.find('.digit')
 		
@@ -140,6 +140,12 @@
 		
 		position.data('digit', number);
 		
+		if(ignore){
+			digit.parent().css("display","none");
+			return;
+		}else{
+			digit.parent().css("display","inline-block");
+		}
 		var replacement = $('<span>',{
 			'class':'digit',
 			css:{
