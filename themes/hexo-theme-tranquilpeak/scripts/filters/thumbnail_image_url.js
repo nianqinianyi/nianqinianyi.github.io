@@ -50,6 +50,9 @@
         if (isRemoteUrl(post.thumbnailImage)) {
           return post.thumbnailImage;
         }
+        if(post.thumbnailImage[0] === '/'){
+          return post.thumbnailImage;
+        }
 
         return urlFor(post.permalink + post.thumbnailImage);
       }

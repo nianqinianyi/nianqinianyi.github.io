@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -75,7 +75,7 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 # theme: hexo-theme-xups
 # theme: next
-theme: indigo
+theme: hexo-theme-tranquilpeak
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -83,3 +83,22 @@ deploy:
   type: git
   repository: git@github.com:PatrickRoot/PatrickRoot.github.io.git
   branch: master
+
+
+
+## config from hexo-theme-tranqulpeak
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+keywords:
+  - 六楼的雨
+  - sixlab.cn
+  - blog.sixlab.cn
+  - 六楼实验室
+  - 六楼的博客
+  - minesoft.tech
+  - 矿软
+  - 矿软科技
+  - minesoft
