@@ -21,13 +21,14 @@
             <a  class="<%= (theme.header.right_link.icon ? 'header-right-icon ' : 'header-right-picture ') %><% if (theme.header.right_link.class) { %><%= theme.header.right_link.class %><% } %>"
                 href="<%- url_for(theme.header.right_link.url) %>" target="_blank" rel="noopener">
         <% } else if (theme.header.right_link.url) { %>
-            <a  class="<%= (theme.header.right_link.icon ? 'header-right-icon ' : 'header-right-picture ') %><% if (theme.header.right_link.class) { %><%= theme.header.right_link.class %><% } %>"
+            <a style="color:#f44336;font-weight: bolder;font-size: 20px;" class="header-picture <%= (theme.header.right_link.icon ? 'header-right-icon ' : 'header-right-picture ') %><% if (theme.header.right_link.class) { %><%= theme.header.right_link.class %><% } %>"
                 href="<% if (theme.header.right_link.url.indexOf("/") === 0) { %><%- url_for(theme.header.right_link.url.substr(1)) %><% } else { %><%- url_for(theme.header.right_link.url) %><% } %>">
         <% } %>
         <% if (theme.header.right_link.icon) { %>
             <i class="<%= theme.header.right_link.icon %> fa-lg"></i>
         <% } else if (authorPicture) { %>
-            <img class="header-picture" src="<%= authorPicture %>" alt="<%= __('global.author_picture') %>"/>
+            赏
+            <!-- <img class="header-picture" src="<%= authorPicture %>" alt="<%= __('global.author_picture') %>"/> -->
         <% } %>
         </a>
     <% } %>

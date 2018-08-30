@@ -107,8 +107,8 @@ sidebar:
 header:
     right_link:
         url: /#about
-        icon: fa fa-search
-        class: open-algolia-search
+        icon: 
+        class: 
 
 
 # ------
@@ -119,6 +119,7 @@ header:
 author:
     email: root@sixlab.cn
     location: 漯河 · 中国
+    job: 菜农
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url

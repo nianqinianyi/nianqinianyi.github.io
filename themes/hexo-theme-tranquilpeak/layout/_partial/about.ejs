@@ -17,11 +17,12 @@
         <% if (authorPicture) { %>
             <img id="about-card-picture" src="<%= authorPicture %>" alt="<%= __('global.author_picture') %>"/>
         <% } %>
-            <h4 id="about-card-name"><%= config.author %></h4>
+            <!-- <h4 id="about-card-name"><%= config.author %></h4> -->
+            <h4 id="about-card-name"><%= theme.author.job %> · <%= config.author %></h4>
         <% if (__('author.bio')) { %>
             <div id="about-card-bio"><%- markdown(__('author.bio')) %></div>
         <% } %>
-        <% if (__('author.job')) { %>
+        <!-- <% if (__('author.job')) { %>
             <div id="about-card-job">
                 <i class="fa fa-briefcase"></i>
                 <br/>
@@ -34,6 +35,20 @@
                 <br/>
                 <%= theme.author.location %>
             </div>
-        <% } %>
+        <% } %> -->
+
+        <!-- 下边是自定义的 -->
+        <div id="about-card-name" style="color: #5d686f;">
+                我不喝咖啡，赏我一杯肥宅快乐水吧
+            </div>
+        <div id="about-card-job">
+            <img class="pay-qr" src="/images/alipay.jpg">
+            <br/>
+            支付宝
+        </div>
+        <div id="about-card-job">
+            <img class="pay-qr" src="/images/wechat.jpg">
+            微信
+        </div>
     </div>
 </div>
