@@ -12,7 +12,7 @@ keywords:
   - hexo-theme-tranquilpeak
   - Hexo 主题
 clearReading: true
-thumbnailImagePosition: right
+thumbnailImagePosition: left
 thumbnailImage: /images/2018-08-30-theme-tranquilpeak/preview.png
 autoThumbnailImage: true
 toc: true
