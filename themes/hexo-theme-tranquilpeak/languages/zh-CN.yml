@@ -1,5 +1,5 @@
 # 在所有地方显示的 date 格式化
-date_format: "MMM DD, YYYY"
+date_format: "YYYY-MM-DD HH:mm"
 
 global:
     home: "首页"
@@ -55,7 +55,7 @@ pagination:
 
 post:
     no_title : "无标题"
-    categorized_in: "发布在"
+    categorized_in: "分类:"
     tagged_in: "标签"
     toc: "目录"
     read_more: "阅读全文"

@@ -1,7 +1,7 @@
 <section class="postShorten-group main-content-wrap">
     <% page.posts.each(function(post) { %>
     <%
-        var tableOfContents = null;
+        var tableOfContents = '';
         var thumbnailImageUrl = post.thumbnailImageUrl;
         var postContent = post.content;
         // Define default position for the thumbnail image
@@ -9,7 +9,7 @@
         /* Define thumbnail image */
 
         // Define position of the thumbnail image
-        if (!post.excerpt && !post.link) {
+        if (!post.excerpt && !post.link && !(post.toc || post.moreToc)) {
             thumbnailImagePosition = "bottom";
         } else if (thumbnailImageUrl !== null) {
             if (post.thumbnailImagePosition && post.thumbnailImagePosition.length)  {
@@ -18,14 +18,8 @@
         }
 
         // Generate and insert table of contents in post content
-        if (!post.excerpt && (/<!--(\s*)[t|T][o|O][c|C](\s*)-->/).test(postContent)) {
-            if (__('post.toc_title')) {
-                tableOfContents = '<h1 id=\"table-of-contents\">' + __('post.toc') + '</h1>';
-            } else {
-                tableOfContents = '<span id="table-of-contents"></span>';
-            }
-            tableOfContents += toc(postContent, {list_number: false})
-            postContent = postContent.replace(/<!--(\s*)[t|T][o|O][c|C](\s*)-->/, tableOfContents)
+        if (!post.excerpt && post.toc) {
+            tableOfContents += toc(postContent, {list_number: post.tocNumber});
         }
     %>
     <article class="postShorten postShorten--thumbnailimg-<%= thumbnailImagePosition %>">
@@ -70,6 +64,24 @@
                         <% } %>
                     <% } %>
                 </div>
+            <% } else if(post.toc || post.moreToc) { %>
+                <div class="postShorten-excerpt">
+                        <%- tableOfContents %>
+                        <% if (post.link && _('post.go_to_website')) { %>
+                            <a href="<%- url_for(post.link) %>" target="new" class="postShorten-excerpt_link link">
+                                <%= __('post.go_to_website') %>
+                            </a>
+                        <% } else if (__('post.read_more')) { %>
+                            <a href="<%- url_for(post.path) %>" class="postShorten-excerpt_link link">
+                                <%- __('post.read_more') %>
+                            </a>
+                            <% if (post.readingtime) { %>
+                                <span class="postShorten-readingtime">
+                                    <%= ' - ' + post.readingtime + ' min read' %>
+                                </span>
+                            <% } %>
+                        <% } %>
+                    </div>
             <% } else { %>
                 <div class="postShorten-content">
                     <%- postContent %>

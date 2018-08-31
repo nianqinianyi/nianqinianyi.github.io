@@ -2641,13 +2641,15 @@ a.fancybox {
 #main-content-toc {
   float: right;
   position: relative;
-  min-height: 1px; }
-
-#toc-content {
-  position: fixed;
-  overflow-x: hidden;
-  width: 20%;
-  padding-left: 30px; }
+  min-height: 1px;
+  top: -135px; }
+  #main-content-toc #toc-content {
+    position: fixed;
+    overflow-x: hidden;
+    width: 20%;
+    padding-left: 30px; }
+  #main-content-toc ul, #main-content-toc li, #main-content-toc ol {
+    list-style-type: none; }
 
 @media only screen and (min-width: 1024px) {
   .markdown h1 {

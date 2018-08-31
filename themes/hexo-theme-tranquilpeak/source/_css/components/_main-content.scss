@@ -10,11 +10,16 @@
     float: right;
     position: relative;
     min-height: 1px;
-}
+    top: -135px;
 
-#toc-content{
-    position: fixed;
-    overflow-x: hidden;
-    width: 20%;
-    padding-left: 30px;
+    #toc-content{
+        position: fixed;
+        overflow-x: hidden;
+        width: 20%;
+        padding-left: 30px;
+    }
+
+    ul,li,ol{
+        list-style-type: none;
+    }
 }
