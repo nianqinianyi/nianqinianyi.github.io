@@ -59,6 +59,9 @@
             font-weight: 400;
             color:       map-get($colors, base);
         }
+        .pay-qr{
+            width: 150px;
+        }
     }
 }
 

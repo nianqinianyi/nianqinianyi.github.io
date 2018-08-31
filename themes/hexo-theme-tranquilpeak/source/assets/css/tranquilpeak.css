@@ -267,6 +267,8 @@ blockquote {
       line-height: 1.9em;
       font-weight: 400;
       color: #5d686f; }
+    #about #about-card .pay-qr {
+      width: 150px; }
 
 @media only screen and (max-width: 767px) {
   #about #about-card {
@@ -1752,13 +1754,13 @@ a.fancybox {
 #main-content-toc {
   float: right;
   position: relative;
-  padding-left: 30px;
   min-height: 1px; }
 
 #toc-content {
   position: fixed;
   overflow-x: hidden;
-  width: 20%; }
+  width: 20%;
+  padding-left: 30px; }
 
 @media only screen and (min-width: 1024px) {
   .markdown h1 {
