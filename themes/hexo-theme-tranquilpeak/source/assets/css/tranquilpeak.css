@@ -2228,6 +2228,8 @@ a.fancybox {
       max-width: 100%; }
   .postShorten .postShorten-excerpt {
     margin-top: 15px; }
+    .postShorten .postShorten-excerpt .toc ol, .postShorten .postShorten-excerpt .toc ul, .postShorten .postShorten-excerpt .toc li {
+      list-style-type: none; }
   .postShorten .postShorten-content {
     margin-top: 25px; }
 

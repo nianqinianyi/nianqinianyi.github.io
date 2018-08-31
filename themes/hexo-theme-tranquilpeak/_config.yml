@@ -44,7 +44,7 @@ sidebar:
             icon: fa fa-tags
         archives:
             title: global.archives
-            url: /archives
+            url: /archive
             icon: fa fa-archive
         search:
             title: global.search

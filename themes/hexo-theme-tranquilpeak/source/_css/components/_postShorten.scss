@@ -70,6 +70,12 @@
     }
     .postShorten-excerpt {
         margin-top: 15px;
+
+        .toc{
+            ol,ul,li{
+                list-style-type: none;
+            }
+        }
     }
     .postShorten-content {
         margin-top: 25px;
