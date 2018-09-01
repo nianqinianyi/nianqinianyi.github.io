@@ -16,6 +16,7 @@ thumbnailImagePosition: left
 thumbnailImage: /images/2018-08-30-theme-tranquilpeak/preview.png
 autoThumbnailImage: true
 toc: true
+tocNumber: true
 comments: true
 ---
 
