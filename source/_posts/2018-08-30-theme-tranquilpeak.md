@@ -1,6 +1,6 @@
 ---
 title: Hexo 主题 hexo-theme-tranquilpeak 部分功能总结
-id: 2018-08-30-theme-tranquilpeak
+id: 2018/08/30/theme-tranquilpeak
 date: 2018-08-30 22:21:24
 categories:
   - 工具
