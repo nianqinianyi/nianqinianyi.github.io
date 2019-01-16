@@ -1,6 +1,8 @@
 ---
 title: 关于我
 date: 2014-10-25 10:52:14
+type: "about"
+layout: "about"
 ---
 
 职业： 码农

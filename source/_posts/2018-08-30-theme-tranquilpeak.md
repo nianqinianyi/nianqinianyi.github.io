@@ -48,7 +48,6 @@ E.g :
 {% alert danger no-icon %}
 Here is a danger alert without icon
 {% endalert %}
-```
 
 {% alert danger no-icon %}
 共有下列几种 class:
@@ -58,6 +57,7 @@ Here is a danger alert without icon
 - warning
 - danger
 - no-icon
+```
 
 # 高亮文本 使用示例
 
@@ -72,7 +72,6 @@ E.g :
 {% hl_text danger %}
 your highlighted text
 {% endhl_text %}
-```
 
 可以使用使用 hexa 颜色, rgb 颜色, rgba 颜色，或者以下 {% hl_text danger %}class{% endhl_text %}:
 - red
@@ -86,6 +85,7 @@ your highlighted text
 - success
 - warning
 - danger
+```
 
 # 图片 使用示例
 
@@ -105,7 +105,6 @@ group:travel /images/2018-08-24-idea-tips/2018-08-26.png
 /images/2018-08-30-theme-tranquilpeak/preview.png 150px 300px 
 "A image" 
 %}
-```
 
 {% image fancybox right clear 
 group:travel /images/2018-08-24-idea-tips/2018-08-25.png
@@ -118,6 +117,7 @@ group:travel /images/2018-08-24-idea-tips/2018-08-26.png
 /images/2018-08-30-theme-tranquilpeak/preview.png 150px 300px 
 "A image" 
 %}
+```
 
 # 代码块
 ```
@@ -126,7 +126,6 @@ group:travel /images/2018-08-24-idea-tips/2018-08-26.png
           source code
       <!-- endtab -->
   {% endtabbed_codeblock %}
-```
 
 {% tabbed_codeblock "代码示例" https://sixlab.cn %}
     <!-- tab js -->
@@ -138,13 +137,16 @@ group:travel /images/2018-08-24-idea-tips/2018-08-26.png
           }
       <!-- endtab -->
 {% endtabbed_codeblock %}
+```
 
 # 大图
 
 ```
 Syntax : {% wide_image /path/to/image [title text] %}
 E.g : {% wide_image /images/2018-08-30-theme-tranquilpeak/preview.png "A image" %}
-```
+
 
 {% wide_image /images/2018-08-30-theme-tranquilpeak/preview.png "A image" %}
+```
+
 
