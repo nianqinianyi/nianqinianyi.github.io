@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  name: "Sixlab Blog"
-  text: "My Blogs"
-  tagline: My great project tagline
+  name: "六楼实验室"
+  text: "Sixlab Blogs"
+  tagline: -----------------------------
+  image:
+    src: /favicon.png
+    alt: VitePress
   actions:
     - theme: brand
       text: Markdown Examples
@@ -21,6 +24,7 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 ---
 
-[Link to pure.html](/pure.html){target="_self"}
+This is a pure HTML page.
