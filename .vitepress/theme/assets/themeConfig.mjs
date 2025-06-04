@@ -23,7 +23,7 @@ export const themeConfig = {
   // 备案信息
   icp: "豫ICP备15033629号-1",
   // 建站日期
-  since: "2020-07-28",
+  since: "2015-06-14",
   // 每页文章数据
   postSize: 10,
   // inject
@@ -43,23 +43,23 @@ export const themeConfig = {
           href: "https://blog.sixlab.cn/rss.xml",
         },
       ],
-      // // 预载 CDN
-      // [
-      //   "link",
-      //   {
-      //     crossorigin: "",
-      //     rel: "preconnect",
-      //     href: "https://s1.hdslb.com",
-      //   },
-      // ],
-      // [
-      //   "link",
-      //   {
-      //     crossorigin: "",
-      //     rel: "preconnect",
-      //     href: "https://mirrors.sustech.edu.cn",
-      //   },
-      // ],
+      // 预载 CDN
+      [
+        "link",
+        {
+          crossorigin: "",
+          rel: "preconnect",
+          href: "https://s1.hdslb.com",
+        },
+      ],
+      [
+        "link",
+        {
+          crossorigin: "",
+          rel: "preconnect",
+          href: "https://mirrors.sustech.edu.cn",
+        },
+      ],
       // HarmonyOS font
       [
         "link",
@@ -84,6 +84,14 @@ export const themeConfig = {
           crossorigin: "anonymous",
           rel: "stylesheet",
           href: "https://cdn2.codesign.qq.com/icons/g5ZpEgx3z4VO6j2/latest/iconfont.css",
+        },
+      ],
+      [
+        "link",
+        {
+          crossorigin: "anonymous",
+          rel: "stylesheet",
+          href: "https://cdn2.codesign.qq.com/icons/O1ZnwwJDxgxgXjL/latest/iconfont.css",
         },
       ],
       // Embed code
@@ -155,65 +163,65 @@ export const themeConfig = {
         {
           icon: "/images/logo/logo.webp",
           name: "博客镜像站",
-          url: "https://blog-backup.imsyy.top/",
+          url: "https://nianqinianyi.github.io/",
         },
       ],
     },
-    {
-      name: "服务",
-      list: [
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "起始页",
-          url: "https://nav.imsyy.top/",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "今日热榜",
-          url: "https://hot.imsyy.top/",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
-          name: "站点监测",
-          url: "https://status.imsyy.top/",
-        },
-      ],
-    },
-    {
-      name: "项目",
-      list: [
-        {
-          icon: "/images/logo/logo.webp",
-          name: "Curve",
-          url: "https://github.com/imsyy/vitepress-theme-curve",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
-          name: "SPlayer",
-          url: "https://github.com/imsyy/SPlayer",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "Snavigation",
-          url: "https://github.com/imsyy/SPlayer",
-        },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "Home",
-          url: "https://github.com/imsyy/home",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "DailyHotApi",
-          url: "https://github.com/imsyy/DailyHotApi",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
-          name: "site-status",
-          url: "https://github.com/imsyy/site-status",
-        },
-      ],
-    },
+    // {
+    //   name: "服务",
+    //   list: [
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
+    //       name: "起始页",
+    //       url: "https://nav.imsyy.top/",
+    //     },
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
+    //       name: "今日热榜",
+    //       url: "https://hot.imsyy.top/",
+    //     },
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
+    //       name: "站点监测",
+    //       url: "https://status.imsyy.top/",
+    //     },
+    //   ],
+    // },
+    // {
+    //   name: "项目",
+    //   list: [
+    //     {
+    //       icon: "/images/logo/logo.webp",
+    //       name: "Curve",
+    //       url: "https://github.com/imsyy/vitepress-theme-curve",
+    //     },
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
+    //       name: "SPlayer",
+    //       url: "https://github.com/imsyy/SPlayer",
+    //     },
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
+    //       name: "Snavigation",
+    //       url: "https://github.com/imsyy/SPlayer",
+    //     },
+    //     {
+    //       icon: "/images/logo/logo.webp",
+    //       name: "Home",
+    //       url: "https://github.com/imsyy/home",
+    //     },
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
+    //       name: "DailyHotApi",
+    //       url: "https://github.com/imsyy/DailyHotApi",
+    //     },
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
+    //       name: "site-status",
+    //       url: "https://github.com/imsyy/site-status",
+    //     },
+    //   ],
+    // },
   ],
   // 封面配置
   cover: {
@@ -224,12 +232,14 @@ export const themeConfig = {
       // 是否开启封面显示 文章不设置cover封面会显示异常，可以设置下方默认封面
       enable: true,
       // 封面布局方式: left | right | both
-      coverLayout: 'both',
+      coverLayout: 'left',
       // 默认封面(随机展示)
       defaultCover: [
-        'https://example.com/1.avif',
-        'https://example.com/2.avif',
-        'https://example.com/3.avif'
+        '/images/cover/001.jpg',
+        '/images/cover/002.jpg',
+        '/images/cover/003.jpg',
+        '/images/cover/004.jpg',
+        '/images/cover/005.jpg',
       ]
     }
   },
@@ -241,25 +251,29 @@ export const themeConfig = {
         icon: "email",
         link: "mailto:nianqinianyi@163.com",
       },
-      {
-        icon: "github",
-        link: "https://www.github.com/nianqinianyi/",
-      },
-      {
-        icon: "telegram",
-        link: "https://t.me/nianqinianyi",
-      },
+      // {
+      //   icon: "telegram",
+      //   link: "https://t.me/nianqinianyi",
+      // },
       {
         icon: "bilibili",
         link: "https://space.bilibili.com/2175113",
       },
       {
-        icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=1539250352",
+        icon: "weibo",
+        link: "https://weibo.com/314566975",
       },
       {
         icon: "twitter-x",
-        link: "https://twitter.com/nianqinianyi",
+        link: "https://x.com/nianqinianyi",
+      },
+      {
+        icon: "instagram",
+        link: "https://x.com/nianqinianyi",
+      },
+      {
+        icon: "github",
+        link: "https://www.github.com/nianqinianyi/",
       },
     ],
     // sitemap
@@ -270,16 +284,13 @@ export const themeConfig = {
           { text: "近期文章", link: "/" },
           { text: "全部分类", link: "/pages/categories" },
           { text: "全部标签", link: "/pages/tags" },
-          { text: "文章归档", link: "/pages/archives", newTab: true },
+          { text: "文章归档", link: "/pages/archives"},
         ],
       },
       {
         text: "项目",
         items: [
-          { text: "Home", link: "https://github.com/nianqinianyi/home/", newTab: true },
-          { text: "SPlayer", link: "https://github.com/nianqinianyi/SPlayer/", newTab: true },
-          { text: "DailyHotApi", link: "https://github.com/nianqinianyi/DailyHotApi/", newTab: true },
-          { text: "Snavigation", link: "https://github.com/nianqinianyi/Snavigation/", newTab: true },
+          { text: "Github", link: "https://github.com/nianqinianyi/", newTab: true },
         ],
       },
       {
@@ -302,29 +313,30 @@ export const themeConfig = {
       {
         text: "服务",
         items: [
-          { text: "站点状态", link: "https://status.sixlab.top/", newTab: true },
-          { text: "一个导航", link: "https://nav.sixlab.top/", newTab: true },
+          // { text: "站点状态", link: "https://status.sixlab.top/", newTab: true },
+          // { text: "一个导航", link: "https://nav.sixlab.top/", newTab: true },
           { text: "站点订阅", link: "https://blog.sixlab.cn/rss.xml", newTab: true },
-          {
-            text: "反馈投诉",
-            link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
-            newTab: true,
-          },
+          { text: "站点地图", link: "https://blog.sixlab.cn/sitemap.xml", newTab: true },
+          // {
+          //   text: "反馈投诉",
+          //   link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
+          //   newTab: true,
+          // },
         ],
       },
     ],
   },
   // 评论
   comment: {
-    enable: false,
+    enable: true,
     // 评论系统选择
     // artalk / twikoo
     type: "artalk",
     // artalk
     // https://artalk.js.org/
     artalk: {
-      site: "",
-      server: "",
+      site: "六楼实验室",
+      server: "https://comment.sixlab.cn",
     },
     // twikoo
     // https://twikoo.js.org/

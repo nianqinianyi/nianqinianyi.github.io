@@ -1,6 +1,5 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress"
 import socialLinks from './socialLinks'
-import sidebar from './sidebar'
 import nav from './nav'
 
 // https://vitepress.dev/reference/site-config
@@ -18,19 +17,11 @@ export default defineConfig({
     hostname: 'https://sixlab.cn'
   },
   
-  lastUpdated: true,
-
   themeConfig: {
     logo: '/logo.png',
     siteTitle: '六楼实验室',
 
     // https://vitepress.dev/reference/default-theme-config
-    nav: nav,
-
-    sidebar: sidebar,
-
-    socialLinks: socialLinks,
-
     footer: {
       message: '欢迎来到六楼实验室',
       copyright: 'Copyright © 2025 Sixlab'
