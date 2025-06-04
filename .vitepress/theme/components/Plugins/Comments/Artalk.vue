@@ -33,7 +33,11 @@ const initArtalk = async () => {
       pageKey: route.path,
       site: comment.artalk.site,
       server: comment.artalk.server,
+      imgLazyLoad: true,
+      uaBadge: true,
+      voteDown: true,
     });
+
     // Event
     artalk.value?.on("created", () => {
       // 若有数据填充
