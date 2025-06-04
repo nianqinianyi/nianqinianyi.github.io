@@ -12,7 +12,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "六楼实验室",
   description: "Sixlab",
-  srcDir: './src',
+  srcDir: './posts',
 
   sitemap: {
     hostname: 'https://sixlab.cn'
