@@ -235,11 +235,11 @@ export const themeConfig = {
       coverLayout: 'left',
       // 默认封面(随机展示)
       defaultCover: [
-        '/images/cover/001.jpg',
-        '/images/cover/002.jpg',
-        '/images/cover/003.jpg',
-        '/images/cover/004.jpg',
-        '/images/cover/005.jpg',
+        '/images/post_cover/001.jpg',
+        '/images/post_cover/002.jpg',
+        '/images/post_cover/003.jpg',
+        '/images/post_cover/004.jpg',
+        '/images/post_cover/005.jpg',
       ]
     }
   },
@@ -317,11 +317,11 @@ export const themeConfig = {
           // { text: "一个导航", link: "https://nav.sixlab.top/", newTab: true },
           { text: "站点订阅", link: "https://blog.sixlab.cn/rss.xml", newTab: true },
           { text: "站点地图", link: "https://blog.sixlab.cn/sitemap.xml", newTab: true },
-          // {
-          //   text: "反馈投诉",
-          //   link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
-          //   newTab: true,
-          // },
+          {
+            text: "反馈投诉",
+            link: "mailto:nianqinianyi@163.com",
+            newTab: true,
+          },
         ],
       },
     ],
@@ -370,7 +370,7 @@ export const themeConfig = {
       // 倒计时日期
       data: {
         name: "春节",
-        date: "2025-01-29",
+        date: "2026-02-17",
       },
     },
     // 站点数据
@@ -394,7 +394,7 @@ export const themeConfig = {
   music: {
     enable: false,
     // url
-    url: "https://api-meting.example.com",
+    url: "https://meting-api-omega.vercel.app",
     // id
     id: 9379831714,
     // netease / tencent / kugou
@@ -413,9 +413,9 @@ export const themeConfig = {
   rewardData: {
     enable: true,
     // 微信二维码
-    wechat: "https://pic.efefee.cn/uploads/2024/04/07/66121049d1e80.webp",
+    wechat: "",
     // 支付宝二维码
-    alipay: "https://pic.efefee.cn/uploads/2024/04/07/661206631d3b5.webp",
+    alipay: "",
   },
   // 图片灯箱
   fancybox: {
