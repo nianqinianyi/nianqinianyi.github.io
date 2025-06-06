@@ -83,14 +83,6 @@ export const themeConfig = {
         {
           crossorigin: "anonymous",
           rel: "stylesheet",
-          href: "https://cdn2.codesign.qq.com/icons/g5ZpEgx3z4VO6j2/latest/iconfont.css",
-        },
-      ],
-      [
-        "link",
-        {
-          crossorigin: "anonymous",
-          rel: "stylesheet",
           href: "https://cdn2.codesign.qq.com/icons/O1ZnwwJDxgxgXjL/latest/iconfont.css",
         },
       ],
@@ -105,6 +97,9 @@ export const themeConfig = {
           rel: "stylesheet",
         },
       ],
+      // 51la 统计
+      ['script', { src: '//sdk.51.la/js-sdk-pro.min.js', charset: 'UTF-8', id: 'LA_COLLECT' }],
+      ['script', {}, `LA.init({id:"Kq8jfdxsCtpAJn2i",ck:"Kq8jfdxsCtpAJn2i"})`],
       // // 预载 DocSearch
       // [
       //   "link",
@@ -326,7 +321,7 @@ export const themeConfig = {
       },
     ],
   },
-  // 评论
+  // TODO 评论
   comment: {
     enable: true,
     // 评论系统选择
@@ -354,7 +349,7 @@ export const themeConfig = {
     // 站点简介
     hello: {
       enable: true,
-      text: "这里有关于<strong>开发</strong>相关的问题和看法，也会有一些<strong>奇技淫巧</strong>的分享，其中大部分内容会侧重于<strong>前端开发</strong>。希望你可以在这里找到对你有用的知识和教程。",
+      text: "这里有关于<strong>开发</strong>相关的问题和看法，也会有一些<strong>奇技淫巧</strong>的分享，还有部分学习笔记。希望你可以在这里找到对你有用的知识和内容。",
     },
     // 目录
     toc: {
@@ -373,12 +368,12 @@ export const themeConfig = {
         date: "2026-02-17",
       },
     },
-    // 站点数据
+    // TODO 站点数据
     siteData: {
       enable: true,
     },
   },
-  // 友链
+  // TODO 友链
   friends: {
     // 友链朋友圈
     circleOfFriends: "",
@@ -392,9 +387,10 @@ export const themeConfig = {
   // 音乐播放器
   // https://github.com/imsyy/Meting-API
   music: {
-    enable: false,
+    enable: true,
     // url
-    url: "https://meting-api-omega.vercel.app",
+    url: "https://meting-api-omega.vercel.app/api",
+    // url: "https://music.xingji.fun/api",
     // id
     id: 9379831714,
     // netease / tencent / kugou
@@ -402,16 +398,16 @@ export const themeConfig = {
     // playlist / album / song
     type: "playlist",
   },
-  // 搜索
+  // TODO 搜索
   // https://www.algolia.com/
   search: {
     enable: false,
     appId: "",
     apiKey: "",
   },
-  // 打赏
+  // TODO 打赏
   rewardData: {
-    enable: true,
+    enable: false,
     // 微信二维码
     wechat: "",
     // 支付宝二维码
@@ -446,8 +442,7 @@ export const themeConfig = {
       "link-card",
     ],
   },
-  // 站点统计
   tongji: {
-    "51la": "",
+    "51la": "Kq8jfdxsCtpAJn2i",
   },
 };

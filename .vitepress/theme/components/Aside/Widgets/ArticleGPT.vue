@@ -2,10 +2,10 @@
 <template>
   <div v-if="frontmatter.articleGPT" class="article-gpt s-card">
     <div class="title">
-      <span class="name" @click="router.go('/posts/2024/0218')">
+      <span class="name">
         <i class="iconfont icon-robot"></i>
         文章摘要
-        <i class="iconfont icon-up"></i>
+        <!-- <i class="iconfont icon-up"></i> -->
       </span>
       <span :class="['logo', { loading }]" @click="showOther"> FakeGPT </span>
     </div>
