@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 ---
 <script setup>
@@ -32,4 +32,4 @@ const members = [
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers :members />
-</VPTeamPage>
+</VPTeamPage> -->

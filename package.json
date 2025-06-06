@@ -1,8 +1,27 @@
 {
+  "name": "blog.sixlab.cn",
+  "productName": "blog.sixlab.cn",
+  "version": "1.0.2",
+  "description": "Sixlab Blog",
+  "author": "nianqinianyi",
+  "home": "https://sixlab.cn",
+  "github": "https://github.com/nianqinianyi/nianqinianyi.github.io",
+  "blog": "https://blog.sixlab.cn",
+  "repository": "github:nianqinianyi/nianqinianyi.github.io",
+  "license": "MIT License",
+  "license-file": "LICENSE",
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10"
+  },
+  "packageManager": "pnpm",
+  "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.vue --fix",
+    "docs:dev": "vitepress dev --host",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress build && vitepress preview"
   },
   "devDependencies": {
     "cheerio": "1.0.0-rc.12",
