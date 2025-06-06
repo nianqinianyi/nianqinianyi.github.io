@@ -78,7 +78,7 @@
             </a>
           </div>
           <a
-            href="mailto:nianqinianyi@163.com"
+            :href="theme.siteMeta.author.emailTo"
             class="report"
             target="_blank"
           >

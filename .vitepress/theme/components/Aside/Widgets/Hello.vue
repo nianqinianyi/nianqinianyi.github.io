@@ -14,10 +14,10 @@
         <span class="desc">{{ theme.siteMeta.description }}</span>
       </div>
       <div class="link">
-        <a href="https://github.com/nianqinianyi/" target="_blank" class="social-link">
+        <a :href="theme.siteMeta.author.github" target="_blank" class="social-link">
           <i class="iconfont icon-github"></i>
         </a>
-        <a href="mailto:nianqinianyi@163.com" target="_blank" class="social-link">
+        <a :href="theme.siteMeta.author.emailTo" target="_blank" class="social-link">
           <i class="iconfont icon-email"></i>
         </a>
       </div>

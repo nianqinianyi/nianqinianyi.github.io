@@ -17,7 +17,9 @@ export const themeConfig = {
       name: "六楼的雨",
       cover: "/images/logo/logo.webp",
       email: "nianqinianyi@163.com",
+      emailTo: "mailto:nianqinianyi@163.com",
       link: "https://sixlab.cn",
+      github: "https://github.com/nianqinianyi",
     },
   },
   // 备案信息
@@ -104,7 +106,7 @@ export const themeConfig = {
       [
         "link",
         {
-          href: "https://93DBE129ED20BD18-dsn.algolia.net",
+          href: "https://o45ooc0rtc-dsn.algolia.net",
           rel: "preconnect",
           crossorigin: "",
         },
@@ -404,6 +406,7 @@ export const themeConfig = {
     enable: true,
     appId: "O45OOC0RTC",
     apiKey: "abbccba38e27b8881e20c5251c7523a5",
+    indexName: "blog_sixlab_cn_o45ooc0rtc_pages",
   },
   // TODO 打赏
   rewardData: {
