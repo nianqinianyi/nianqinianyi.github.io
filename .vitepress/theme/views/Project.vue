@@ -19,6 +19,8 @@
 
 <script setup>
 import Banner from "@/components/Banner.vue";
+
+const { theme } = useData();
 </script>
 
 <style lang="scss" scoped>
