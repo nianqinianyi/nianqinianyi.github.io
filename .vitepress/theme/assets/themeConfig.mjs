@@ -402,8 +402,8 @@ export const themeConfig = {
   // https://www.algolia.com/
   search: {
     enable: true,
-    appId: "",
-    apiKey: "",
+    appId: "O45OOC0RTC",
+    apiKey: "abbccba38e27b8881e20c5251c7523a5",
   },
   // TODO 打赏
   rewardData: {
