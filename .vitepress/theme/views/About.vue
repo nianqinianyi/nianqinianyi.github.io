@@ -5,15 +5,15 @@
       <!-- 介绍 -->
       <div class="about-item hello">
         <span class="text1">你好，很高兴认识你👋</span>
-        <span class="text2 title2">我是 無名</span>
-        <span class="text3">是一名 前端开发工程师、独立开发者、博主</span>
+        <span class="text2 title2">我是 六楼的雨</span>
+        <span class="text3">是一名 开发工程师、独立开发者、博主</span>
       </div>
       <!-- 追求 -->
       <div class="about-item pursuit">
-        <span class="tip">追求</span>
-        <span class="title2">源于</span>
-        <span class="title2">热爱而去开发</span>
-        <span class="title2">优秀的作品</span>
+        <span class="tip">赤手空拳来到人世间，为写完这段代码不顾一切。</span>
+        <span class="title2">好游戏</span>
+        <span class="title2">喜音乐</span>
+        <span class="title2">爱电影</span>
       </div>
     </div>
     <div class="about-content" style="grid-template-columns: 2fr 3fr">
@@ -39,27 +39,51 @@
       </div>
       <!-- 生涯 -->
       <div class="about-item career">
-        <span class="tip">生涯</span>
+        <span class="tip">游戏记录</span>
         <span class="title2">
-          <i>無限進步</i>
+          <i>主要玩过的游戏</i>
         </span>
-        <div class="list">
-          <span class="list-item" style="--color: #357ef5">ZZRVTC · 计算机应用技术</span>
-          <span class="list-item" style="--color: #eb372a">FE · 前端开发工程师</span>
+        <div class="about-content">
+          <div class="list">
+            <span class="list-item" style="--color: #E16916">坦克大战</span>
+            <span class="list-item" style="--color: #77BC20">超级马里奥</span>
+            <span class="list-item" style="--color: #376A96">红色警戒2</span>
+            <span class="list-item" style="--color: #f1e05a">跑跑卡丁车</span>
+            <span class="list-item" style="--color: #e34f26">诛仙</span>
+            <span class="list-item" style="--color: #563d7c">完美世界</span>
+            <span class="list-item" style="--color: #357ef5">魔兽世界</span>
+            <span class="list-item" style="--color: #563d7c">穿越火线</span>
+            <span class="list-item" style="--color: #428B40">剑侠世界</span>
+            <span class="list-item" style="--color: #44B985">剑侠情缘网络版叁</span>
+            <span class="list-item" style="--color: #5CD0EA">我的世界</span>
+          </div>
+          <div class="list">
+            <span class="list-item" style="--color: #1E64ED">炉石传说</span>
+            <span class="list-item" style="--color: #2866E5">暗黑破坏神3</span>
+            <span class="list-item" style="--color: #1C89BB">生化奇兵：无限</span>
+            <span class="list-item" style="--color: #FF4437">孤岛危机系列</span>
+            <span class="list-item" style="--color: #015B85">神秘海域系列</span>
+            <span class="list-item" style="--color: #00FE69">塞尔达传说：旷野之息</span>
+            <span class="list-item" style="--color: #00BFB3">战神4</span>
+            <span class="list-item" style="--color: #CA2136">漫威蜘蛛侠</span>
+            <span class="list-item" style="--color: #335061">最后生还者</span>
+            <span class="list-item" style="--color: #eb372a">宇宙机器人无线控制器使用指南</span>
+            <span class="list-item" style="--color: #357ef5">黑神话·悟空</span>
+          </div>
         </div>
-        <img
+        <!-- <img
           class="career-img"
           src="https://pic.efefee.cn/uploads/2024/02/22/65d71db18bcf9.png"
           alt="career"
-        />
+        /> -->
       </div>
     </div>
-    <div class="about-content" style="grid-template-columns: 3fr 2fr">
+    <!-- <div class="about-content" style="grid-template-columns: 3fr 2fr"> -->
       <!-- 性格 -->
-      <div class="about-item character" style="--color: #4298b4">
+      <!-- <div class="about-item character" style="--color: #4298b4">
         <span class="tip">性格</span>
         <span class="title2">物流师</span>
-        <span class="title2" style="color: var(--color)">ISTJ-A / ISTJ-T</span>
+        <span class="title2" style="color: var(--color)">ISTJ</span>
         <span class="more">
           在
           <a href="https://www.16personalities.com/ch/" target="_blank">16personalities</a>
@@ -69,19 +93,19 @@
           </a>
         </span>
         <img
-          src="https://pic.efefee.cn/uploads/2024/02/22/65d6bc7ae72ae.png"
+          src="/images/post_cover/001.jpg"
           alt="male"
           class="male"
         />
-      </div>
+      </div> -->
       <!-- 座右铭 -->
-      <div class="about-item">
+      <!-- <div class="about-item">
         <span class="tip">座右铭</span>
         <span class="title1" style="margin-top: 20px">脚踏实地，</span>
         <span class="title2">一丝不苟。</span>
-      </div>
-    </div>
-    <div class="about-content" style="grid-template-columns: 1fr 1fr">
+      </div> -->
+    <!-- </div> -->
+    <!-- <div class="about-content" style="grid-template-columns: 1fr 1fr">
       <div
         class="about-item like image"
         style="
@@ -112,7 +136,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="about-content" style="grid-template-columns: 2fr 3fr">
       <!-- 数据 -->
       <div
@@ -139,27 +163,27 @@
         </div>
       </div>
       <!-- 信息 -->
-      <div class="about-item child">
+      <!-- <div class="about-item child">
         <div
           class="about-item map image"
           style="background-image: url(https://pic.efefee.cn/uploads/2024/04/15/661cbccc56af5.webp)"
         >
-          <span class="position">我现在住在 <strong>中国，河南省</strong></span>
+          <span class="position">我现在住在 <strong>中国dian深圳</strong></span>
         </div>
         <div class="about-item info">
           <div class="info-item">
             <span class="info-name">生于</span>
-            <span class="info-num" style="--color: #43a6c6">2001</span>
+            <span class="info-num" style="--color: #43a6c6">1989</span>
           </div>
           <div class="info-item">
             <span class="info-name">现在职业</span>
-            <span class="info-num" style="--color: #dfac46">前端开发工程师</span>
+            <span class="info-num" style="--color: #dfac46">开发工程师</span>
           </div>
         </div>
-      </div>
-    </div>
+      </div> -->
+    <!-- </div> -->
     <!-- 心路历程 -->
-    <div class="about-content" style="display: flex">
+    <!-- <div class="about-content" style="display: flex"> -->
       <div class="about-item">
         <span class="tip">心路历程</span>
         <span class="title2">为什么建站？</span>
@@ -185,8 +209,26 @@ const { theme } = useData();
 // 技能数据
 const skillsData = [
   {
+    name: "Java",
+    color: "#E16916",
+    icon: "java",
+    link: "https://www.java.com/",
+  },
+  {
+    name: "Spring",
+    color: "#77BC20",
+    icon: "spring",
+    link: "https://spring.io/",
+  },
+  {
+    name: "Python",
+    color: "#376A96",
+    icon: "python",
+    link: "https://www.python.org/",
+  },
+  {
     name: "JavaScript",
-    color: "#f1e05abd",
+    color: "#f1e05a",
     icon: "javascript",
     link: "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript",
   },
@@ -203,52 +245,130 @@ const skillsData = [
     link: "https://developer.mozilla.org/zh-CN/docs/Web/CSS",
   },
   {
+    name: "Node.js",
+    color: "#428B40",
+    icon: "nodejs",
+    link: "https://nodejs.org/",
+  },
+  {
     name: "Vue",
-    color: "#41b883",
+    color: "#44B985",
     icon: "vue",
     link: "https://cn.vuejs.org/",
   },
   {
     name: "React",
-    color: "#149ECA",
+    color: "#5CD0EA",
     icon: "react",
     link: "https://zh-hans.reactjs.org/",
   },
   {
-    name: "Node.js",
-    color: "#026E00",
-    icon: "nodejs",
-    link: "https://nodejs.org/",
-  },
-  {
-    name: "Python",
-    color: "#3776AB",
-    icon: "python",
-    link: "https://www.python.org/",
-  },
-  {
     name: "Docker",
-    color: "#2496f2",
+    color: "#1E64ED",
     icon: "docker",
     link: "https://www.docker.com/",
   },
   {
+    name: "K8S",
+    color: "#2866E5",
+    icon: "k8s",
+    link: "https://kubernetes.io/",
+  },
+  {
+    name: "Linux",
+    color: "#1C89BB",
+    icon: "linux",
+    link: "https://www.linux.org/",
+  },
+  {
+    name: "Redis",
+    color: "#FF4437",
+    icon: "redis",
+    link: "https://redis.io/",
+  },
+  {
+    name: "MySQL",
+    color: "#015B85",
+    icon: "mysql",
+    link: "https://www.mysql.com/",
+  },
+  {
+    name: "MongoDB",
+    color: "#00FE69",
+    icon: "mongodb",
+    link: "https://www.mongodb.com/",
+  },
+  {
+    name: "Elasticsearch",
+    color: "#00BFB3",
+    icon: "elasticsearch",
+    link: "https://www.elastic.co/elasticsearch",
+  },
+  {
+    name: "Maven",
+    color: "#CA2136",
+    icon: "maven",
+    link: "https://maven.apache.org/",
+  },
+  {
+    name: "Jenkins",
+    color: "#335061",
+    icon: "jenkins",
+    link: "https://www.jenkins.io/",
+  },
+  {
     name: "Git",
-    color: "#F05032",
+    color: "#F44D26",
     icon: "git",
     link: "https://git-scm.com/",
   },
   {
-    name: "Photoshop",
-    color: "#31A8FF",
-    icon: "photoshop",
-    link: "https://www.adobe.com/cn/lead/creativecloud/business.html",
+    name: "Nginx",
+    color: "#0E9748",
+    icon: "nginx",
+    link: "https://nginx.org/",
   },
   {
-    name: "ChatGPT",
-    color: "#4AA181",
-    icon: "chatgpt",
-    link: "https://chat.openai.com/",
+    name: "ActiveMQ",
+    color: "#C95886",
+    icon: "activemq",
+    link: "https://activemq.apache.org/",
+  },
+  {
+    name: "RabbitMQ",
+    color: "#FF6600",
+    icon: "rabbitmq",
+    link: "https://www.rabbitmq.com/",
+  },
+  {
+    name: "区块链",
+    color: "#77BC20",
+    icon: "blockchain",
+    link: "https://www.ibm.com/cn-zh/topics/blockchain",
+  },
+  {
+    name: "Ollama",
+    color: "#f1e05abd",
+    icon: "ollama",
+    link: "https://ollama.com/",
+  },
+  {
+    name: "n8n",
+    color: "#EA4E73",
+    icon: "n8n",
+    link: "https://n8n.io/",
+  },
+  {
+    name: "Go",
+    color: "#eeeeee",
+    icon: "go",
+    link: "https://go.dev/",
+  },
+  {
+    name: "Rust",
+    color: "#eeeeee",
+    icon: "rust",
+    link: "https://www.rust-lang.org/",
   },
 ];
 
