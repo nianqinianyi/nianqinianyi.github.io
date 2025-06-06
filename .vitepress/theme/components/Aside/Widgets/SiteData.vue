@@ -34,6 +34,20 @@
         </span>
         <span class="num" id="busuanzi_value_site_uv">0</span>
       </div>
+      <div class="data-item">
+        <span class="name">
+          <i class="iconfont icon-visibility"></i>
+          本页访问量
+        </span>
+        <span class="num" id="busuanzi_value_page_pv">0</span>
+      </div>
+      <div class="data-item">
+        <span class="name">
+          <i class="iconfont icon-account"></i>
+          本页访客数
+        </span>
+        <span class="num" id="busuanzi_value_page_uv">0</span>
+      </div>
     </div>
   </div>
 </template>
@@ -75,12 +89,12 @@ onMounted(() => {
         opacity: 0.8;
         font-size: 15px;
       }
-      #busuanzi_value_site_pv {
+      #busuanzi_value_site_pv,#busuanzi_value_page_pv {
         &::after {
           content: " 次";
         }
       }
-      #busuanzi_value_site_uv {
+      #busuanzi_value_site_uv,#busuanzi_value_page_uv {
         &::after {
           content: " 人";
         }
