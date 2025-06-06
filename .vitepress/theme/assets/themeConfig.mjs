@@ -100,15 +100,15 @@ export const themeConfig = {
       // 51la 统计
       ['script', { src: '//sdk.51.la/js-sdk-pro.min.js', charset: 'UTF-8', id: 'LA_COLLECT' }],
       ['script', {}, `LA.init({id:"Kq8jfdxsCtpAJn2i",ck:"Kq8jfdxsCtpAJn2i"})`],
-      // // 预载 DocSearch
-      // [
-      //   "link",
-      //   {
-      //     href: "https://X5EBEZB53I-dsn.algolia.net",
-      //     rel: "preconnect",
-      //     crossorigin: "",
-      //   },
-      // ],
+      // 预载 DocSearch
+      [
+        "link",
+        {
+          href: "https://93DBE129ED20BD18-dsn.algolia.net",
+          rel: "preconnect",
+          crossorigin: "",
+        },
+      ],
     ],
   },
   // 导航栏菜单
@@ -398,20 +398,20 @@ export const themeConfig = {
     // playlist / album / song
     type: "playlist",
   },
-  // TODO 搜索
+  // 搜索
   // https://www.algolia.com/
   search: {
-    enable: false,
+    enable: true,
     appId: "",
     apiKey: "",
   },
   // TODO 打赏
   rewardData: {
-    enable: false,
+    enable: true,
     // 微信二维码
-    wechat: "",
+    wechat: "/images/wepay.jpg",
     // 支付宝二维码
-    alipay: "",
+    alipay: "/images/alipay.jpg",
   },
   // 图片灯箱
   fancybox: {

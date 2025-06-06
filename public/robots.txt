@@ -4,3 +4,5 @@ Allow: /pages/
 Allow: /posts/
 
 Sitemap: https://blog.sixlab.cn/sitemap.xml
+
+# Algolia-Crawler-Verif: 93DBE129ED20BD18

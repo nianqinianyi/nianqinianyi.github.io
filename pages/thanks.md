@@ -1,49 +1,72 @@
 ---
-title: 友情链接
+title: 致谢名单
 aside: false
 comment: true
 ---
 
-<script setup>
-import Link from "@/views/Link.vue";
-</script>
+<h1 class="centered-bold">如果对你有帮助，可以考虑请我喝杯咖啡</h1>
 
-<Link />
+<div class="payment-container">
+  <div class="payment-item">
+    <p class="payment-label">微信 / Wechat</p>
+    <img class="payment-image" src="https://pan.811520.xyz/2024-11/1730603920-wechatpay.webp" alt="wechat receipt code" />
+  </div>
+  <div class="payment-item">
+    <p class="payment-label">支付宝 / Alipay</p>
+    <img class="payment-image" src="https://pan.811520.xyz/2024-11/1730603921-alipay.webp" alt="alipay receipt code" />
+  </div>
+</div>
 
-# 友情链接申请
+<style>
+  .centered-bold {
+    text-align: center; /* 居中 */
+    font-weight: bold;  /* 加粗 */
+  }
 
-很高兴能和各位优秀的朋友们交流，本站友链目前采用**手动添加**，如果你想加入友链，可以在下方留言，我会在不忙的时候统一添加。
+  /* 默认布局：并排排列 */
+  .payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 40px;
+    flex-direction: row;
+  }
 
-### 友链相关须知
+  /* 每个支付项的样式 */
+  .payment-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-- 为了友链相关页面和组件的统一性和美观性，可能会对你的部分信息进行缩短处理，例如昵称包含 `博客`、`XX的XX` 等内容或形式**将被简化**。
-- 为了图片加载速度和内容安全性考虑，头像或其他信息中的图片均使用本站图床，**所以无法收到贵站自己的头像更新**，如果有迫切的更改信息需求，**请在本页的评论中评论说明**。
+  .payment-label {
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.5;
+  }
 
-### 我的友链信息
+  .payment-image {
+    width: 192px !important; /* 使用 !important 确保图片宽度 */
+    border: 1px solid lightgrey;
+  }
 
-- 名称：`六楼实验室`
-- 描述：`分享技术与科技生活`
-- 地址：`https://blog.sixlab.cn/`
-- 头像：`https://pic.imgdb.cn/item/65bc52b0871b83018a06699d.png`
-- 站点图片：`https://pic.imgdb.cn/item/65dc47009f345e8d030b65ba.png`
-- 订阅：`https://blog.sixlab.cn/rss.xml`
+  /* 屏幕宽度小于768px时，调整为上下排列 */
+  @media (max-width: 768px) {
+    .payment-container {
+      flex-direction: column;
+      gap: 20px; /* 调整上下间距 */
+    }
+  }
+</style>
 
-```yml
-name: 六楼实验室
-desc: 分享技术与科技生活
-url: https://blog.sixlab.cn/
-avatar: https://pic.imgdb.cn/item/65bc52b0871b83018a06699d.png
-screenshot: https://pic.imgdb.cn/item/65dc47009f345e8d030b65ba.png
-rss: https://blog.sixlab.cn/rss.xml
-```
+<br><br>
 
-### 申请友链
+<h1 class="centered-bold">感谢所有热心的朋友！</h1>
 
-- 我已添加 [六楼实验室](https://blog.sixlab.cn/) 的友情链接。
-- **请多多进行互动后再来进行友链添加**，若为首次评论直接申请友链，将不会通过。
-- 本站不添加 **采集站**、**纯搬运站点**、**论坛类站点** 等非 **个人博客** 类型的站点。
-- 站点目前可以在 **中国大陆区域** 正常访问。
-- 需要是独立域名，不接受 `github.io`、`vercel.app` 等第三方域名。
-- 网站内容符合 **中国大陆法律法规**。
+<div align="center"><strong>以下排名不分先后</strong></div>
 
-> 若申请时或日后有违反上述规定的站点，博主有权**自行删除且不进行通知！**
+| 昵称 | 捐助金额 |    日期    | 昵称 | 捐助金额 |    日期    |
+| :--: | :------: | :--------: | :--: | :------: | :--------: |
+| wood |   8.8    | 2025-03-28 | 隐阳八哥  |   6.6   | 2025-04-24 |
