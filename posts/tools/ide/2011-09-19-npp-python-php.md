@@ -1,6 +1,6 @@
 ---
 title: 在notepad++中配置Python和php环境
-tags: ["notepad++", "php", "python", "环境配置", "工具"]
+tags: ["notepad++", "php", "Python", "环境配置", "工具"]
 categories: ["工具"]
 date: 2011-09-19 22:43:33
 description: 在notepad++中配置Python和php环境

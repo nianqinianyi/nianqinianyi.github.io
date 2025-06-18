@@ -26,7 +26,7 @@
 >
 
 	<channel>
-		<title>思可司实验室</title>
+		<title>六楼实验室</title>
 		<link>https://sixlab.cn</link>
 		<description>By 六楼的雨</description>
 		<pubDate>Wed, 21 Dec 2022 04:38:44 +0000</pubDate>
@@ -993,7 +993,7 @@
 
 		<image>
 			<url>https://sixlab.cn/wp-content/uploads/2019/09/b8eee9799fc1530-32x32.png</url>
-			<title>思可司实验室</title>
+			<title>六楼实验室</title>
 			<link>https://sixlab.cn</link>
 			<width>32</width>
 			<height>32</height>
@@ -5339,7 +5339,7 @@ print "hello, World!"
 <!-- /wp:paragraph -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>&#91;思可司实验室](https://sixlab.cn/ 'title属性可省略')
+<pre class="wp-block-code"><code>&#91;六楼实验室](https://sixlab.cn/ 'title属性可省略')
 </code></pre>
 <!-- /wp:code -->
 
@@ -5348,7 +5348,7 @@ print "hello, World!"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a rel="noreferrer noopener" href="https://sixlab.cn/" target="_blank">思可司实验室</a></p>
+<p><a rel="noreferrer noopener" href="https://sixlab.cn/" target="_blank">六楼实验室</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -5360,7 +5360,7 @@ print "hello, World!"
 <!-- /wp:paragraph -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>&#91;思可司实验室]&#91;mark]
+<pre class="wp-block-code"><code>&#91;六楼实验室]&#91;mark]
 &#91;百度]&#91;baidu]
 &#91;Google]&#91;]
 
@@ -5391,7 +5391,7 @@ print "hello, World!"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a rel="noreferrer noopener" href="https://sixlab.cn/" target="_blank">思可司实验室</a><br><a rel="noreferrer noopener" href="https://www.baidu.com/" target="_blank">百度</a><br><a rel="noreferrer noopener" href="https://www.google.com/" target="_blank">Google</a></p>
+<p><a rel="noreferrer noopener" href="https://sixlab.cn/" target="_blank">六楼实验室</a><br><a rel="noreferrer noopener" href="https://www.baidu.com/" target="_blank">百度</a><br><a rel="noreferrer noopener" href="https://www.google.com/" target="_blank">Google</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1} -->
@@ -5497,7 +5497,7 @@ __粗体__
 
 <!-- wp:code -->
 <pre class="wp-block-code"><code>\#\#\#这不是\*标题\*,但*这个*会斜体
-\&#91;思可司实验室\]\&#91;https://sixlab.cn/\]
+\&#91;六楼实验室\]\&#91;https://sixlab.cn/\]
 </code></pre>
 <!-- /wp:code -->
 
@@ -5506,7 +5506,7 @@ __粗体__
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>###这不是*标题*,但<em>这个</em>会斜体<br>[思可司实验室][<a rel="noreferrer noopener" href="https://sixlab.cn/" target="_blank">https://sixlab.cn/</a> ]</p>
+<p>###这不是*标题*,但<em>这个</em>会斜体<br>[六楼实验室][<a rel="noreferrer noopener" href="https://sixlab.cn/" target="_blank">https://sixlab.cn/</a> ]</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1} -->
@@ -9027,7 +9027,7 @@ msg.onclick = function () {
       &lt;div class="container" >
         &lt;div class="cell">
           &lt;image class="thumb" src="https://oh7gzl219.qnssl.com/logo.png">&lt;/image>
-          &lt;text class="title">思可司实验室：https://sixlab.cn/&lt;/text>
+          &lt;text class="title">六楼实验室：https://sixlab.cn/&lt;/text>
         &lt;/div>
       &lt;/div>
     &lt;/template>
@@ -11959,7 +11959,7 @@ security:
 <!-- /wp:paragraph -->
 
 <!-- wp:image -->
-<figure class="wp-block-image"><img src="https://oh7gzl219.qnssl.com/logo.png" alt="思可司实验室"/></figure>
+<figure class="wp-block-image"><img src="https://oh7gzl219.qnssl.com/logo.png" alt="六楼实验室"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":1} -->
@@ -13940,8 +13940,8 @@ E.g : {% wide_image /images/2018-08-30-theme-tranquilpeak/preview.png "A image" 
 <pre class="wp-block-preformatted">button.addActionListener(actionEvent-&gt; System.out.println("Action detected"));</pre>
 <!-- /wp:preformatted -->
 
-<!-- wp:core-embed/wordpress {"url":"https://sixlab.cn/archives/java-versions/","type":"wp-embed","providerNameSlug":"思可司实验室","className":""} -->
-<figure class="wp-block-embed-wordpress wp-block-embed is-type-wp-embed is-provider-思可司实验室"><div class="wp-block-embed__wrapper">
+<!-- wp:core-embed/wordpress {"url":"https://sixlab.cn/archives/java-versions/","type":"wp-embed","providerNameSlug":"六楼实验室","className":""} -->
+<figure class="wp-block-embed-wordpress wp-block-embed is-type-wp-embed is-provider-六楼实验室"><div class="wp-block-embed__wrapper">
 https://sixlab.cn/archives/java-versions/
 </div></figure>
 <!-- /wp:core-embed/wordpress -->]]></content:encoded>
@@ -13973,7 +13973,7 @@ https://sixlab.cn/archives/java-versions/
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_oembed_e5fbd16534d159a1e6b27bd480a1199e]]></wp:meta_key>
-				<wp:meta_value><![CDATA[<blockquote class="wp-embedded-content" data-secret="BicZQZsAjo"><a href="https://sixlab.cn/archives/java-versions/">Java 各版本新特性 &#8211; 序章</a></blockquote><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" title="《Java 各版本新特性 &#8211; 序章》—思可司实验室" src="https://sixlab.cn/archives/java-versions/embed/#?secret=BicZQZsAjo" data-secret="BicZQZsAjo" width="500" height="282" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>]]></wp:meta_value>
+				<wp:meta_value><![CDATA[<blockquote class="wp-embedded-content" data-secret="BicZQZsAjo"><a href="https://sixlab.cn/archives/java-versions/">Java 各版本新特性 &#8211; 序章</a></blockquote><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" title="《Java 各版本新特性 &#8211; 序章》—六楼实验室" src="https://sixlab.cn/archives/java-versions/embed/#?secret=BicZQZsAjo" data-secret="BicZQZsAjo" width="500" height="282" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_oembed_time_e5fbd16534d159a1e6b27bd480a1199e]]></wp:meta_key>
@@ -14119,8 +14119,8 @@ public interface ClassName {
 <ol><li>FunctionalInterface 注解不加不影响代码的使用。</li><li>接口可以用数个默认方法，默认方法不影响函数式接口的使用。</li><li>抽象类是不能使用 FunctionalInterface 注解的。</li><li>如果 A 接口继承 B 接口，不实现原有方法，则 A 新增的方法只能是默认方法，A 才能使用 FunctionalInterface 注解。</li><li>如果 A 接口继承 B 接口，用默认方法实现了 B 未实现的方法，A 需要添加一个未实现的方法，A 才能使用 FunctionalInterface 注解。</li></ol>
 <!-- /wp:list -->
 
-<!-- wp:core-embed/wordpress {"url":"https://sixlab.cn/archives/java-versions/","type":"wp-embed","providerNameSlug":"思可司实验室","className":""} -->
-<figure class="wp-block-embed-wordpress wp-block-embed is-type-wp-embed is-provider-思可司实验室"><div class="wp-block-embed__wrapper">
+<!-- wp:core-embed/wordpress {"url":"https://sixlab.cn/archives/java-versions/","type":"wp-embed","providerNameSlug":"六楼实验室","className":""} -->
+<figure class="wp-block-embed-wordpress wp-block-embed is-type-wp-embed is-provider-六楼实验室"><div class="wp-block-embed__wrapper">
 https://sixlab.cn/archives/java-versions/
 </div></figure>
 <!-- /wp:core-embed/wordpress -->]]></content:encoded>
@@ -14149,7 +14149,7 @@ https://sixlab.cn/archives/java-versions/
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_oembed_e5fbd16534d159a1e6b27bd480a1199e]]></wp:meta_key>
-				<wp:meta_value><![CDATA[<blockquote class="wp-embedded-content" data-secret="8Cxmnmud1m"><a href="https://sixlab.cn/archives/java-versions/">Java 各版本新特性 &#8211; 序章</a></blockquote><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" title="《Java 各版本新特性 &#8211; 序章》—思可司实验室" src="https://sixlab.cn/archives/java-versions/embed/#?secret=8Cxmnmud1m" data-secret="8Cxmnmud1m" width="500" height="282" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>]]></wp:meta_value>
+				<wp:meta_value><![CDATA[<blockquote class="wp-embedded-content" data-secret="8Cxmnmud1m"><a href="https://sixlab.cn/archives/java-versions/">Java 各版本新特性 &#8211; 序章</a></blockquote><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" title="《Java 各版本新特性 &#8211; 序章》—六楼实验室" src="https://sixlab.cn/archives/java-versions/embed/#?secret=8Cxmnmud1m" data-secret="8Cxmnmud1m" width="500" height="282" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_oembed_time_e5fbd16534d159a1e6b27bd480a1199e]]></wp:meta_key>

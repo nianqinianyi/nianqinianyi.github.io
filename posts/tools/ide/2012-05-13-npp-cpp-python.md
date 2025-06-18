@@ -1,6 +1,6 @@
 ---
 title: notepad++配置C++及python编译环境
-tags: ["c++", "notepad++", "python", "环境配置", "工具"]
+tags: ["c++", "notepad++", "Python", "环境配置", "工具"]
 categories: ["工具"]
 date: 2012-05-13 22:55:20
 description: notepad++配置C++及python编译环境
