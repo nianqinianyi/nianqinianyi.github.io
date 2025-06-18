@@ -24,6 +24,6 @@ God，40种！真的是40种？对的，就是40种！不过语言太多了，�
 
   * [codepad](http://codepad.org/)界面非常简单，支持常用的语言，不过没有java，不能支持项目。
   * [coderun](http://www.coderun.com/ide/)界面像极了IDE，功能极其强大，可以支持一个项目，并在线托管，可以代码打包上传下载，不过支持的语言很少。
-  * [ideone](http://ideone.com/)界面和codepad类似，选择语言，输入程序，运行，功能简单。不过这个支持的语言非常多，是一大特色。当然还有一个特色就是，我进入到时候是繁体中文界面。最后呢，还有一个特点，ideone提供api，为android提供了ideroid软件，在android market下载之后就可以编写程序了。
+  * [ideone](http://ideone.com/)界面和codepad类似，选择语言，输入程序，运行，功能简单。不过这个支持的语言非常多，是一大特色。当然还有一个特色就是，我进入到时候是繁体中文界面。最后呢，还有一个特点，ideone提供api，为Android提供了ideroid软件，在Android market下载之后就可以编写程序了。
 
 在线IDE最大的作用：当要验证一个算法的时候，没必要打开visual studio等大型IDE，直接打开在线IDE就可以简单方便的验证了。
