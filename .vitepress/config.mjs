@@ -58,7 +58,12 @@ export default withPwa(
       config: (md) => markdownConfig(md, themeConfig),
     },
     // 构建排除
-    srcExclude: ["**/README.md", "**/TODO.md"],
+    srcExclude: [
+      "**/README.md", 
+      "**/TODO.md",
+      "tools/**/*.md",
+      "examples/**/*.md",
+    ],
     // transformHead
     transformPageData: async (pageData) => {
       // canonical URL
