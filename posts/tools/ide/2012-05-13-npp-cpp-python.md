@@ -7,7 +7,7 @@ description: notepad++配置C++及python编译环境
 articleGPT: notepad++配置C++及python编译环境
 ---
 
-原先写过一篇《[在notepad++中配置Python和php环境](./2011-09-19-npp-python-php.md)》，notepad++这个编辑器相当不错，相当轻量级，一直以来是我的最爱。每次重装系统都要重新配置notepad++，烦不胜烦，最可恶的是每次配置的时候都要上网搜上一阵，浪费时间，效果也不是很好。在这里总结一些，便于以后使用。  
+原先写过一篇《[在notepad++中配置Python和php环境](./2011-09-19-npp-python-php)》，notepad++这个编辑器相当不错，相当轻量级，一直以来是我的最爱。每次重装系统都要重新配置notepad++，烦不胜烦，最可恶的是每次配置的时候都要上网搜上一阵，浪费时间，效果也不是很好。在这里总结一些，便于以后使用。  
 
 首先是安装插件部分，菜单上的`插件-Plugin Manager-Show Plugin Manager`。在 Plugin Manager 
 里找到 NppExec 这个插件，安装。 接着，配置C++环境，我使用的是 visual studio 2008 

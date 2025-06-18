@@ -29,4 +29,4 @@ cmd /k E:\program\Wamp\bin\php\php5.3.5\php.exe “$(FULL_CURRENT_PATH)” & ECH
   * PAUSE：暂停批处理程序，并显示出：请按任意键继续…
   * ECHO.：换行，可用ECHO代替。
 
-Python 部分已经更换，详见 [notepad++配置C++及python编译环境](./2012-05-13-npp-cpp-python.md)
+Python 部分已经更换，详见 [notepad++配置C++及python编译环境](./2012-05-13-npp-cpp-python)
