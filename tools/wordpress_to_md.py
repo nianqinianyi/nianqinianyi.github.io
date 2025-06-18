@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import html2text
 import os
 import re
-from datetime import datetime
+from datetime import datetime,timedelta
 
 # 检查是否安装了html2text
 try:
@@ -106,11 +106,24 @@ def extract_categories_and_tags(item):
     return categories, tags
 
 def convert_date(date_str):
-    """将WordPress日期格式转换为YYYY-MM-DD"""
+    """将WordPress日期格式转换为YYYY-MM-DD HH:mm:ss"""
     try:
-        # 处理带时区的日期格式
-        date_obj = datetime.strptime(date_str, '%a, %d %b %Y %H:%M:%S %z')
-        return date_obj.strftime('%Y-%m-%d')
+        # 解析输入的UTC时间字符串
+        utc_datetime = datetime.strptime(date_str, "%a, %d %b %Y %H:%M:%S %z")
+        # 转换为北京时间（UTC+8）
+        beijing_datetime = utc_datetime + timedelta(hours=8)
+        return beijing_datetime.strftime('%Y-%m-%d %H:%M:%S')
+    except ValueError:
+        return '2023-01-01 00:00:00'  # 默认日期
+
+def convert_date1(date_str):
+    """将WordPress日期格式转换为YYYY-MM-DD HH:mm:ss"""
+    try:
+        # 解析输入的UTC时间字符串
+        utc_datetime = datetime.strptime(date_str, "%a, %d %b %Y %H:%M:%S %z")
+        # 转换为北京时间（UTC+8）
+        beijing_datetime = utc_datetime + timedelta(hours=8)
+        return beijing_datetime.strftime('%Y-%m-%d')
     except ValueError:
         return '2023-01-01'  # 默认日期
 
@@ -169,6 +182,7 @@ for item in items:
     categories, tags = extract_categories_and_tags(item)
     
     # 转换日期格式
+    date_str1 = convert_date1(pub_date)
     date_str = convert_date(pub_date)
     
     # 转换HTML内容为Markdown
@@ -181,7 +195,7 @@ for item in items:
     md_content = f"---\n{front_matter}\n---\n\n{content_md}"
     
     # 写入文件
-    file_path = os.path.join(TARGET_DIR, f"{slug}.md")
+    file_path = os.path.join(TARGET_DIR, f"{date_str1}-{slug}.md")
     try:
         with open(file_path, 'w', encoding='utf-8') as f:
             f.write(md_content)
