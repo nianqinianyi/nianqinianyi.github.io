@@ -1,6 +1,6 @@
 ---
 title: IDEA 常用设置
-tags: ["IDEA", "Intellij", "设置"]
+tags: ["IDEA", "Intellij", "设置", "工具"]
 categories: ["工具"]
 date: 2018-05-16 00:40:37
 description: IDEA 常用设置
