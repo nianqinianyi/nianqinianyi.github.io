@@ -1,7 +1,7 @@
 ---
 title: Java 8 新特性系列 – Lambda表达式
 tags: [Java, Java8, lambda, 新特性]
-categories: [java]
+categories: [Java]
 date: 2020-03-19 12:54:17
 description: Java 8 新特性系列 – Lambda表达式
 articleGPT: Java 8 新特性系列 – Lambda表达式

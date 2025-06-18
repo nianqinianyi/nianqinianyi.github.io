@@ -1,7 +1,7 @@
 ---
 title: Java 8 新特性系列 – 函数式接口
 tags: ["Java", "Java8", "lambda", "函数式接口", "新特性"]
-categories: ["java"]
+categories: ["Java"]
 date: 2020-05-29 11:00:00
 description: Java 8 新特性系列 – 函数式接口
 articleGPT: Java 8 新特性系列 – 函数式接口
