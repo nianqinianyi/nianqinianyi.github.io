@@ -13,11 +13,11 @@
       </div>
       <div class="meta-item">
         <span class="tip">发布于</span>
-        <span class="name">{{ formatTimestamp(postData?.date) }}</span>
+        <span class="name">{{ formatTimestampWithTime(postData?.date) }}</span>
       </div>
       <div class="meta-item">
         <span class="tip">更新于</span>
-        <span class="name">{{ formatTimestamp(postData?.lastModified) }}</span>
+        <span class="name">{{ formatTimestampWithTime(postData?.lastModified) }}</span>
       </div>
       <div class="meta-item cc">
         <span class="tip">许可协议</span>
@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-import { formatTimestamp } from "@/utils/helper";
+import { formatTimestampWithTime } from "@/utils/helper";
 
 const { theme } = useData();
 const props = defineProps({

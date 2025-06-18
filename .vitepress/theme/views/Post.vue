@@ -32,11 +32,11 @@
       <div class="other-meta">
         <span class="meta date">
           <i class="iconfont icon-date" />
-          {{ formatTimestamp(postMetaData.date) }}
+          {{ formatTimestampWithTime(postMetaData.date) }}
         </span>
         <span class="update meta">
           <i class="iconfont icon-time" />
-          {{ formatTimestamp(page?.lastUpdated || postMetaData.lastModified) }}
+          {{ formatTimestampWithTime(page?.lastUpdated || postMetaData.lastModified) }}
         </span>
         <!-- 热度 -->
         <span class="hot meta">
@@ -100,7 +100,7 @@
 </template>
 
 <script setup>
-import { formatTimestamp } from "@/utils/helper";
+import { formatTimestampWithTime } from "@/utils/helper";
 import { generateId } from "@/utils/commonTools";
 import initFancybox from "@/utils/initFancybox";
 

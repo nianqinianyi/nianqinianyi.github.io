@@ -58,6 +58,10 @@ export const smoothScrolling = (target = 0) => {
   }
 };
 
+export const formatNumber = (n) =>{
+  return String(n).padStart(2, '0')
+}
+
 /**
  * 格式化时间戳为相应的日期格式
  * 如果时间戳表示的时间为7天内，则返回 'n天内'
@@ -81,18 +85,38 @@ export const formatTimestamp = (timestamp) => {
     if (difference <= 0) {
       return "今日内";
     } else if (difference < 7) {
-      return `${difference}天前`;
+      return `${difference}日内`;
     } else {
-      let year = targetDate.getFullYear();
-      let month = targetDate.getMonth() + 1;
-      let day = targetDate.getDate();
-      if (year === now.getFullYear()) {
-        return `${month}/${day}`;
-      } else {
-        return `${year}/${month}/${day}`;
-      }
+      const year = targetDate.getFullYear();
+      const month = formatNumber(targetDate.getMonth() + 1);
+      const day = formatNumber(targetDate.getDate());
+      const hours = formatNumber(targetDate.getHours());
+      const minutes = formatNumber(targetDate.getMinutes());
+      const seconds = formatNumber(targetDate.getSeconds());
+      return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
     }
   }
+};
+
+/**
+ * 格式化时间戳为相应的日期格式
+ * 如果时间戳表示的时间为7天内，则返回 'n天内'
+ * 如果时间戳表示的时间为7天之后但在当年，则返回 '月/日'
+ * 如果时间戳表示的时间在当年之前，则返回 '年/月/日'
+ * @param {number} timestamp - 时间戳（以毫秒为单位）
+ * @return {string} 返回日期格式的字符串
+ */
+export const formatTimestampWithTime = (timestamp) => {
+  const targetDate = new Date(timestamp);
+
+  const year = targetDate.getFullYear();
+  const month = formatNumber(targetDate.getMonth() + 1);
+  const day = formatNumber(targetDate.getDate());
+  const hours = formatNumber(targetDate.getHours());
+  const minutes = formatNumber(targetDate.getMinutes());
+  const seconds = formatNumber(targetDate.getSeconds());
+
+  return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 };
 
 /**
