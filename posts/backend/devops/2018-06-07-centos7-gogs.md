@@ -1,7 +1,7 @@
 ---
 title: Centos 7 开发环境之 Gogs 的安装及配置（二进制）
-tags: ["CentOS", "Git", "gogs", "配置"]
-categories: ["技术研究"]
+tags: ["CentOS", "Git", "gogs", "运维"]
+categories: ["运维"]
 date: 2018-06-07 00:52:52
 description: Centos 7 开发环境之 Gogs 的安装及配置（二进制）
 articleGPT: Centos 7 开发环境之 Gogs 的安装及配置（二进制）

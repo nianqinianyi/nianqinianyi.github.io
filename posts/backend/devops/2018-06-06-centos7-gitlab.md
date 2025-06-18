@@ -1,7 +1,7 @@
 ---
 title: Centos 7 开发环境之 Gitlab 的安装及配置
-tags: ["CentOS", "Git", "Gitlab", "配置"]
-categories: ["技术研究"]
+tags: ["CentOS", "Git", "Gitlab", "运维"]
+categories: ["运维"]
 date: 2018-06-06 00:50:00
 description: Centos 7 开发环境之 Gitlab 的安装及配置
 articleGPT: Centos 7 开发环境之 Gitlab 的安装及配置
