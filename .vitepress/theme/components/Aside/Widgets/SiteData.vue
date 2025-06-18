@@ -16,6 +16,13 @@
       <div class="data-item">
         <span class="name">
           <i class="iconfont icon-date"></i>
+          建站时长
+        </span>
+        <span class="num">{{ yearDaysFromNow(theme.since) }}</span>
+      </div>
+      <div class="data-item">
+        <span class="name">
+          <i class="iconfont icon-date"></i>
           建站天数
         </span>
         <span class="num">{{ daysFromNow(theme.since) }} 天</span>
@@ -54,7 +61,7 @@
 
 <script setup>
 import { loadScript } from "@/utils/commonTools";
-import { daysFromNow } from "@/utils/helper";
+import { daysFromNow, yearDaysFromNow } from "@/utils/helper";
 
 const { theme } = useData();
 

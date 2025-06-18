@@ -133,6 +133,43 @@ export const daysFromNow = (dateStr) => {
 };
 
 /**
+ * 计算给定日期与当前日期相差的天数
+ * @param {string} dateStr - 要计算差值的日期，为字符串形式
+ * @returns {number} 天数差值
+ */
+export const yearDaysFromNow = (dateStr) => {
+  // 1. 创建起始日期和今天的日期对象
+  // 为避免时区问题，我们最好将时间都设置为0点
+  const startDate = new Date(dateStr);
+  startDate.setHours(0, 0, 0, 0);
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  // 2. 计算基础的年份差
+  let years = today.getFullYear() - startDate.getFullYear();
+
+  // 3. 创建一个“今年”的周年纪念日，用于判断今年的生日/纪念日是否已过
+  const anniversaryThisYear = new Date(startDate);
+  anniversaryThisYear.setFullYear(today.getFullYear());
+
+  // 4. 如果今天的日期小于今年的周年纪念日，说明还没满整年，年份减一
+  if (today < anniversaryThisYear) {
+    years--;
+  }
+
+  // 5. 计算上一个周年纪念日
+  const lastAnniversary = new Date(startDate);
+  lastAnniversary.setFullYear(startDate.getFullYear() + years);
+
+  // 6. 计算上一个周年纪念日到今天的天数差
+  const diffTime = today.getTime() - lastAnniversary.getTime();
+  const days = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+  return `${years} 年 ${days} 天`;
+};
+
+/**
  * 随机前往一篇文章
  * @param {Object} postData - 文章数据
  * @returns {number} 天数差值
