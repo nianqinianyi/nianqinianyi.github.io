@@ -8,37 +8,37 @@ const linkData = [
     typeList: [
       {
         name: "阮一峰",
-        avatar: "https://pic.efefee.cn/uploads/2024/02/26/65dc5fb729cdb.webp",
+        avatar: "https://www.ruanyifeng.com/blog/images/person2_s.jpg",
         desc: "阮老师，知名博主，大佬中的大佬",
         url: "https://www.ruanyifeng.com/blog/",
       },
       {
         name: "张洪 Heo",
-        avatar: "https://pic.efefee.cn/uploads/2024/02/26/65dc5304b211c.webp",
+        avatar: "https://blog.zhheo.com/img/favicon4.0.webp",
         desc: "产品设计师，独立开发者，设计与科技分享",
         url: "https://blog.zhheo.com/",
       },
       {
         name: "杜老师说",
-        avatar: "https://pic.efefee.cn/uploads/2024/02/28/65de92770fb66.webp",
+        avatar: "https://cdn.dusays.com/favicon.ico",
         desc: "高级网络工程师，网站技术运营总监，系统运维、架构设计以及优化专家",
         url: "https://dusays.com/",
       },
       {
         name: "XAOXUU",
-        avatar: "https://pic.efefee.cn/uploads/2024/02/29/65dfe0f7a945b.webp",
+        avatar: "https://weavatar.com/avatar/eba79703a241eb3526cf9a35acea6339210b15aa03247e623ce77226399cb057?s=64&d=mm&r=g",
         desc: "Hexo Stellar、Volantis 主题作者",
         url: "https://xaoxuu.com/",
       },
-      {
-        name: "风记星辰",
-        avatar: "https://pic.efefee.cn/uploads/2024/02/29/65dfe827e319c.webp",
-        desc: "有着非常优秀的设计与交互的博客",
-        url: "https://www.thyuu.com/",
-      },
+      // {
+      //   name: "风记星辰",
+      //   avatar: "https://cdn.thyuu.com/wp-content/uploads/2024/02/cropped-20240228150250680-32x32.png!webp",
+      //   desc: "有着非常优秀的设计与交互的博客",
+      //   url: "https://www.thyuu.com/",
+      // },
       {
         name: "DIYgod",
-        avatar: "https://pic.efefee.cn/uploads/2024/03/14/65f2c2bb8c17c.gif",
+        avatar: "https://ipfs.crossbell.io/ipfs/bafybeibefx2tyow77m2wcnsh5anaaxfy7ypxbcuapb52c4h255onqp72ye?img-quality=75&img-format=auto&img-onerror=redirect&img-width=256",
         desc: "写代码是热爱，写到世界充满爱！",
         url: "https://diygod.cc/",
       },
@@ -52,7 +52,7 @@ const linkData = [
     typeList: [
       {
         name: "六楼实验室",
-        avatar: "https://pic.efefee.cn/uploads/2024/02/02/65bc526a940e3.png",
+        avatar: "/logo.png",
         desc: "分享技术与科技生活",
         url: "https://blog.sixlab.cn/",
       },
