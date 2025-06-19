@@ -7,7 +7,7 @@ description: 文章总结了在Notepad++中配置C++和Python开发环境的关�
 articleGPT: 本文总结了如何在Notepad++中配置C++和Python开发环境的详细步骤，涵盖插件安装、环境变量设置及编译运行命令配置，并推荐了实用插件，旨在方便用户快速重建开发环境。
 ---
 
-原先写过一篇《[在notepad++中配置Python和php环境](./2011-09-19-npp-python-php)》，notepad++这个编辑器相当不错，相当轻量级，一直以来是我的最爱。每次重装系统都要重新配置notepad++，烦不胜烦，最可恶的是每次配置的时候都要上网搜上一阵，浪费时间，效果也不是很好。在这里总结一些，便于以后使用。  
+原先写过一篇《[在notepad++中配置Python和php环境](/posts/2011/0919/npp-python-php)》，notepad++这个编辑器相当不错，相当轻量级，一直以来是我的最爱。每次重装系统都要重新配置notepad++，烦不胜烦，最可恶的是每次配置的时候都要上网搜上一阵，浪费时间，效果也不是很好。在这里总结一些，便于以后使用。  
 
 首先是安装插件部分，菜单上的`插件-Plugin Manager-Show Plugin Manager`。在 Plugin Manager 
 里找到 NppExec 这个插件，安装。 接着，配置C++环境，我使用的是 visual studio 2008 
