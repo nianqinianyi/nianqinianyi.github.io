@@ -1,6 +1,6 @@
 ---
 title: Java 8 新特性系列 – Lambda表达式
-tags: [Java, Java8, 新特性]
+tags: [Java, Java8, Lambda, 新特性]
 categories: [Java]
 date: 2020-03-19 12:54:17
 description: 文章阐述了 Java 8 引入的 Lambda 表达式，聚焦其作为匿名函数的概念、简化代码的语法，并列举了具体示例和使用限制。
