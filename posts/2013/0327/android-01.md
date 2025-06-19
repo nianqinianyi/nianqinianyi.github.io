@@ -3,7 +3,7 @@ title: Android学习总结01之Hello World
 tags: ["Android", "Android学习总结", "学习总结"]
 categories: ["Android"]
 date: 2013-03-27 23:03:06
-description: 文章详细解析了Android项目的基础目录结构和“Hello World”程序从配置到界面显示的全流程运行原理。
+description: 文章介绍了Android项目的基本目录结构及Hello World程序的运行原理，包括AndroidManifest.xml的配置、Activity的启动过程以及资源文件的管理。
 articleGPT: 本文概述了Android项目的基本目录结构，并深入解析了“Hello World”应用从配置到代码再到资源文件如何协作显示内容的完整运行机制。
 ---
 

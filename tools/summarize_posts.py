@@ -1,32 +1,49 @@
 import os
-import openai
 import re
+import requests
 from glob import glob
 
 POSTS_DIR = '../posts/'
 
-client = openai.OpenAI(
-    api_key="GEMINI_API_KEY",
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
-)
-
 def generate_summary(content):
+    # Ollama API配置
+    OLLAMA_URL = "http://localhost:11434/api/chat"
+    MODEL_NAME = "qwen3:4b"
+    
     try:
-        response = client.chat.completions.create(
-            model="gemini-2.5-flash-preview-05-20",
-            messages=[
-                # {"role": "system", "content": "请用一句话总结以下文章内容。"},
-                {"role": "system", "content": "请以作者身份一句话描述文章内容，但不要出现第一人称描述。"},
-                {"role": "user", "content": content}
-            ]
+        # 构建请求数据
+        payload = {
+            "model": MODEL_NAME,
+            "messages": [
+                {"role": "system", "content": "请用一句话总结以下文章内容。"},
+                {"role": "user", "content": content[:2000]}  # 限制输入长度
+            ],
+            "stream": False
+        }
+        
+        # 发送请求到本地Ollama
+        response = requests.post(
+            OLLAMA_URL,
+            json=payload,
+            timeout=30
         )
-        return response.choices[0].message.content.strip()
+        response.raise_for_status()  # 检查HTTP错误
+        
+        # 解析响应
+        result = response.json()
+        cleaned_content = re.sub(r"<think>.*?</think>\n?", "", result["message"]["content"], flags=re.DOTALL)
+        return cleaned_content.strip()
+        
+    except requests.exceptions.ConnectionError:
+        print("Error: 无法连接到Ollama服务，请确保Ollama已启动。")
+    except requests.exceptions.Timeout:
+        print("Error: 请求Ollama超时。")
     except Exception as e:
-        traceback.print_exc()
-        print(f"Error generating summary: {e}")
-        # Fallback to original method if AI call fails
-        sentences = [s.strip() for s in content.split('. ') if s.strip()]
-        return sentences[0] + '.' if sentences else 'No content available.'
+        print(f"Error generating summary with Ollama: {e}")
+    
+    # 回退到原始摘要方法
+    sentences = [s.strip() for s in content.split('. ') if s.strip()]
+    return sentences[0] + '.' if sentences else 'No content available.'
 
 # 获取所有Markdown文件
 md_files = glob(os.path.join(POSTS_DIR, '**/*.md'), recursive=True)
