@@ -45,7 +45,7 @@ const typeWriter = (text = null) => {
     if (showIndex.value < data.length) {
       abstractData.value += data.charAt(showIndex.value++);
       // 生成字符延迟
-      const delay = Math.random() * (150 - 30) + 30;
+      const delay = Math.random() * (30 - 10) + 10;
       setTimeout(() => {
         typeWriter(text);
       }, delay);
@@ -66,7 +66,7 @@ const initAbstract = () => {
     () => {
       typeWriter();
     },
-    Math.random() * (3800 - 2500) + 2500,
+    Math.random() * (1200 - 800) + 800,
   );
 };
 
@@ -74,7 +74,7 @@ const initAbstract = () => {
 const showOther = () => {
   if (loading.value) return false;
   const text =
-    "我是摘要生成助理`AI摘要`，所有文本皆源于文章内容，由AI读取并生成的摘要，仿照 GPT 的形式输出。";
+    "我是摘要生成助理`AI摘要`，所有文本皆由AI读取当前文章内容，并生成的摘要，仿照 GPT 的形式输出。";
   showIndex.value = 0;
   loading.value = true;
   abstractData.value = "";

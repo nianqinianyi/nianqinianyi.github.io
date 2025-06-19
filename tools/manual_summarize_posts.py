@@ -1,8 +1,11 @@
+import os
 import re
 import sys
 import requests
 
-file_path = '../posts/2017/0627/spring-cloud-03.md'
+print(f"current path is:{os.getcwd()}")
+
+file_path = "posts/2020/0529/java-8-function.md"
 
 # Ollama API配置
 OLLAMA_URL = "http://10.88.69.69:11434/api/chat"
@@ -12,7 +15,7 @@ MODEL_NAME = "qwen3:14b"
 def generate_summary(content, tag):
     print(f"generate summary for {tag}")
 
-    system_content = "请以作者角度出发，一句话描述文章重点，不要出现第一人称" if tag == "description" else "请简单总结一下文章内容，不要出现换行等特殊内容。"
+    system_content = "请以作者角度出发，一句话描述文章重点，不要出现第一人称、第三人称等" if tag == "description" else "请简单总结一下文章内容，不要出现换行等特殊内容。"
 
     try:
         # 构建请求数据
@@ -52,7 +55,7 @@ def generate_summary(content, tag):
 def replace_summary(content, front_matter, tag):
     # 生成摘要
     summary = generate_summary(content, tag)
-    print(f"summary for {tag} is {summary}")
+    print(f"summary for {tag} is:{summary}")
 
     # 处理Front Matter行
     lines = front_matter.split('\n')
@@ -100,7 +103,7 @@ def main():
         front_matter = replace_summary(body, front_matter, "articleGPT")
 
         # 重建完整文件内容
-        new_content = f'---\n{front_matter}\n---\n{body}\n'
+        new_content = f'---\n{front_matter}\n---\n\n{body}\n'
 
         # 写回文件
         with open(file_path, 'w', encoding='utf-8') as f:
