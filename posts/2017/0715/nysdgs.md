@@ -1,6 +1,6 @@
 ---
 title: 【读书】你一生的故事
-tags: ["kindle", "Kindle Oasis", "万卷书", "读书", "读过的书"]
+tags: ["Kindle", "Kindle Oasis", "万卷书", "读书", "读过的书"]
 categories: ["万卷书"]
 date: 2017-07-15 00:31:51
 description: 本篇阅读札记，记录了对特德·姜短篇集《你一生的故事》的阅读体验，并分享了对此书各篇故事内容的概述与些许译本感想。

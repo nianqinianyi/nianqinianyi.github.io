@@ -3259,7 +3259,7 @@
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="adt"><![CDATA[adt]]></category>
+			<category domain="post_tag" nicename="ADT"><![CDATA[adt]]></category>
 			<category domain="post_tag" nicename="android"><![CDATA[android]]></category>
 			<category domain="category" nicename="android"><![CDATA[Android]]></category>
 			<category domain="post_tag" nicename="%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba"><![CDATA[环境搭建]]></category>
@@ -3319,9 +3319,9 @@
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="notepad"><![CDATA[notepad++]]></category>
-			<category domain="post_tag" nicename="php"><![CDATA[php]]></category>
-			<category domain="post_tag" nicename="python"><![CDATA[python]]></category>
+			<category domain="post_tag" nicename="notepad"><![CDATA[Notepad++]]></category>
+			<category domain="post_tag" nicename="php"><![CDATA[PHP]]></category>
+			<category domain="post_tag" nicename="python"><![CDATA[Python]]></category>
 			<category domain="category" nicename="tools"><![CDATA[工具]]></category>
 			<category domain="post_tag" nicename="%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae"><![CDATA[环境配置]]></category>
 			<wp:postmeta>
@@ -8698,7 +8698,7 @@ msg.onclick = function () {
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e8%af%bb%e4%b9%a6"><![CDATA[读书]]></category>
@@ -8759,7 +8759,7 @@ msg.onclick = function () {
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e8%af%bb%e4%b9%a6"><![CDATA[读书]]></category>
@@ -9264,7 +9264,7 @@ msg.onclick = function () {
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="post_tag" nicename="kindle-oasis"><![CDATA[Kindle Oasis]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
@@ -9328,7 +9328,7 @@ msg.onclick = function () {
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="post_tag" nicename="kindle-oasis"><![CDATA[Kindle Oasis]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
@@ -9388,7 +9388,7 @@ msg.onclick = function () {
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="post_tag" nicename="kindle-oasis"><![CDATA[Kindle Oasis]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
@@ -9448,7 +9448,7 @@ msg.onclick = function () {
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="post_tag" nicename="kindle-oasis"><![CDATA[Kindle Oasis]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
@@ -9739,7 +9739,7 @@ msg.onclick = function () {
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="post_tag" nicename="kindle-oasis"><![CDATA[Kindle Oasis]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
@@ -10008,7 +10008,7 @@ msg.onclick = function () {
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="post_tag" nicename="kindle-oasis"><![CDATA[Kindle Oasis]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
@@ -11709,7 +11709,7 @@ security:
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="post_tag" nicename="kindle-oasis"><![CDATA[Kindle Oasis]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
@@ -11834,7 +11834,7 @@ security:
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="post_tag" nicename="kindle-oasis"><![CDATA[Kindle Oasis]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
@@ -11904,7 +11904,7 @@ security:
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="post_tag" nicename="kindle-oasis"><![CDATA[Kindle Oasis]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
@@ -13623,7 +13623,7 @@ E.g : {% wide_image /images/2018-08-30-theme-tranquilpeak/preview.png "A image" 
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="post_tag" nicename="kindle-oasis"><![CDATA[Kindle Oasis]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
@@ -13745,7 +13745,7 @@ E.g : {% wide_image /images/2018-08-30-theme-tranquilpeak/preview.png "A image" 
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="post_tag" nicename="kindle-oasis"><![CDATA[Kindle Oasis]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
@@ -13839,7 +13839,7 @@ E.g : {% wide_image /images/2018-08-30-theme-tranquilpeak/preview.png "A image" 
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="post_tag" nicename="kindle-oasis"><![CDATA[Kindle Oasis]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
@@ -13961,7 +13961,7 @@ https://sixlab.cn/archives/java-versions/
 			<category domain="category" nicename="java"><![CDATA[Java]]></category>
 			<category domain="post_tag" nicename="java"><![CDATA[Java]]></category>
 			<category domain="post_tag" nicename="java8"><![CDATA[Java8]]></category>
-			<category domain="post_tag" nicename="lambda"><![CDATA[Lambda]]></category>
+			<category domain="post_tag" nicename="Lambda"><![CDATA[Lambda]]></category>
 			<category domain="post_tag" nicename="%e6%96%b0%e7%89%b9%e6%80%a7"><![CDATA[新特性]]></category>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -14019,7 +14019,7 @@ https://sixlab.cn/archives/java-versions/
 			<wp:post_type><![CDATA[post]]></wp:post_type>
 			<wp:post_password><![CDATA[]]></wp:post_password>
 			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="post_tag" nicename="kindle"><![CDATA[kindle]]></category>
+			<category domain="post_tag" nicename="Kindle"><![CDATA[kindle]]></category>
 			<category domain="post_tag" nicename="kindle-oasis"><![CDATA[Kindle Oasis]]></category>
 			<category domain="category" nicename="books"><![CDATA[万卷书]]></category>
 			<category domain="post_tag" nicename="%e4%b8%87%e5%8d%b7%e4%b9%a6"><![CDATA[万卷书]]></category>
@@ -14140,7 +14140,7 @@ https://sixlab.cn/archives/java-versions/
 			<category domain="category" nicename="java"><![CDATA[Java]]></category>
 			<category domain="post_tag" nicename="java"><![CDATA[Java]]></category>
 			<category domain="post_tag" nicename="java8"><![CDATA[Java8]]></category>
-			<category domain="post_tag" nicename="lambda"><![CDATA[Lambda]]></category>
+			<category domain="post_tag" nicename="Lambda"><![CDATA[Lambda]]></category>
 			<category domain="post_tag" nicename="%e5%87%bd%e6%95%b0%e5%bc%8f%e6%8e%a5%e5%8f%a3"><![CDATA[函数式接口]]></category>
 			<category domain="post_tag" nicename="%e6%96%b0%e7%89%b9%e6%80%a7"><![CDATA[新特性]]></category>
 			<wp:postmeta>

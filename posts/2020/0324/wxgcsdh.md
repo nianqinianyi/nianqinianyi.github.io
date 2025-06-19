@@ -1,6 +1,6 @@
 ---
 title: 【读书】我心归处是敦煌
-tags: ["kindle", "Kindle Oasis", "万卷书", "读书", "读过的书"]
+tags: ["Kindle", "Kindle Oasis", "万卷书", "读书", "读过的书"]
 categories: ["万卷书"]
 date: 2020-03-24 20:17:00
 description: 文章分享了阅读《敦煌的女儿》一书的感受，并表达了对其中展现的前辈们付出与坚持的由衷敬佩。

@@ -1,6 +1,6 @@
 ---
 title: 【读书】球状闪电
-tags: ["kindle", "Kindle Oasis", "万卷书", "读书", "读过的书"]
+tags: ["Kindle", "Kindle Oasis", "万卷书", "读书", "读过的书"]
 categories: ["万卷书"]
 date: 2020-01-01 19:52:00
 description: 这是一篇关于刘慈欣科幻小说《球状闪电》的阅读笔记，分享了对作品的强烈赞赏，并附上详细内容简介与作者信息。

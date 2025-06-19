@@ -1,6 +1,6 @@
 ---
 title: 【读书】人类群星闪耀时
-tags: ["kindle", "Kindle Oasis", "万卷书", "读书", "读过的书"]
+tags: ["Kindle", "Kindle Oasis", "万卷书", "读书", "读过的书"]
 categories: ["万卷书"]
 date: 2020-01-10 19:15:18
 description: 本书深入探讨了那些在历史的潮汐中，以瞬间之力扭转人类命运的关键时刻。
