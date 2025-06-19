@@ -30,7 +30,7 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 ```
 
-完成新建 Eureka 模块后，可以访问 <http://localhost:8000/> 来查看已注册的服务，端口即为配置文件中的端口。
+完成新建 Eureka 模块后，可以访问 `http://localhost:8000/` 来查看已注册的服务，端口即为配置文件中的端口。
 
 ## 二、新建 Eureka 服务提供者模块步骤
 
@@ -79,9 +79,9 @@ public class HelloController {
 
 ## 三、测试
 
-  1. 启动服务注册中心模块，访问 <http://localhost:8000/> 来查看已注册的服务，显示：No instances available
-  2. 启动服务提供者模块，访问 <http://localhost:8101/hello?name=Sixlab> ，页面显示 Hello, Sixlab from 8101，服务提供者正常启动
-  3. 再访问<http://localhost:8000/>来查看已注册的服务，显示了一个已注册的服务提供者：LEARN-SC-SERVICE
+  1. 启动服务注册中心模块，访问 `http://localhost:8000/` 来查看已注册的服务，显示：No instances available
+  2. 启动服务提供者模块，访问 `http://localhost:8101/hello?name=Sixlab` ，页面显示 Hello, Sixlab from 8101，服务提供者正常启动
+  3. 再访问`http://localhost:8000/`来查看已注册的服务，显示了一个已注册的服务提供者：LEARN-SC-SERVICE
 
 ## 四、代码
 

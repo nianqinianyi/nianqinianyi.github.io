@@ -44,11 +44,11 @@ zuul:
   3. 启动 learn-sc-service-ribbon 服务消费者。
   4. 启动 learn-sc-service-feign 服务消费者。
   5. 启动 learn-sc-service-zuul 路由模块。
-  6. 访问 <http://localhost:8400/api-a/hi?name=Sixlab> ，页面显示：Hello, Sixlab from 8101
-  7. 访问 <http://localhost:8400/api-b/hi?name=Sixlab> ，页面显示：Hello, Sixlab from 8101
+  6. 访问 `http://localhost:8400/api-a/hi?name=Sixlab` ，页面显示：Hello, Sixlab from 8101
+  7. 访问 `http://localhost:8400/api-b/hi?name=Sixlab` ，页面显示：Hello, Sixlab from 8101
   8. 关闭 learn-sc-service01。
-  9. 访问 <http://localhost:8400/api-a/hi?name=Sixlab> ，页面显示：Hello,Sixlab, ribbon error!
-  10. 访问 <http://localhost:8400/api-b/hi?name=Sixlab> ，页面显示：Hello,Sixlab, feign error!
+  9. 访问 `http://localhost:8400/api-a/hi?name=Sixlab` ，页面显示：Hello,Sixlab, ribbon error!
+  10. 访问 `http://localhost:8400/api-b/hi?name=Sixlab` ，页面显示：Hello,Sixlab, feign error!
 
 ## 三、过滤器
 
@@ -122,8 +122,8 @@ public class MyFilter extends ZuulFilter {
   3. 启动 learn-sc-service-ribbon 服务消费者。
   4. 启动 learn-sc-service-feign 服务消费者。
   5. 启动 learn-sc-service-zuul 路由模块。
-  6. 访问 <http://localhost:8400/api-a/hi?name=Sixlab> ，页面显示：token is empty
-  7. 访问 [http://localhost:8400/api-a/hi?name=Sixlab&token=1](http://localhost:8400/api-a/hi?name=Sixlab&token=1) ，页面显示：Hello, Sixlab from 8101
+  6. 访问 `http://localhost:8400/api-a/hi?name=Sixlab` ，页面显示：token is empty
+  7. 访问 `http://localhost:8400/api-a/hi?name=Sixlab&token=1` ，页面显示：Hello, Sixlab from 8101
 
 ## 五、代码
 

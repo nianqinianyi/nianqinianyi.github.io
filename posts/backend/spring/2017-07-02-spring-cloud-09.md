@@ -128,8 +128,8 @@ public class Service04Controller {
   1. 启动 learn-sc-server-zipkin
   2. 启动 learn-sc-service03 模块
   3. 启动 learn-sc-service04 模块
-  4. 访问 <http://localhost:8800/zipkin/> 并点击“Find Traces”按钮 和 <http://localhost:8800/zipkin/dependency> 查看依赖关系，数据为空
-  5. 依次访问 <http://localhost:8103/hi03> 、<http://localhost:8104/hi> 、<http://localhost:8104/hi04> 、<http://localhost:8103/hi> ，每次访问后进行第4步查看依赖关系。
+  4. 访问 `http://localhost:8800/zipkin/` 并点击“Find Traces”按钮 和 `http://localhost:8800/zipkin/dependency` 查看依赖关系，数据为空
+  5. 依次访问 `http://localhost:8103/hi03` 、`http://localhost:8104/hi` 、`http://localhost:8104/hi04` 、`http://localhost:8103/hi` ，每次访问后进行第4步查看依赖关系。
 
 ## 五、代码
 

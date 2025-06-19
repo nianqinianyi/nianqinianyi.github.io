@@ -79,8 +79,8 @@ spring:
   1. 启动 learn-sc-server-config 注册中心
   2. 启动 learn-sc-config-server 模块并等待一小会儿
   3. 启动 learn-sc-config-client 模块
-  4. 访问 <http://localhost:8600/foo> ，页面显示：foo version 1
-  5. 访问 <http://localhost:8600/hello> ，页面显示：hello world
+  4. 访问 `http://localhost:8600/foo` ，页面显示：foo version 1
+  5. 访问 `http://localhost:8600/hello` ，页面显示：hello world
 
 ## 五、代码
 

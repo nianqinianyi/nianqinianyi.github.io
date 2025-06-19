@@ -26,8 +26,8 @@ Hystrix Turbine 可以聚合多个 Hystrix Dashboard 的数据。
 
 1. 启动 learn-sc-server 模块
 2. 启动 learn-sc-service01 模块
-3. 访问 <http://localhost:8101/hystrix> ，在一个文本框输入 <http://localhost:8101/hystrix.stream> ，点击下方按钮，可以查看数据
-4. 访问 <http://localhost:8101/hello?name=Sixlab> ，查看数据变化
+3. 访问 `http://localhost:8101/hystrix` ，在一个文本框输入 `http://localhost:8101/hystrix.stream` ，点击下方按钮，可以查看数据
+4. 访问 `http://localhost:8101/hello?name=Sixlab` ，查看数据变化
 
 ## 三、创建 service turbine 模块
 
@@ -63,8 +63,8 @@ security:
 2. 启动 learn-sc-server 模块
 3. 启动 learn-sc-service01 模块，启动 learn-sc-service02 模块。
 4. 启动 learn-sc-service-turbine 模块。
-5. 访问 <http://localhost:8101/hystrix> 或 <http://localhost:8102/hystrix> ，在一个文本框输入 <http://localhost:8900/turbine.stream> ，点击下方按钮，可以查看数据
-6. 访问 <http://localhost:8101/hello?name=Sixlab> 或者 <http://localhost:8102/hello?name=Sixlab> ，查看数据变化
+5. 访问 `http://localhost:8101/hystrix` 或 `http://localhost:8102/hystrix` ，在一个文本框输入 `http://localhost:8900/turbine.stream` ，点击下方按钮，可以查看数据
+6. 访问 `http://localhost:8101/hello?name=Sixlab` 或者 `http://localhost:8102/hello?name=Sixlab` ，查看数据变化
 
 ## 五、代码
 

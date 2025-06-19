@@ -50,7 +50,7 @@ hello.message = hello world
 ## 二、测试
 
   1. 启动 learn-sc-config-server
-  2. 访问 <http://localhost:8500/learn-sc-config-client/dev>
+  2. 访问 `http://localhost:8500/learn-sc-config-client/dev`
   3. 页面显示 XML 或者 JSON
 
 XML 显示如下：
@@ -92,7 +92,7 @@ http 请求路径为：/{application}/{profile}[/{label}]
 ## 四、创建 Config Client 模块
 
   1. 使用 IDEA 的 Spring Initializr 模块。选择 Web 下的 web 和 Cloud Config 下的 Config Client 共2个依赖。
-  2. 在配置文件中添加配置，指定应用信息及 Git 信息。**注意：application.(properties|yaml) 和 bootstrap**.(properties|yaml)两类配置文件时不同的，application 里面配置的大部分都有用，但是 spring.cloud.config.uri 必需配置在 bootstrap 才生效，否则它会使用 <http://localhost:8888/> 这个值**  。**
+  2. 在配置文件中添加配置，指定应用信息及 Git 信息。**注意：application.(properties|yaml) 和 bootstrap**.(properties|yaml)两类配置文件时不同的，application 里面配置的大部分都有用，但是 spring.cloud.config.uri 必需配置在 bootstrap 才生效，否则它会使用 `http://localhost:8888/` 这个值**  。**
 
 配置文件（application.yaml）：
 
@@ -151,8 +151,8 @@ public class ValueController {
 
   1. 启动 learn-sc-config-server 模块
   2. 启动 learn-sc-config-client 模块
-  3. 访问 <http://localhost:8600/foo> ，页面显示：foo version 1
-  4. 访问 <http://localhost:8600/hello> ，页面显示：hello world
+  3. 访问 `http://localhost:8600/foo` ，页面显示：foo version 1
+  4. 访问 `http://localhost:8600/hello` ，页面显示：hello world
 
 ## 六、代码
 

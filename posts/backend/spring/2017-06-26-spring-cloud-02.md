@@ -122,8 +122,8 @@ public class HelloController {
   2. 启动 learn-sc-service01 服务提供者。
   3. 启动 learn-sc-service02 服务提供者。
   4. 启动 learn-sc-service-ribbon 服务消费者。
-  5. 访问 <http://localhost:8000/> ，可以看到LEARN-SC-SERVICE 有2个服务提供者，分别是8101端口和8102端口的。
-  6. 访问 <http://localhost:8200/hi?name=Sixlab> ，多次刷新，显示的输出分别为：Hello, Sixlab from 8101 和 Hello, Sixlab from 8102
+  5. 访问 `http://localhost:8000/` ，可以看到LEARN-SC-SERVICE 有2个服务提供者，分别是8101端口和8102端口的。
+  6. 访问 `http://localhost:8200/hi?name=Sixlab` ，多次刷新，显示的输出分别为：Hello, Sixlab from 8101 和 Hello, Sixlab from 8102
 
 ## 四、解释
 

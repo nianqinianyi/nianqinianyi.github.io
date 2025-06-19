@@ -85,8 +85,8 @@ public interface IHelloService {...}
 
   1. 在learn-sc-service-ribbon 和 learn-sc-service-feign 添加依赖spring-boot-starter-actuator和spring-cloud-starter-hystrix-dashboard
   2. 在 Application 类添加@EnableHystrixDashboard注解，开启hystrixDashboard
-  3. 访问 <http://localhost:8200/hystrix> 或者 <http://localhost:8300/hystrix>
-  4. 输入 <http://localhost:8200/hystrix.stream> 或者 <http://localhost:8300/hystrix.stream> 点击 Monitor Stream 进入监控
+  3. 访问 `http://localhost:8200/hystrix` 或者 `http://localhost:8300/hystrix`
+  4. 输入 `http://localhost:8200/hystrix.stream` 或者 `http://localhost:8300/hystrix.stream` 点击 Monitor Stream 进入监控
 
 ## 三、测试
 
@@ -94,11 +94,11 @@ public interface IHelloService {...}
   2. 启动 learn-sc-service01 服务提供者。
   3. 启动 learn-sc-service-ribbon 服务消费者。
   4. 启动 learn-sc-service-feign 服务消费者。
-  5. 访问 <http://localhost:8200/hi?name=Sixlab> ，多次刷新，显示的输出为：Hello, Sixlab from 8101
-  6. 访问 <http://localhost:8300/hi?name=Sixlab> ，多次刷新，显示的输出为：Hello, Sixlab from 8101
+  5. 访问 `http://localhost:8200/hi?name=Sixlab` ，多次刷新，显示的输出为：Hello, Sixlab from 8101
+  6. 访问 `http://localhost:8300/hi?name=Sixlab` ，多次刷新，显示的输出为：Hello, Sixlab from 8101
   7. 关闭 learn-sc-service01
-  8. 访问<http://localhost:8200/hi?name=Sixlab>，显示为：Hello, Sixlab, ribbon error!
-  9. 访问<http://localhost:8300/hi?name=Sixlab>，显示为：Hello, Sixlab, feign error!
+  8. 访问`http://localhost:8200/hi?name=Sixlab`，显示为：Hello, Sixlab, ribbon error!
+  9. 访问`http://localhost:8300/hi?name=Sixlab`，显示为：Hello, Sixlab, feign error!
 
 ## 四、代码
 

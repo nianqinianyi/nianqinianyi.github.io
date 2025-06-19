@@ -33,7 +33,7 @@ cd ebs-react-demo
 yarn start
 ```
 
-访问 <http://localhost:3000/> 即可访问初始化好的 React 页面了。
+访问 `http://localhost:3000/` 即可访问初始化好的 React 页面了。
 
 ## 二、引入 antd
 

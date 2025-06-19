@@ -45,7 +45,7 @@ systemctl disable mongod
 
 默认配置下，用户不需要授权，直接访问 MongoDB 即可链接。添加用户授权步骤如下：
 
-  1. 先无授权启动 MongoDB，然后连接上 MongoDB：`mongo 127.0.0.1:27017 `
+  1. 先无授权启动 MongoDB，然后连接上 MongoDB：`mongo 127.0.0.1:27017`
   2. 使用如下命令创建一个超级管理员用户，之后创建新用户就可以使用管理员连接上 MongoDB 然后去创建：`use admin; db.createUser({user:'root',pwd:'root',roles:[{ "role" : "root", "db" : "admin" }]}); `
   3. 修改 `/etc/mongod.conf` 文件，取消 `security` 前的注释，并添加 `authorization`，如下`security: authorization: enabled `
   4. 启动 MongoDB 服务器即可。

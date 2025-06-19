@@ -42,11 +42,11 @@ spring:
   1. 启动 learn-sc-server-config 注册中心
   2. 启动 learn-sc-config-server 模块并等待一小会儿（不然，启动3的时候会报错）
   3. 启动 learn-sc-config-client 模块
-  4. 访问 <http://localhost:8600/foo> ，页面显示：foo version 1
+  4. 访问 `http://localhost:8600/foo` ，页面显示：foo version 1
   5. 提交代码修改 git 仓库中 foo 参数的值，例：foo=foo version 2
-  6. 访问 <http://localhost:8600/foo> ，页面显示：foo version 1
-  7. 使用工具发送 POST 请求至 <http://localhost:8600/bus/refresh>
-  8. 访问 <http://localhost:8600/foo> ，页面显示：foo version 2
+  6. 访问 `http://localhost:8600/foo` ，页面显示：foo version 1
+  7. 使用工具发送 POST 请求至 `http://localhost:8600/bus/refresh`
+  8. 访问 `http://localhost:8600/foo` ，页面显示：foo version 2
 
 ## 三、代码
 
