@@ -1,6 +1,6 @@
 ---
 title: 【笔记】Flex布局
-tags: [flex, CSS]
+tags: [Flex, CSS]
 categories: [CSS]
 date: 2016-11-20 23:47:57
 description: Flex布局的定义、核心概念，及其容器和项目各项属性在此得到了详细阐述。

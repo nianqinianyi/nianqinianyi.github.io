@@ -1,6 +1,6 @@
 ---
 title: 【笔记】Less基础知识点
-tags: [less, CSS]
+tags: [Less, CSS]
 categories: ["CSS"]
 date: 2016-12-08 23:50:48
 description: 文章展示了Less CSS的安装、编译过程，并深入探讨了变量、Mixins、嵌套、运算和函数等核心特性。

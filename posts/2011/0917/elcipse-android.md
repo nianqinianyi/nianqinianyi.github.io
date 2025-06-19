@@ -1,6 +1,6 @@
 ---
 title: Eclipse与Android开发环境的安装，纯手工
-tags: ["Eclipse", "adt", "Android", "环境搭建", "工具"]
+tags: ["Eclipse", "ADT", "Android", "环境搭建", "工具"]
 categories: ["工具"]
 date: 2011-09-17 22:33:10
 description: 详细说明了Android开发环境的准备与安装步骤。
