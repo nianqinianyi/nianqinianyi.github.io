@@ -7,14 +7,14 @@
         文章摘要
         <!-- <i class="iconfont icon-up"></i> -->
       </span>
-      <span :class="['logo', { loading }]" @click="showOther"> FakeGPT </span>
+      <span :class="['logo', { loading }]" @click="showOther"> AI摘要 </span>
     </div>
     <div class="content s-card">
       <span class="text">{{ abstractData === "" ? "加载中..." : abstractData }}</span>
       <span v-if="loading" class="point">|</span>
     </div>
     <div class="meta">
-      <span class="tip">此内容根据文章生成，并经过人工审核，仅用于文章内容的解释与总结</span>
+      <span class="tip">此内容根据文章由AI生成，并经过人工审核，仅用于文章内容的解释与总结</span>
       <a
         href="https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre"
         class="report"
@@ -74,7 +74,7 @@ const initAbstract = () => {
 const showOther = () => {
   if (loading.value) return false;
   const text =
-    "我是無名开发的摘要生成助理 FakeGPT，如你所见，这是一个假的 GPT，所有文本皆源于本地书写的内容。我在这里只负责显示，并仿照 GPT 的形式输出，如果你像我一样囊中羞涩，你也可以像我这样做，当然，你也可以使用 Tianli 开发的 TianliGPT 来更简单地实现真正的 AI 摘要。";
+    "我是摘要生成助理`AI摘要`，所有文本皆源于文章内容，由AI读取并生成的摘要，仿照 GPT 的形式输出。";
   showIndex.value = 0;
   loading.value = true;
   abstractData.value = "";

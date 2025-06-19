@@ -5,18 +5,18 @@ from glob import glob
 
 POSTS_DIR = '../posts/'
 
-def generate_summary(content):
     # Ollama API配置
-    OLLAMA_URL = "http://localhost:11434/api/chat"
-    MODEL_NAME = "qwen3:4b"
-    
+OLLAMA_URL = "http://10.88.69.69:11434/api/chat"
+MODEL_NAME = "qwen3:14b"
+
+def generate_summary(content):
     try:
         # 构建请求数据
         payload = {
             "model": MODEL_NAME,
             "messages": [
                 {"role": "system", "content": "请用一句话总结以下文章内容。"},
-                {"role": "user", "content": content[:2000]}  # 限制输入长度
+                {"role": "user", "content": content}  # 限制输入长度
             ],
             "stream": False
         }
@@ -64,7 +64,7 @@ for file_path in md_files:
             continue
         
         front_matter = match.group(1)
-        body = match.group(2)
+        body = match.group(2).strip()
         
         # 生成摘要
         summary = generate_summary(body)
@@ -90,7 +90,7 @@ for file_path in md_files:
         # 重建Front Matter
         new_front_matter = '\n'.join(new_lines)
         # 重建完整文件内容
-        new_content = f'---\n{new_front_matter}\n---\n{body}'
+        new_content = f'---\n{new_front_matter}\n---\n{body}\n'
         
         # 写回文件
         with open(file_path, 'w', encoding='utf-8') as f:

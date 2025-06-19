@@ -3,8 +3,8 @@ title: 【Spring Cloud学习笔记】01：服务注册与发现 (Eureka)
 tags: ["Spring", "Spring Cloud"]
 categories: ["Spring"]
 date: 2017-06-26 00:14:43
-description: 文章演示了如何构建基于Eureka的服务注册与发现体系，详述了服务注册中心与服务提供者的创建与配置过程。
-articleGPT: 该教程详细介绍了如何在Spring Cloud中构建Eureka服务注册中心和对应的服务提供者，以实现服务的注册与发现。
+description: 本文详细介绍了在Spring Cloud中搭建Eureka服务注册中心及服务提供者的完整流程，涵盖服务端与客户端的配置方法、注解使用、YAML文件参数设置及通过接口调用验证服务注册与发现的实现步骤。
+articleGPT: 文章介绍了使用Spring Cloud搭建Eureka服务注册中心和提供者的基本步骤，包括创建Eureka Server模块需配置@EnableEurekaServer注解及关闭注册功能的配置文件，创建Eureka Client模块需添加@EnableEurekaClient注解并指定注册中心地址，通过Controller实现服务接口，测试时启动服务后访问对应URL验证注册状态及服务调用结果，并提供了GitHub代码仓库地址。
 ---
 
 教程：<http://blog.csdn.net/forezp/article/details/69696915>
