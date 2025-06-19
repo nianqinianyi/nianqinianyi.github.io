@@ -316,3 +316,5 @@ dmypy.json
 cython_debug/
 
 .vitepress/cache
+components.d.ts
+auto-imports.d.ts
