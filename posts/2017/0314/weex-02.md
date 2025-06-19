@@ -1,7 +1,7 @@
 ---
 title: Weex 入门02 - 创建项目
-tags: []
-categories: ["其他"]
+tags: ["Weex", "APP开发"]
+categories: ["APP开发"]
 date: 2017-03-14 23:52:10
 description: 介绍Weex项目的初始化、依赖安装和启动运行步骤。
 articleGPT: 本文介绍了Weex项目从初始化、安装依赖到启动服务的整个过程所需命令。
