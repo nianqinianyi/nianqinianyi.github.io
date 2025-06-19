@@ -134,8 +134,8 @@ export const themeConfig = {
     {
       text: "友链",
       items: [
-        { text: "友链鱼塘", link: "/pages/friends", icon: "fish" },
-        { text: "友情链接", link: "/pages/link", icon: "people" },
+        { text: "友情链接", link: "/pages/friends", icon: "fish" },
+        { text: "友链鱼塘", link: "/pages/link", icon: "people" },
       ],
     },
     {
@@ -288,6 +288,7 @@ export const themeConfig = {
         text: "项目",
         items: [
           { text: "Github", link: "https://github.com/nianqinianyi/", newTab: true },
+          { text: "码云", link: "https://gitee.com/nianqinianyi/", newTab: true },
         ],
       },
       {
@@ -314,11 +315,8 @@ export const themeConfig = {
           // { text: "一个导航", link: "https://nav.sixlab.top/", newTab: true },
           { text: "站点订阅", link: "https://blog.sixlab.cn/rss.xml", newTab: true },
           { text: "站点地图", link: "https://blog.sixlab.cn/sitemap.xml", newTab: true },
-          {
-            text: "反馈投诉",
-            link: "mailto:nianqinianyi@163.com",
-            newTab: true,
-          },
+          { text: "友情链接", link: "https://blog.sixlab.cn/pages/friends", newTab: true },
+          { text: "反馈投诉", link: "mailto:nianqinianyi@163.com", newTab: true },
         ],
       },
     ],

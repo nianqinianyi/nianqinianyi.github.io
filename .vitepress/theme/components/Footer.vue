@@ -6,7 +6,17 @@
         <a :href="theme.siteMeta.author.link" class="author link" target="_blank">
           {{ theme.siteMeta.author.name }}
         </a>
-        <a class="icp link" href="https://beian.miit.gov.cn/" target="_blank">
+        <a
+          class="cc link"
+          href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans"
+          target="_blank"
+        >
+          <i class="iconfont icon-line" />
+          <i class="iconfont icon-by-line" />
+          <i class="iconfont icon-nc-line" />
+          <i class="iconfont icon-nd-line" />
+        </a>
+        <a class="cc link" href="https://beian.miit.gov.cn/" target="_blank">
           <i class="iconfont icon-safe" />
           {{ theme.icp }}
         </a>
@@ -31,16 +41,11 @@
           <i class="iconfont icon-rss" />
           <span class="name">订阅</span>
         </a>
-        <a
-          class="cc link"
-          href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans"
-          target="_blank"
-        >
-          <i class="iconfont icon-line" />
-          <i class="iconfont icon-by-line" />
-          <i class="iconfont icon-nc-line" />
-          <i class="iconfont icon-nd-line" />
-        </a>
+        <!-- 十年之约 - 虫洞 -->
+        <a href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="https://img.foreverblog.cn/wormhole_3.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"></a>
+        <!-- 十年之约 - 虫洞 -->
+        <a href="https://www.boyouquan.com/home" target="_blank"> <img src="https://www.boyouquan.com/assets/images/sites/logo/planet-shuttle.png" alt="" style="width:auto;height:32px;" title="博友圈·星球穿梭"></a>
+        
       </div>
     </div>
   </footer>

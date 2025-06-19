@@ -60,6 +60,15 @@
           >
             <i class="iconfont icon-subway"></i>
           </a>
+          <!-- 个站商店虫洞 -->
+          <a
+            class="menu-btn nav-btn travellings"
+            title="个站商店-虫洞"
+            href="https://storeweb.cn/s/2432"
+            target="_blank"
+          >
+            <i class="iconfont icon-shangdian"></i>
+          </a>
           <!-- 随机文章 -->
           <div
             class="menu-btn nav-btn"

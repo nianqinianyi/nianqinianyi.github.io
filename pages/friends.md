@@ -5,10 +5,10 @@ comment: true
 ---
 
 <script setup>
-import Link from "@/views/Link.vue";
+import Friends from "@/views/Friends.vue";
 </script>
 
-<Link />
+<Friends />
 
 # 友情链接申请
 
