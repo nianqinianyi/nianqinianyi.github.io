@@ -3,8 +3,8 @@ title: 使用 Spring Cloud 开发博客 | 第00篇：为什么开始
 tags: ["Spring", "Spring Cloud", "项目"]
 categories: ["Spring"]
 date: 2017-08-12 00:32:57
-description: 使用 Spring Cloud 开发博客 | 第00篇：为什么开始
-articleGPT: 
+description: 文章阐述了为解决传统博客管理不便及客户端不足，基于Spring Cloud开发一套可扩展开源博客系统的缘由与过程。
+articleGPT: 作者因不满意现有博客后台写作体验，并希望学以致用，决定使用Spring Cloud开发一款可扩展的博客系统并将其开源。
 ---
 
 一直以来，都想用客户端来管理博客的文章，每次一想到要登录网站后台来写文章，就不想写了，因此少写了不少东西，而 WordPress

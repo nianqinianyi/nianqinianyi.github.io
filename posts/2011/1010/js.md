@@ -3,8 +3,8 @@ title: 近期学习 JavaScript 总结
 tags: ["JavaScript"]
 categories: ["JavaScript"]
 date: 2011-10-10 22:52:54
-description: 近期学习 JavaScript 总结
-articleGPT: 
+description: 本文记录了通过在线平台学习JavaScript所掌握的基础知识，涵盖常用功能及代码示例。
+articleGPT: 本文记录了作者通过Codecademy网站学习JavaScript后所掌握的警告框、字符串操作等基础知识和常用功能，以作个人备忘。
 ---
 
 我一直觉得 JavaScript 是一个强大的脚本语言。我一直想学，但是各种不给力。前几天小众软件上说有一个网站[www.codecademy.com](https://www.codecademy.com/)是一个在线互动式的学习JavaScript的网站，虽说是英文界面，但是我大致也能看懂。我就抽时间看了看，大致学会了点儿。在这里列了出来这些天学到的一点东西备忘。

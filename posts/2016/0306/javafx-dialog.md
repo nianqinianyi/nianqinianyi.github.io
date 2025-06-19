@@ -3,8 +3,8 @@ title: JavaFX 对话框及弹出框
 tags: ["JavaFx", "Java", "GUI"]
 categories: ["JavaFx"]
 date: 2016-03-06 23:42:26
-description: JavaFX 对话框及弹出框
-articleGPT: 
+description: 该文详尽展示了JavaFX 8u40中新增的官方对话框和弹出框的使用方法，涵盖了多种类型及其自定义实现，并强调了其无需引入第三方库的便利性。
+articleGPT: 文章介绍了JavaFX 8u40及更高版本中新增的官方对话框和弹出框功能，并通过多种示例展示了如何无需引入第三方库，即可实现各种提示、确认、输入及自定义对话框。
 ---
 
 之前JavaFx的对话框和弹出框都是使用[ControlsFX](http://fxexperience.com/controlsfx/)，前段时间看到了一篇文章

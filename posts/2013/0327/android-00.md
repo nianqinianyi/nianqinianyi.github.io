@@ -3,8 +3,8 @@ title: Android学习总结00之废话
 tags: ["Android", "Android学习总结", "学习总结"]
 categories: ["Android"]
 date: 2013-03-27 22:59:34
-description: Android学习总结00之废话
-articleGPT: 
+description: 本文是在完成《Android开发从零开始》共43集视频学习后，对该系列教程内容进行的一次系统性总结，其中适度参照了Android官方文档与其他学习资料。
+articleGPT: 作者在看完《Android开发从零开始》系列视频教程后，将撰写一份学习总结，该总结会参照Android官方文档并适当调整内容顺序。
 ---
 
 前几天终于将《Android开发从零开始》共43个视频看完，在此简单的做一下总结。

@@ -3,8 +3,8 @@ title: jQuery在Seajs下的改造
 tags: ["JavaScript", "jQuery", "seajs"]
 categories: ["JavaScript"]
 date: 2016-01-05 23:38:41
-description: jQuery在Seajs下的改造
-articleGPT:
+description: 文章记录了在Sea.js环境下，通过修改jQuery源码中的模块定义逻辑，成功解决其与Sea.js兼容性问题的实践过程。
+articleGPT: 本文分享了作者在Sea.js中集成jQuery的艰难历程，并最终通过修改压缩版jQuery中对模块定义的判断，使其适应Sea.js的加载机制，从而成功解决了兼容问题。
 ---
 
 总感觉用上模块化，js代码才显得高大上一点，可是目前还脱离不了jQuery的简洁简单，于是想着一起使用jQuery和Sea.js，但是改造了多次，在Sea.js下仍然征服不了jQuery，很是苦恼。

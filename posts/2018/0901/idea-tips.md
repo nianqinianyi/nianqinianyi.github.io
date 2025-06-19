@@ -3,8 +3,8 @@ title: Intellij IDEA 每日提示集锦-201809
 tags: ["IDEA", "Intellij", "每日提示", "工具"]
 categories: ["工具"]
 date: 2018-09-01 00:58:42
-description: Intellij IDEA 每日提示集锦-201809
-articleGPT: Intellij IDEA 每日提示集锦-201809
+description: 本文汇集了IntelliJ IDEA的每日使用技巧，涵盖了导航、调试、代码补全等多个方面，旨在帮助开发者提升日常工作效率。
+articleGPT: 本文汇集了2018年9月IntelliJ IDEA每日小贴士，旨在提供提升代码导航、调试和编辑效率的实用功能与快捷方式。
 ---
 
 Intellij IDEA 每天的 tip of the day 的翻译，每日翻译一个，这里是 2018 年 9 月份的tip of the day。  

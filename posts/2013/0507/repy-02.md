@@ -3,8 +3,8 @@ title: 重拾Python笔记二
 tags: ["Python", "重拾Python笔记"]
 categories: ["Python"]
 date: 2013-05-07 23:12:58
-description: 重拾Python笔记二
-articleGPT: 
+description: 这篇Python笔记主要概述了类定义、面向对象特性，以及字典的基础操作和常用方法。
+articleGPT: 这篇Python笔记主要回顾了类的定义、对象特性、运算符重载，并详细阐述了字典的创建、访问、操作和遍历方法。
 ---
 
 重拾Python笔记二

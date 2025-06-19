@@ -3,8 +3,8 @@ title: 重拾Python笔记六
 tags: ["Python", "重拾Python笔记"]
 categories: ["Python"]
 date: 2013-05-11 23:18:43
-description: 重拾Python笔记六
-articleGPT: 
+description: 本篇笔记整理了Python代码执行、对象自省、字符串处理以及面向对象编程等多个方面的实用技巧。
+articleGPT: 这篇Python笔记详述了包括脚本执行入口、对象与类的属性和继承关系查询、字符串操作、编码设置及不同进制表示等多个核心概念和实用技巧。
 ---
 
 重拾Python笔记六  

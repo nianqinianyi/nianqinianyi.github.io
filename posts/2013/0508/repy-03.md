@@ -3,8 +3,8 @@ title: 重拾Python笔记三
 tags: ["Python", "重拾Python笔记"]
 categories: ["Python"]
 date: 2013-05-08 23:13:48
-description: 重拾Python笔记三
-articleGPT: 
+description: 本文梳理了Python中文件读写、模块与包的导入方法，以及函数参数的灵活定义与传递。
+articleGPT: 该Python笔记概述了文件操作（打开、读写、关闭）、模块导入（搜索路径、包）和函数参数传递（关键字、默认值）等核心概念。
 ---
 
 重拾Python笔记三

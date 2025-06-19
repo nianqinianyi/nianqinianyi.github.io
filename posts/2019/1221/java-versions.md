@@ -3,8 +3,8 @@ title: Java 各版本新特性 - 序章
 tags: [Java, 新特性]
 categories: [Java]
 date: 2019-12-21 12:46:06
-description: Java 各版本新特性 - 序章
-articleGPT: Java 各版本新特性 - 序章
+description: 鉴于Java 8的广泛使用但其众多新特性未被充分掌握，本系列文章旨在系统讲解从Java 8及其后续版本开始的各项特性。
+articleGPT: 该文指出，尽管Java版本已更新至13，但Java 8仍是主流，且其诸多新特性未被普遍理解和利用，因此作者计划通过系列文章详细讲解Java 8及后续版本的新特性。
 ---
 
 根据《[The State of Java in 2019](https://www.baeldung.com/java-in-2019)》调查结果，在2019年，JDK 各版本的使用率为：

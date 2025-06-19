@@ -3,8 +3,8 @@ title: 【Spring Cloud学习笔记】07：高可用的分布式配置中心(Spri
 tags: ["Spring", "Spring Cloud"]
 categories: ["Spring"]
 date: 2017-06-30 00:25:00
-description: 【Spring Cloud学习笔记】07：高可用的分布式配置中心(Spring Cloud Config)
-articleGPT: 
+description: 本文详细介绍了如何将Spring Cloud配置中心（Config Server）及其客户端（Config Client）注册到Eureka服务注册中心，以实现服务发现和动态配置。
+articleGPT: 本教程详细指导了如何将Spring Cloud配置中心（Config Server）和配置客户端（Config Client）与Eureka注册中心集成，以实现配置服务的微服务化、动态发现和集群部署。
 ---
 
 教程：<http://blog.csdn.net/forezp/article/details/70037513>

@@ -12,7 +12,7 @@ except ImportError:
     exit(1)
 
 # 配置文件路径
-XML_FILE_PATH = "/Users/panic/workspace/data/WordPress.2022-12-21.xml"
+XML_FILE_PATH = "./WordPress.2022-12-21.xml"
 TEMPLATE_FILE_PATH = "template.md"
 TARGET_DIR = "target1"
 

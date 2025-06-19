@@ -3,8 +3,8 @@ title: 【Spring Cloud学习笔记】03：服务消费者（Feign）
 tags: ["Spring", "Spring Cloud"]
 categories: ["Spring"]
 date: 2017-06-27 00:18:22
-description: 【Spring Cloud学习笔记】03：服务消费者（Feign）
-articleGPT: 
+description: 本教程详细演示了如何利用Spring Cloud Feign构建并测试一个服务消费者，以实现服务间的远程调用和负载均衡。
+articleGPT: 本教程详细指导如何构建Spring Cloud Feign服务，通过声明式接口调用Eureka注册的远程服务，并实现负载均衡。
 ---
 
 教程：<http://blog.csdn.net/forezp/article/details/69808079>  

@@ -3,8 +3,8 @@ title: 【Spring Cloud学习笔记】10：断路器监控(Hystrix Dashboard)+断
 tags: ["Spring", "Spring Cloud"]
 categories: ["Spring"]
 date: 2017-07-03 00:28:09
-description: 【Spring Cloud学习笔记】10：断路器监控(Hystrix Dashboard)+断路器聚合监控(Hystrix Turbine)
-articleGPT:
+description: 文章指导在Spring Cloud应用中集成并配置Hystrix Dashboard以监控断路器数据，以及Hystrix Turbine以聚合多个监控流。
+articleGPT: 本教程详细讲解了如何在Spring Cloud项目中，利用Hystrix Dashboard对单个服务，以及Hystrix Turbine对多个微服务的断路器数据进行可视化监控与聚合。
 ---
 
 教程：

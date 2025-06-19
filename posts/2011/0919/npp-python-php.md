@@ -3,8 +3,8 @@ title: 在notepad++中配置Python和php环境
 tags: ["notepad++", "php", "Python", "环境配置", "工具"]
 categories: ["工具"]
 date: 2011-09-19 22:43:33
-description: 在notepad++中配置Python和php环境
-articleGPT: 在notepad++中配置Python和php环境
+description: 本文详细介绍了如何在Notepad++中配置Python和PHP的运行命令，旨在为开发者提供更便捷的程序调试环境。
+articleGPT: 本文主要介绍了如何在Notepad++中配置F5运行命令，以便方便地调试和运行Python和PHP程序。
 ---
 
 话说我使用过无数个编辑器，神马gvim、emacs、ultraedit、editplus、SciTE、EmEditor，当然少不了微软的记事本，但是前面这几款编辑器中，没有一款让我用着很爽快的。唯有notepad2和notepad++还能较为让我满意。今天的主角就是notepad++。由于我比较喜欢Python语言的简洁（神马分号大括号，神马变量类型的声明，统统滚开，也经常做一些php的东西，所以我就想在notepad++的运行里加一些东西，让我更方便的调试Python、php程序。  

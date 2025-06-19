@@ -3,8 +3,8 @@ title: JavaFx非详细入门教程 1 - Hello World！
 tags: ["JavaFx", "Java", "GUI"]
 categories: ["JavaFx"]
 date: 2015-03-21 23:31:42
-description: JavaFx非详细入门教程 1 - Hello World！
-articleGPT: 
+description: 该文提供了JavaFX编程的入门指导，着重展示如何使用Java代码直接构建界面，使具备Java基础的读者能够快速编写简单的JavaFX应用。
+articleGPT: 本文旨在为有Java基础的读者提供JavaFX的快速入门，通过在Java代码中直接构建UI的方式，讲解了舞台、场景、控件的基本概念，并提供了一个可运行的简单程序示例。
 ---
 
 本教程不是详细的JavaFx入门教程，不讲解JavaFx的前世今生，不讲解JavaFx优缺点，不讲解JavaFx具体控件的用法，有一定Java基础的人看完本教程可以拿着API手册写JavaFx程序了。废话不多说，上干货。

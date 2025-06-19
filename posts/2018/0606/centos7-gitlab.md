@@ -3,8 +3,8 @@ title: Centos 7 开发环境之 Gitlab 的安装及配置
 tags: ["CentOS", "Git", "Gitlab", "运维"]
 categories: ["运维"]
 date: 2018-06-06 00:50:00
-description: Centos 7 开发环境之 Gitlab 的安装及配置
-articleGPT: Centos 7 开发环境之 Gitlab 的安装及配置
+description: 本安装指南详述了在服务器上部署GitLab CE的步骤，并提供了实践指导，以规避版本选择、防火墙及邮件服务配置等常见问题。
+articleGPT: 这篇文章记录了在服务器上安装GitLab社区版（CE）的详细步骤，包括必要依赖的配置、添加正确的CE版本源、执行安装，以及SMTP邮件服务的设置。
 ---
 
 最近需要在服务器上安装了 Gitlab，记录一下过程，防止下次继续踩坑。

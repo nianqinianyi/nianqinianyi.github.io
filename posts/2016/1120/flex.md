@@ -3,8 +3,8 @@ title: 【笔记】Flex布局
 tags: [flex, CSS]
 categories: [CSS]
 date: 2016-11-20 23:47:57
-description: 【笔记】Flex布局
-articleGPT: 
+description: Flex布局的定义、核心概念，及其容器和项目各项属性在此得到了详细阐述。
+articleGPT: Flex布局是CSS中一种强大的弹性布局方式，允许开发者通过设置容器和子元素的属性，灵活控制项目在主轴和交叉轴上的排列、对齐与空间分配。
 ---
 
 ## 一、简介

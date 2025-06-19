@@ -3,8 +3,8 @@ title: Intellij IDEA 每日提示集锦-201808
 tags: ["IDEA", "Intellij", "每日提示", "工具"]
 categories: ["工具"]
 date: 2018-08-24 00:56:10
-description: Intellij IDEA 每日提示集锦-201808
-articleGPT: Intellij IDEA 每日提示集锦-201808
+description: 本文汇总了多条 IntelliJ IDEA 实用技巧，旨在帮助用户通过快捷键和功能应用提升开发效率。
+articleGPT: 这份IntelliJ IDEA每日小贴士（2018年8月）内容主要介绍了多种提升效率的快捷键和功能，涵盖了代码导航、智能补全、编辑格式化、重构以及显示设置等方面。
 ---
 
 Intellij IDEA 每天的 tip of the day 的翻译，每日翻译一个，这里是 2018 年 8 月份的tip of the day。  

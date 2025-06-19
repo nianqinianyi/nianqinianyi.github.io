@@ -3,8 +3,8 @@ title: 搭建 React+Antd 的前端应用
 tags: ["Antd", "JavaScript", "React"]
 categories: ["JavaScript"]
 date: 2017-04-07 00:07:30
-description: 搭建 React+Antd 的前端应用
-articleGPT: 
+description: 文章介绍了如何使用 `create-react-app` 初始化 React 项目，集成 Ant Design UI 组件库，并进行按需加载的优化配置。
+articleGPT: 本文介绍了如何使用 `create-react-app` 初始化 React 项目，引入 Ant Design 并进行按需加载等高级配置。
 ---
 
 使用以下命令之前，请先安装 Node.js，直接去官网下载安装即可：<https://nodejs.org/>  

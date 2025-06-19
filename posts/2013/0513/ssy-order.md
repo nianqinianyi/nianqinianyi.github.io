@@ -3,8 +3,8 @@ title: 圣思园Java培训视频的播放顺序
 tags: ["Java", "圣思园", "视频教程","教程"]
 categories: ["Java"]
 date: 2013-05-13 23:19:40
-description: 圣思园Java培训视频的播放顺序
-articleGPT: 
+description: 本文详细梳理并推荐了圣思园Java培训视频的正确学习观看顺序，同时提供了各部分内容、时间线及学习建议。
+articleGPT: 本文提供了作者整理的圣思园Java培训视频的推荐学习顺序（包括Java SE、Web框架等模块），并提及了部分未公开或需付费的内容。
 ---
 
 最近在好好的学习Java，把以前遗漏掉的知识点都补上，看的是圣思园的Java培训视频，前几天，搞明白了圣思园Java视频的顺序，贴在这里，方便其他也学习圣思园Java的人。

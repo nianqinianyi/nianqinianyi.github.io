@@ -3,8 +3,8 @@ title: Python实现迅雷看看xv格式转换为flv格式
 tags: ["Python", "xv", "flv"]
 categories: ["Python"]
 date: 2012-11-19 22:58:15
-description: Python实现迅雷看看xv格式转换为flv格式
-articleGPT: 
+description: 文章介绍了将XV格式视频文件转换为FLV格式的方法，通过删除起始数据、解密特定加密块并拼接剩余内容实现，并提供了Python脚本实现这一自动化转换过程。
+articleGPT: 该文章提供了一个Python脚本，用于将XV视频文件转换为FLV格式，其原理是删除文件开头部分，通过计算密钥解密特定偏移量处的加密数据块，并拼接后续内容。
 ---
 
 用editplus的十六进制查看器查看xv格式的数据，可以发现把xv格式的0到0×200000之间的数据删除，把0×200000到0×200400之间的数据解密，再加上后边的所有的数据，就是flv格式的视频了。  

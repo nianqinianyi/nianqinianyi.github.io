@@ -3,8 +3,8 @@ title: 【Spring Cloud学习笔记】01：服务注册与发现 (Eureka)
 tags: ["Spring", "Spring Cloud"]
 categories: ["Spring"]
 date: 2017-06-26 00:14:43
-description: 【Spring Cloud学习笔记】01：服务注册与发现 (Eureka)
-articleGPT: 
+description: 文章演示了如何构建基于Eureka的服务注册与发现体系，详述了服务注册中心与服务提供者的创建与配置过程。
+articleGPT: 该教程详细介绍了如何在Spring Cloud中构建Eureka服务注册中心和对应的服务提供者，以实现服务的注册与发现。
 ---
 
 教程：<http://blog.csdn.net/forezp/article/details/69696915>

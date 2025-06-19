@@ -3,8 +3,8 @@ title: 重拾Python笔记一
 tags: ["Python", "重拾Python笔记"]
 categories: ["Python"]
 date: 2013-05-06 23:11:18
-description: 重拾Python笔记一
-articleGPT: 
+description: 本笔记仅收录了Python语言中部分需要关注或加深理解的基础概念，内容涵盖数据类型、运算符、程序结构及函数定义等方面。
+articleGPT: 这份笔记总结了作者当时对Python中一些不熟悉的基础语法、数据类型和函数等核心概念。
 ---
 
 笔记中仅仅记录一些不太熟悉的东西。  

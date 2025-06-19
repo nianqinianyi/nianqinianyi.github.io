@@ -3,8 +3,8 @@ title: Centos 7 开发环境之 MySQL 5.7 的安装及配置(rpm)
 tags: ["CentOS", "MySQL", "运维"]
 categories: ["运维"]
 date: 2017-11-17 00:37:11
-description: Centos 7 开发环境之 MySQL 5.7 的安装及配置(rpm)
-articleGPT: 
+description: 本文详细记录了在服务器上安装MySQL的完整过程，包括下载、配置、初始化及用户设置，并提供了针对常见问题的解决方案。
+articleGPT: 这篇文章记录了在服务器上安装 MySQL 5.7 的详细过程，包括下载安装包、卸载冲突的 MariaDB、安装、数据库初始化、启动服务以及创建和配置新用户权限等步骤。
 ---
 
 最近需要在服务器上安装 MySQL、MongoDB、Redis 和 ELK 等，记录一下过程，防止下次继续踩坑。  

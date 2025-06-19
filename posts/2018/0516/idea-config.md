@@ -3,8 +3,8 @@ title: IDEA 常用设置
 tags: ["IDEA", "Intellij", "设置", "工具"]
 categories: ["工具"]
 date: 2018-05-16 00:40:37
-description: IDEA 常用设置
-articleGPT: IDEA 常用设置
+description: 文章分享了一系列IDE配置，旨在让开发工具更好用、更好看。
+articleGPT: 文章介绍了如何通过调整各项配置，优化IDE的使用体验和界面显示，使其更高效、美观。
 ---
 
 # 为了更好用

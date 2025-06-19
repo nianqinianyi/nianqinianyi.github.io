@@ -3,8 +3,8 @@ title: Markdown语法学习笔记
 tags: ["Markdown", "语法"]
 categories: ["工具"]
 date: 2013-05-05 23:09:15
-description: Markdown语法学习笔记
-articleGPT: Markdown语法学习笔记
+description: 文章以示例方式详尽介绍了Markdown的常用语法规则及应用。
+articleGPT: 本文通过详细示例，全面介绍了Markdown的基础语法和常用排版功能，并提及其与HTML的兼容性。
 ---
 
 本文内容参考了[Markdown 语法说明 (简体中文版)](http://wowubuntu.com/markdown/#editor) 。  

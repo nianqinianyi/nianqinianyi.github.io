@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POSTS_DIR="/Users/panic/codespace/project_mine/nianqinianyi.github.io/posts"
+POSTS_DIR="../posts"
 
 find "$POSTS_DIR" -type f -name "*.md" | while read -r file; do
     filename=$(basename "$file")

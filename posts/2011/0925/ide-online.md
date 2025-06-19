@@ -3,8 +3,8 @@ title: 在线IDE推荐
 tags: ["IDE", "在线工具", "工具"]
 categories: ["工具"]
 date: 2011-09-25 22:46:18
-description: 在线IDE推荐
-articleGPT: 文章推荐了适合快速验证算法的在线IDE工具，解决本地安装大型IDE的繁琐问题。
+description: 文章介绍了Codepad、Coderun和Ideone等在线IDE服务，为用户提供了无需启动庞大本地开发环境即可快速验证代码和算法的便捷途径。
+articleGPT: 文章介绍了Codepad、coderun和ideone等在线IDE，它们为用户提供了一个便捷的解决方案，无需启动大型本地开发环境即可快速测试和运行多种编程语言的代码。
 ---
 
 一个小白想试试一个自己编写的C++算法对不对，但是又懒得启动visual studio

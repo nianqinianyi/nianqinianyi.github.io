@@ -3,8 +3,8 @@ title: Centos 7 开发环境之 Redis 的安装及配置
 tags: ["CentOS", "Redis", "运维"]
 categories: ["运维"]
 date: 2017-11-22 00:39:39
-description: Centos 7 开发环境之 Redis 的安装及配置
-articleGPT: 
+description: 本文记录了服务器上 Redis 软件的下载、编译、安装及配置的详细步骤。
+articleGPT: 文章详细记录了在服务器上下载、编译、安装及配置 Redis 的完整过程，包括设置开机启动、后台运行、允许远程访问和密码保护。
 ---
 
 最近需要在服务器上安装 MySQL、MongoDB、Redis 和 ELK 等，记录一下过程，防止下次继续踩坑。  

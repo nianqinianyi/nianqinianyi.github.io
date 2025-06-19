@@ -3,8 +3,8 @@ title: 一路来的变化，记我与Python的缘分
 tags: ["Python", "随笔"]
 categories: ["随笔"]
 date: 2016-01-15 23:41:10
-description: 一路来的变化，记我与Python的缘分
-articleGPT: 
+description: 一位编程爱好者讲述了其与Python反复结缘、不断成长的编程之路。
+articleGPT: 作者回顾了自己与Python漫长而反复的缘分，虽然学习过程多有中断且曾转向其他语言，但Python始终是其心头所爱，并在对Django的理解上见证了自身的技术成长，最终仍倾向于选择Python进行个人项目开发。
 ---
 
 # 我与Python的缘分

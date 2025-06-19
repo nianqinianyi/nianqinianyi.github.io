@@ -3,8 +3,8 @@ title: six-site开发汇总
 tags: ["开源项目", "项目", "随笔"]
 categories: ["项目"]
 date: 2016-01-14 23:40:03
-description: six-site开发汇总
-articleGPT: 
+description: Six-site项目旨在通过多种技术栈重复实现Web应用，探索和对比不同开发方案。
+articleGPT: “six-site开发大计划”旨在通过多种技术栈（如Java、Python、Node.js）重复实现同一个网站。
 ---
 
 six-site开发大计划： 使用各种技术重复造轮子，初期使用sqlite/Jquery/Sea.js/Semantic UI 搭配各种技术。  

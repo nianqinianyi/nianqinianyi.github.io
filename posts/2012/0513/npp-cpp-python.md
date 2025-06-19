@@ -3,8 +3,8 @@ title: notepad++配置C++及python编译环境
 tags: ["c++", "notepad++", "Python", "环境配置", "工具"]
 categories: ["工具"]
 date: 2012-05-13 22:55:20
-description: notepad++配置C++及python编译环境
-articleGPT: notepad++配置C++及python编译环境
+description: 文章总结了在Notepad++中配置C++和Python开发环境的关键步骤，并推荐了实用插件，旨在简化重复安装时的配置流程。
+articleGPT: 本文总结了如何在Notepad++中配置C++和Python开发环境的详细步骤，涵盖插件安装、环境变量设置及编译运行命令配置，并推荐了实用插件，旨在方便用户快速重建开发环境。
 ---
 
 原先写过一篇《[在notepad++中配置Python和php环境](./2011-09-19-npp-python-php)》，notepad++这个编辑器相当不错，相当轻量级，一直以来是我的最爱。每次重装系统都要重新配置notepad++，烦不胜烦，最可恶的是每次配置的时候都要上网搜上一阵，浪费时间，效果也不是很好。在这里总结一些，便于以后使用。  

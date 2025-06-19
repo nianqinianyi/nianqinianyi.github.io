@@ -3,8 +3,8 @@ title: 重拾Python笔记五
 tags: ["Python", "重拾Python笔记"]
 categories: ["Python"]
 date: 2013-05-10 23:17:31
-description: 重拾Python笔记五
-articleGPT: 
+description: 笔记深入探讨了Python的对象本质、函数式编程工具、异常处理方法及动态类型中变量与函数参数的传递机制。
+articleGPT: 本文总结了Python中函数作为对象及高阶函数（如lambda、map、filter、reduce）的应用，并阐述了异常处理机制和动态类型与参数传递的核心概念。
 ---
 
 重拾Python笔记五  

@@ -3,8 +3,8 @@ title: 什么才是真正的Hello World！
 tags: ["Hello World"]
 categories: ["随笔"]
 date: 2011-10-02 22:49:50
-description: 什么才是真正的Hello World！
-articleGPT: 讨论真正的Hello World程序应包含头文件、主函数和函数块等基本结构，并批评简化的Android教程未能解释这些核心概念。
+description: 文章阐述了合格的编程入门“Hello World”教程，应深入剖析程序结构与关键组成，而非仅停留于展示运行结果。
+articleGPT: 文章指出，安卓开发教程中的“Hello World”示例未能有效教授代码和项目结构背后的含义，而仅仅停留在演示输出，这不符合其作为编程起点的真正作用。
 ---
 
 前两天看一个Android开发的教程，开始配置Android开发环境的一部分还不错，但是当看到经典的hello
