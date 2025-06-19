@@ -7,7 +7,7 @@ export const themeConfig = {
     // 站点描述
     description: "Sixlab",
     // 站点logo
-    logo: "/images/logo/logo.webp",
+    logo: "/logo.png",
     // 站点地址
     site: "https://blog.sixlab.cn",
     // 语言
@@ -15,7 +15,7 @@ export const themeConfig = {
     // 作者
     author: {
       name: "六楼的雨",
-      cover: "/images/logo/logo.webp",
+      cover: "/logo.png",
       email: "nianqinianyi@163.com",
       emailTo: "mailto:nianqinianyi@163.com",
       link: "https://sixlab.cn",
@@ -153,12 +153,12 @@ export const themeConfig = {
       name: "博客",
       list: [
         {
-          icon: "/images/logo/logo.webp",
+          icon: "/logo.png",
           name: "主站",
           url: "/",
         },
         {
-          icon: "/images/logo/logo.webp",
+          icon: "/logo.png",
           name: "博客镜像站",
           url: "https://nianqinianyi.github.io/",
         },
@@ -188,7 +188,7 @@ export const themeConfig = {
     //   name: "项目",
     //   list: [
     //     {
-    //       icon: "/images/logo/logo.webp",
+    //       icon: "/logo.png",
     //       name: "Curve",
     //       url: "https://github.com/imsyy/vitepress-theme-curve",
     //     },
@@ -203,7 +203,7 @@ export const themeConfig = {
     //       url: "https://github.com/imsyy/SPlayer",
     //     },
     //     {
-    //       icon: "/images/logo/logo.webp",
+    //       icon: "/logo.png",
     //       name: "Home",
     //       url: "https://github.com/imsyy/home",
     //     },
