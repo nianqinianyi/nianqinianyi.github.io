@@ -31,7 +31,7 @@ articleGPT: 这份文档详细阐述了一个WordPress插件如何处理Markdown
 
 # 测试代码片段
 
-```JavsScript
+```JavaScript
 var https = require('https');
 
 https.get("https://sixlab.cn", function (req, res) {
