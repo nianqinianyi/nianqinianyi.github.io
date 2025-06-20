@@ -16,7 +16,7 @@
           <i class="iconfont icon-nc-line" />
           <i class="iconfont icon-nd-line" />
         </a>
-        <a class="cc link" href="https://beian.miit.gov.cn/" target="_blank">
+        <a class="cc link mobile-hide" href="https://beian.miit.gov.cn/" target="_blank">
           <i class="iconfont icon-safe" />
           {{ theme.icp }}
         </a>
@@ -29,8 +29,18 @@
           又拍云
         </a> -->
       </div>
-      <div class="meta">
+      <div class="mobile-show">
+        <a class="cc link" href="https://beian.miit.gov.cn/" target="_blank">
+          <i class="iconfont icon-safe" />
+          {{ theme.icp }}
+        </a>
         <a class="power link" href="https://vitepress.dev/" target="_blank">
+          <span class="by">Powered by</span>
+          <span class="name">VitePress</span>
+        </a>
+      </div>
+      <div class="meta">
+        <a class="power link mobile-hide" href="https://vitepress.dev/" target="_blank">
           <span class="by">Powered by</span>
           <span class="name">VitePress</span>
         </a>
@@ -130,6 +140,9 @@ onBeforeUnmount(() => {
         }
       }
     }
+    .mobile-show{
+      display: none;
+    }
     .meta {
       display: flex;
       flex-direction: row;
@@ -186,9 +199,13 @@ onBeforeUnmount(() => {
       }
     }
     @media (max-width: 768px) {
+      justify-content: center;
       font-size: 14px;
-      .meta {
+      .mobile-hide{
         display: none;
+      }
+      .mobile-show{
+        display: block;
       }
     }
     @media (max-width: 420px) {

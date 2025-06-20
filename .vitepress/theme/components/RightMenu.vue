@@ -168,6 +168,11 @@
                 }}
               </span>
             </div>
+            <!-- 禁用自定义右键 -->
+            <div class="btn" @click="rightMenuFunc('disable-right-menu')">
+              <i class="iconfont icon-close"></i>
+              <span class="name">禁用自定义右键</span>
+            </div>
           </div>
           <!-- 播放器控制 -->
           <div v-if="playerShow" class="all-menu general player">
@@ -350,6 +355,10 @@ const rightMenuFunc = async (type) => {
         const pageLink = theme.value.siteMeta.site + router.route.path;
         if (pageLink) copyText(pageLink);
         break;
+      case "disable-right-menu":
+        store.useRightMenu = false;
+        $message.info(`已关闭自定义右键菜单，可在右上角中控台开启`);
+        break;
       case "input-paste":
         const text = await navigator.clipboard.readText();
         if (clickedTypeData.value && typeof clickedTypeData.value === "object") {
@@ -438,7 +447,7 @@ defineExpose({ openRightMenu });
   transition: opacity 0.2s;
   .menu-content {
     position: absolute;
-    width: 180px;
+    width: 190px;
     background-color: var(--main-card-background);
     animation: fade-up 0.2s forwards;
     transition:
