@@ -137,7 +137,7 @@ export const jumpRedirect = (html, themeConfig, isDom = false) => {
         const $a = $(el);
         const href = $a.attr("href");
         const classesStr = $a.attr("class");
-        const innerText = $a.text();
+        const innerText = $a.html();
         // 检查是否包含排除的类
         const classes = classesStr ? classesStr.trim().split(" ") : [];
         if (excludeClass.some((className) => classes.includes(className))) {

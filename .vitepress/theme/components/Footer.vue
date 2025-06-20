@@ -42,11 +42,11 @@
           <span class="name">订阅</span>
         </a>
         <!-- 十年之约 - 虫洞 -->
-        <a class="travellings" href="https://www.foreverblog.cn/go.html" target="_blank">
+        <a class="travellings link" href="https://www.foreverblog.cn/go.html" target="_blank">
           <img src="https://img.foreverblog.cn/wormhole_3.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客">
         </a>
         <!-- 博友圈 -->
-        <a class="travellings" href="https://www.boyouquan.com/home" target="_blank">
+        <a class="travellings link" href="https://www.boyouquan.com/home" target="_blank">
           <img src="https://www.boyouquan.com/assets/images/sites/logo/planet-shuttle.png" alt="" style="width:auto;height:32px;" title="博友圈·星球穿梭">
         </a>
       </div>
