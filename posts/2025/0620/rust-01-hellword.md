@@ -1,6 +1,6 @@
 ---
-title: Rust 的 Hello world 和 格式化输出
-tags: [Rust, 学习]
+title: Rust 学习笔记 01 - Hello world 和 格式化输出
+tags: [Rust, 学习, 笔记]
 categories: [Rust]
 date: 2025-06-20 12:55:41
 description: 通过Hello World示例，介绍了Rust程序的入口函数main及println!宏的多种格式化输出方法。
@@ -38,6 +38,8 @@ fn main() {
 
 打印操作是由 `std::fmt` 模块提供的，`println!` 宏是 `std::fmt` 模块提供的一个宏。
 
+## 基础输出
+
 `println!` 宏可以使用占位符来格式化输出。占位符用 `{}` 表示：
 
 ```rust
@@ -67,6 +69,8 @@ fn main() {
     println!("我的域名是：{}，注册于{year}年。欢迎访问：{0}", domain, year = year);
 }
 ```
+
+## 进阶输出
 
 `println!` 宏的占位符还可以使用格式化参数。例如：
 
