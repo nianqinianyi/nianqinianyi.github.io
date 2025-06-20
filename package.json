@@ -14,7 +14,7 @@
     "node": ">=20",
     "npm": ">=10"
   },
-  "packageManager": "pnpm",
+  "packageManager": ">=pnpm@9.15.1",
   "type": "module",
   "scripts": {
     "format": "prettier --write .",
