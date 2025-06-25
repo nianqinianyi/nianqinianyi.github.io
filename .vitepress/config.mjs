@@ -6,6 +6,7 @@ import {
   getAllType,
   getAllCategories,
   getAllArchives,
+  getAllBoardcast,
 } from "./theme/utils/getPostData.mjs";
 import { jumpRedirect } from "./theme/utils/commonTools.mjs";
 import { getThemeConfig } from "./init.mjs";
@@ -46,6 +47,7 @@ export default withPwa(
       tagsData: getAllType(postData),
       categoriesData: getAllCategories(postData),
       archivesData: getAllArchives(postData),
+      boardcastData: getAllBoardcast(postData),
     },
     // markdown
     markdown: {

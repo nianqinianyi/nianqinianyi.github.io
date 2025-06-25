@@ -60,7 +60,7 @@ export const getAllPosts = async () => {
           const { birthtimeMs, mtimeMs } = stat;
           // 解析 front matter
           const { data } = matter(content);
-          const { title, date, categories, description, tags, top, cover } = data;
+          const { title, date, categories, description, tags, top, cover, broadcast } = data;
           // 计算文章的过期天数
           const expired = Math.floor(
             (new Date().getTime() - new Date(date).getTime()) / (1000 * 60 * 60 * 24),
@@ -78,6 +78,7 @@ export const getAllPosts = async () => {
             regularPath: `/${item.replace(".md", ".html")}`,
             top,
             cover,
+            broadcast,
           };
         } catch (error) {
           console.error(`处理文章文件 '${item}' 时出错:`, error);
@@ -192,4 +193,21 @@ export const getAllArchives = (postData) => {
   // 提取年份并按降序排序
   const sortedYears = Object.keys(archiveData).sort((a, b) => parseInt(b) - parseInt(a));
   return { data: archiveData, year: sortedYears };
+};
+
+/**
+ * 获取所有播客及其相关文章的统计信息
+ * @param {Object[]} postData - 包含文章信息的数组
+ * @returns {Object} - 包含播客统计信息的对象
+ */
+export const getAllBoardcast = (postData) => {
+  const boardcastData = [];
+  // 遍历数据
+  postData.map((item) => {
+    // 检查是否有 broadcast 属性
+    if (!!item.broadcast) {
+      boardcastData.push(item);
+    }
+  });
+  return boardcastData;
 };

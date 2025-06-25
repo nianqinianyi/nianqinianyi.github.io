@@ -19,7 +19,7 @@
               ? `/pages/categories/${showCategories}`
               : showTags
                 ? `/pages/tags/${showTags}`
-                : ''
+                : '/page'
           "
         />
       </div>

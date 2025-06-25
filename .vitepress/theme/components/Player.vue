@@ -25,7 +25,6 @@ const musicList = ref(null);
 const getMusicListData = async () => {
   try {
     musicList.value = await getMusicList(url, id, server, type);
-    console.log(musicList.value);
     initAPlayer(musicList.value?.length ? musicList.value : []);
   } catch (error) {
     $message.error("获取播放列表失败，请重试");

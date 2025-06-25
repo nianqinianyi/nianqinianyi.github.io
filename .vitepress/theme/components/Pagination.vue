@@ -6,7 +6,7 @@
       class="page-item prev"
       @click="
         jumpPage(
-          currentPage === 2 ? `${routePath}` : `${routePath}/page/${currentPage - 1}`,
+          currentPage === 2 ? `${routePath}` : `${routePath}/${currentPage - 1}`,
           currentPage === 2 ? 1 : currentPage - 1,
         )
       "
@@ -19,7 +19,7 @@
         v-for="(item, index) in pageNumber"
         :key="index"
         :class="[item === '...' ? 'point' : 'page-item', { choose: item === currentPage }]"
-        @click="jumpPage(item === 1 ? `${routePath}` : `${routePath}/page/${item}`, item)"
+        @click="jumpPage(item === 1 ? `${routePath}` : `${routePath}/${item}`, item)"
       >
         <span class="page-num">{{ item }}</span>
       </div>
@@ -40,7 +40,7 @@
     <div
       v-if="currentPage * limit < total"
       class="page-item next"
-      @click="jumpPage(`${routePath}/page/${currentPage + 1}`, currentPage + 1)"
+      @click="jumpPage(`${routePath}/${currentPage + 1}`, currentPage + 1)"
     >
       <span class="page-text">下页</span>
       <i class="iconfont icon-page-right" />
@@ -154,7 +154,7 @@ const fastJump = () => {
   inputFocus.value = false;
   if (!jumpInput.value) return false;
   jumpPage(
-    jumpInput.value === 1 ? `${props.routePath}` : `${props.routePath}/page/${jumpInput.value}`,
+    jumpInput.value === 1 ? `${props.routePath}` : `${props.routePath}/${jumpInput.value}`,
     jumpInput.value,
   );
 };

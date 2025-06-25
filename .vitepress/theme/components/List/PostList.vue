@@ -24,7 +24,7 @@
             置顶
           </span>
         </div>
-        <span class="post-title">{{ item.title }}</span>
+        <span class="post-title"><i v-if="item?.broadcast" class="iconfont icon-broadcast" />{{ item.title }}</span>
         <span v-if="item?.description" class="post-desc">
           {{ item.description }}
         </span>
@@ -179,6 +179,12 @@ const toPost = (path) => {
         word-break: break-all;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
+
+        .iconfont {
+          font-size: 20px;
+          margin-right: 10px;
+          color: var(--main-success-color);
+        }
       }
       .post-desc {
         margin-top: -0.4rem;
