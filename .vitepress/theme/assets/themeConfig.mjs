@@ -100,8 +100,8 @@ export const themeConfig = {
         },
       ],
       // 51la 统计
-      ['script', { src: '//sdk.51.la/js-sdk-pro.min.js', charset: 'UTF-8', id: 'LA_COLLECT' }],
-      ['script', {}, `LA.init({id:"Kq8jfdxsCtpAJn2i",ck:"Kq8jfdxsCtpAJn2i"})`],
+      ["script", { src: "//sdk.51.la/js-sdk-pro.min.js", charset: "UTF-8", id: "LA_COLLECT" }],
+      ["script", {}, `LA.init({id:"Kq8jfdxsCtpAJn2i",ck:"Kq8jfdxsCtpAJn2i"})`],
       // 预载 DocSearch
       [
         "link",
@@ -129,6 +129,7 @@ export const themeConfig = {
         // { text: "技术分享", link: "/pages/categories/技术分享", icon: "technical" },
         { text: "我的项目", link: "/pages/project", icon: "code" },
         { text: "效率工具", link: "/pages/tools", icon: "tools" },
+        { text: "Ai 播客", link: "/broadcast", icon: "broadcast" },
       ],
     },
     {
@@ -229,16 +230,16 @@ export const themeConfig = {
       // 是否开启封面显示 文章不设置cover封面会显示异常，可以设置下方默认封面
       enable: true,
       // 封面布局方式: left | right | both
-      coverLayout: 'left',
+      coverLayout: "left",
       // 默认封面(随机展示)
       defaultCover: [
-        '/images/post_cover/001.jpg',
-        '/images/post_cover/002.jpg',
-        '/images/post_cover/003.jpg',
-        '/images/post_cover/004.jpg',
-        '/images/post_cover/005.jpg',
-      ]
-    }
+        "/images/post_cover/001.jpg",
+        "/images/post_cover/002.jpg",
+        "/images/post_cover/003.jpg",
+        "/images/post_cover/004.jpg",
+        "/images/post_cover/005.jpg",
+      ],
+    },
   },
   // 页脚信息
   footer: {
@@ -281,7 +282,7 @@ export const themeConfig = {
           { text: "近期文章", link: "/" },
           { text: "全部分类", link: "/pages/categories" },
           { text: "全部标签", link: "/pages/tags" },
-          { text: "文章归档", link: "/pages/archives"},
+          { text: "文章归档", link: "/pages/archives" },
         ],
       },
       {
@@ -294,9 +295,9 @@ export const themeConfig = {
       {
         text: "专栏",
         items: [
-          // { text: "技术分享", link: "/pages/categories/技术分享" },
           { text: "我的项目", link: "/pages/project" },
           { text: "效率工具", link: "/pages/tools" },
+          { text: "Ai 播客", link: "/broadcast" },
         ],
       },
       {
