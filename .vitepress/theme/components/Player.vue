@@ -19,13 +19,14 @@ const { playerShow, playerVolume, playState, playerData } = storeToRefs(store);
 // APlayer
 const player = ref(null);
 const playerDom = ref(null);
+const musicList = ref(null);
 
 // 获取播放列表
 const getMusicListData = async () => {
   try {
-    const musicList = await getMusicList(url, id, server, type);
-    console.log(musicList);
-    initAPlayer(musicList?.length ? musicList : []);
+    musicList.value = await getMusicList(url, id, server, type);
+    console.log(musicList.value);
+    initAPlayer(musicList.value?.length ? musicList.value : []);
   } catch (error) {
     $message.error("获取播放列表失败，请重试");
     initAPlayer([]);
@@ -57,6 +58,15 @@ const initAPlayer = async (list) => {
       console.log("开始播放");
       playState.value = true;
     });
+    player.value?.on("ended", (e) => {
+      console.log(e)
+      console.log("播放完成");
+      if(playerData.value?.artist === "六楼的雨"){
+        player.value.pause();
+        player.value.list.clear();
+        player.value.list.add(musicList.value?.length ? musicList.value : []);
+      }
+    });
     player.value?.on("pause", () => {
       console.log("暂停播放");
       playState.value = false;
@@ -77,7 +87,7 @@ const getMusicData = () => {
     // 歌曲信息
     const songName = songInfo.querySelector(".aplayer-title").innerText;
     const songArtist = songInfo.querySelector(".aplayer-author").innerText.replace(" - ", "");
-    console.log(songName, songArtist);
+    console.log(`《${songName}》 by ${songArtist}`);
     // 更新信息
     playerData.value = {
       name: songName || "未知曲目",

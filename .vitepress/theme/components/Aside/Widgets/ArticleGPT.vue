@@ -4,10 +4,10 @@
     <div class="title">
       <span class="name">
         <i class="iconfont icon-robot"></i>
-        文章摘要
+        Ai摘要
         <!-- <i class="iconfont icon-up"></i> -->
       </span>
-      <span :class="['logo', { loading }]" @click="showOther"> AI摘要 </span>
+      <span v-if="showBroadcast" :class="['logo', { loading }]" @click="playBroadcast"> 播放 Ai Broadcast </span>
     </div>
     <div class="content s-card">
       <span class="text">{{ abstractData === "" ? "加载中..." : abstractData }}</span>
@@ -15,19 +15,16 @@
     </div>
     <div class="meta">
       <span class="tip">此摘要由AI根据文章内容生成，并经过人工审核，仅用于文章内容的解释与总结</span>
-      <a
-        href="/pages/message"
-        class="report"
-        target="_blank"
-      >
-        投诉
-      </a>
+      <span>
+        <a href="/pages/message" class="logo report" target="_blank">投诉</a>
+        <span class="logo report" @click="showOther"> Ai 说明 </span>
+      </span>
     </div>
   </div>
 </template>
 
 <script setup>
-const { frontmatter } = useData();
+const { page, frontmatter } = useData();
 const router = useRouter();
 
 // 摘要数据
@@ -36,6 +33,7 @@ const waitTimeOut = ref(null);
 const abstractData = ref("");
 const showIndex = ref(0);
 const showType = ref(false);
+const showBroadcast = ref(false);
 
 // 输出摘要
 const typeWriter = (text = null) => {
@@ -74,7 +72,9 @@ const initAbstract = () => {
 const showOther = () => {
   if (loading.value) return false;
   const text =
-    "我是摘要生成助理`AI摘要`，所有文本皆由AI读取当前文章内容，并生成的摘要，仿照 GPT 的形式输出。";
+    "文章内容中，有两块 Ai 相关功能。\n"+
+    "  1. 摘要助理「Ai 摘要」，由AI读取当前文章内容，并生成的摘要，仿照 GPT 的形式输出。\n" +
+    "  2. 播客助理「Ai 播客」，由AI读取当前文章内容，并生成播客内容，可点击“播放 Ai Broadcast”按钮收听。";
   showIndex.value = 0;
   loading.value = true;
   abstractData.value = "";
@@ -87,8 +87,30 @@ const showOther = () => {
   }
 };
 
+const playBroadcast = () => {
+  const broadcast = "" || frontmatter.value.broadcast;
+  if (!!broadcast) {
+    let url = broadcast;
+    if(typeof broadcast === "boolean"){
+      url = page.value.filePath.replace(/^posts/,"/audios").replace(/md$/, "mp3");
+    }
+
+    window.$player.list.clear()
+    window.$player.list.add([{
+      name: frontmatter.value.title,
+      title: frontmatter.value.title,
+      artist: "六楼的雨",
+      author: "六楼的雨",
+      url: url,
+      cover: "/images/post_cover/005.jpg",
+    }]);
+    window.$player.play();
+  }
+}
+
 onMounted(() => {
   if (frontmatter.value.articleGPT) initAbstract();
+  if (!!frontmatter.value.broadcast) showBroadcast.value = true;
 });
 
 onBeforeUnmount(() => {
@@ -102,6 +124,7 @@ onBeforeUnmount(() => {
   background-color: var(--main-card-second-background);
   user-select: none;
   cursor: auto;
+
   .title {
     display: flex;
     flex-direction: row;
@@ -109,12 +132,14 @@ onBeforeUnmount(() => {
     justify-content: space-between;
     margin-bottom: 0.8rem;
     padding: 0 8px;
+
     .name {
       display: flex;
       align-items: center;
       color: var(--main-color);
       font-weight: bold;
       cursor: pointer;
+
       .icon-robot {
         display: flex;
         align-items: center;
@@ -128,6 +153,7 @@ onBeforeUnmount(() => {
         border-radius: 50%;
         margin-right: 8px;
       }
+
       .icon-up {
         font-weight: normal;
         font-size: 12px;
@@ -137,22 +163,12 @@ onBeforeUnmount(() => {
         transform: rotate(90deg);
       }
     }
-    .logo {
-      padding: 4px 10px;
-      font-size: 12px;
-      color: var(--main-card-background);
-      background-color: var(--main-color);
-      border-radius: 25px;
-      font-weight: bold;
-      cursor: pointer;
-      &.loading {
-        animation: loading 1s infinite;
-        cursor: not-allowed;
-      }
-    }
   }
+
   .content {
     cursor: auto;
+    white-space: pre-wrap;
+
     .point {
       color: var(--main-color);
       font-weight: bold;
@@ -160,6 +176,7 @@ onBeforeUnmount(() => {
       animation: loading 0.8s infinite;
     }
   }
+
   .meta {
     display: flex;
     flex-direction: row;
@@ -172,10 +189,26 @@ onBeforeUnmount(() => {
     .tip {
       opacity: 0.6;
     }
+
     .report {
       white-space: nowrap;
       margin-left: 12px;
-      opacity: 0.8;
+      opacity: 0.6;
+    }
+  }
+
+  .logo {
+    padding: 4px 10px;
+    font-size: 12px;
+    color: var(--main-card-background);
+    background-color: var(--main-color);
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+    &.loading {
+      animation: loading 1s infinite;
+      cursor: not-allowed;
     }
   }
 }
