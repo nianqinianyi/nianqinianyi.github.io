@@ -2,7 +2,7 @@
 title: 【Spring Cloud学习笔记】03：服务消费者（Feign）
 tags: ["Spring", "Spring Cloud"]
 categories: ["Spring"]
-date: 2017-06-27 00:18:22
+date: 2017-06-27 00:18:22 +08:00
 description: 本文通过创建Feign服务模块并结合Eureka实现服务发现，演示了如何基于Spring Cloud构建具备负载均衡能力的微服务调用架构。
 articleGPT: 文章介绍了如何使用Spring Cloud Feign创建服务消费者模块，步骤包括：通过IDEA创建包含Eureka Discovery、Web和Feign依赖的项目，在Application类添加@EnableDiscoveryClient和@EnableFeignClients注解，配置Eureka注册中心地址；定义Feign客户端接口调用服务提供者接口，编写Controller调用Feign接口；启动注册中心、服务提供者和服务消费者后，通过访问特定URL测试服务调用，结果会轮询显示不同服务实例的响应，附有GitHub代码仓库地址。
 ---
@@ -89,4 +89,3 @@ public class HelloController {
 Github 地址：<https://github.com/nianqinianyi/demo-spring-cloud>
 
 对应分支：<https://github.com/nianqinianyi/demo-spring-cloud/tree/lsc03>
-

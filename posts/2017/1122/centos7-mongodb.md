@@ -2,7 +2,7 @@
 title: Centos 7 开发环境之 MongoDB 的安装及配置(yum源)
 tags: ["CentOS", "MongoDB", "运维"]
 categories: ["运维"]
-date: 2017-11-22 00:38:50
+date: 2017-11-22 00:38:50 +08:00
 description: 记录了在服务器上安装、配置MongoDB及用户授权的详细过程，以避免未来重复踩坑。
 articleGPT: 本文详细记录了在服务器上安装和配置 MongoDB 的过程，包括添加 YUM 源、执行安装、调整网络访问（bindIp）以及设置用户授权。
 ---

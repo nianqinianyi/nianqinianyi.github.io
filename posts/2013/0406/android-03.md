@@ -2,7 +2,7 @@
 title: Android学习总结03之主要控件
 tags: ["Android", "Android学习总结", "学习总结"]
 categories: ["Android"]
-date: 2013-04-06 23:05:15
+date: 2013-04-06 23:05:15 +08:00
 description: 一篇简洁的指南，详细介绍了Android中TextView、Button和EditText等常用控件的使用、文本格式化、事件监听及样式设置。
 articleGPT: 该文章介绍了Android中常用的UI控件，如TextView、Button和EditText，并详细阐述了它们的文本显示与格式化、事件监听以及外观定制等基本用法。
 ---

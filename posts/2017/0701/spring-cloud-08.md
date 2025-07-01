@@ -2,7 +2,7 @@
 title: 【Spring Cloud学习笔记】08：消息总线(Spring Cloud Bus)
 tags: ["Spring", "Spring Cloud"]
 categories: ["Spring"]
-date: 2017-07-01 00:25:45
+date: 2017-07-01 00:25:45 +08:00
 description: 文章探讨了 Spring Cloud Bus 如何利用消息代理（如 RabbitMQ）实现分布式服务配置的动态刷新，无需重启应用。
 articleGPT: 该教程演示了如何通过Spring Cloud Bus和RabbitMQ，实现Spring Cloud Config Client动态刷新配置，而无需重启服务。
 ---

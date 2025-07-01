@@ -2,7 +2,7 @@
 title: JavaFx 弹出新窗口研究
 tags: ["JavaFx", "Java", "GUI"]
 categories: ["JavaFx"]
-date: 2015-04-17 23:36:54
+date: 2015-04-17 23:36:54 +08:00
 description: 文章分享了JavaFX GUI开发中，关于模态窗口设置和跨线程操作的解决方案，并提及了FXML窗口间数据传递的待解决难题。
 articleGPT: 文章分享了作者在使用JavaFx进行GUI编程时，关于模态窗口和线程问题的解决方案，并提出了FXML窗口间数据传递的未解决挑战。
 ---
@@ -52,4 +52,3 @@ private void launchStage() {
 ### 3、 未解决问题
 
   1. A、B两个窗口都是有FXML来进行控件的布局。在A中点击按钮的时候回弹出B，如果让A、B之间互相传送数据、更新控件数据。
-

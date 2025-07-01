@@ -2,7 +2,7 @@
 title: Markdown语法学习笔记
 tags: ["Markdown", "语法"]
 categories: ["工具"]
-date: 2013-05-05 23:09:15
+date: 2013-05-05 23:09:15 +08:00
 description: 文章以示例方式详尽介绍了Markdown的常用语法规则及应用。
 articleGPT: 本文通过详细示例，全面介绍了Markdown的基础语法和常用排版功能，并提及其与HTML的兼容性。
 ---
@@ -244,4 +244,3 @@ Markdown兼容HTML语法，所以直接输入的HTML语句，会按HTML代码解
 # OK
 
 > 基本上主要的内容就是这些了，比较好记，文中内容可能也会有些地方不太准确，望指正。
-

@@ -2,7 +2,7 @@
 title: 【Spring Cloud学习笔记】06：分布式配置中心（Spring Cloud Config）
 tags: ["Spring", "Spring Cloud"]
 categories: ["Spring"]
-date: 2017-06-30 00:24:06
+date: 2017-06-30 00:24:06 +08:00
 description: 文章演示了如何通过Spring Cloud Config Server与Client，实现应用配置在Git仓库中的集中管理与动态获取。
 articleGPT: 本教程阐述了如何通过Spring Cloud Config实现服务配置的集中管理与实时更新，即由Config Server从Git仓库统一拉取配置，并由Config Client端动态获取使用。
 ---

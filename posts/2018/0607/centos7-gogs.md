@@ -2,7 +2,7 @@
 title: Centos 7 开发环境之 Gogs 的安装及配置（二进制）
 tags: ["CentOS", "Git", "Gogs", "运维"]
 categories: ["运维"]
-date: 2018-06-07 00:52:52
+date: 2018-06-07 00:52:52 +08:00
 description: 详述了在服务器上安装和配置Gogs这一轻量级Git服务器的整个过程，以此替代繁琐的GitLab。
 articleGPT: 本文记录了因Gitlab过于臃肿复杂而转用Gogs，并在服务器上下载、配置及启动这个轻量级Git服务端的详细过程。
 ---

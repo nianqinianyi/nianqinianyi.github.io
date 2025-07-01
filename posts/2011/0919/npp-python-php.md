@@ -2,7 +2,7 @@
 title: 在notepad++中配置Python和php环境
 tags: ["Notepad++", "PHP", "Python", "环境配置", "工具"]
 categories: ["工具"]
-date: 2011-09-19 22:43:33
+date: 2011-09-19 22:43:33 +08:00
 description: 本文详细介绍了如何在Notepad++中配置Python和PHP的运行命令，旨在为开发者提供更便捷的程序调试环境。
 articleGPT: 本文主要介绍了如何在Notepad++中配置F5运行命令，以便方便地调试和运行Python和PHP程序。
 ---

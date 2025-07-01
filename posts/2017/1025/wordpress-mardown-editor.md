@@ -2,10 +2,12 @@
 title: WordPress 的 Markdow 插件 WP Editor.MD 试用
 tags: ["Markdown", "Wordpress"]
 categories: ["工具"]
-date: 2017-10-25 00:35:26
+date: 2017-10-25 00:35:26 +08:00
 description: 文章阐述了某Markdown插件在WordPress中处理内容存储、实现格式转换，以及编辑器与页面代码样式独立性的具体行为。
 articleGPT: 这份文档详细阐述了一个WordPress插件如何处理Markdown格式，包括其存储方式和HTML转换，并通过各种示例展示了对链接、图片、HTML和代码片段等Markdown特性的支持。
 ---
+
+试用 WordPress 的 WP Editor.MD 插件，总结了一些内容：
 
   1. 经过研究，这个插件将 Markdown 格式放到了`post_content_filtered`字段，将 Markdown 转为 HTML 格式后仍放到原来的`post_content`字段。
   2. 编辑器内代码样式和页面上代码样式应该无关，因为使用插件后，页面代码还是按照原来的样式显示的。

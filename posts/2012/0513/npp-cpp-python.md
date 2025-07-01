@@ -2,7 +2,7 @@
 title: notepad++配置C++及python编译环境
 tags: ["C++", "Notepad++", "Python", "环境配置", "工具"]
 categories: ["工具"]
-date: 2012-05-13 22:55:20
+date: 2012-05-13 22:55:20 +08:00
 description: 文章总结了在Notepad++中配置C++和Python开发环境的关键步骤，并推荐了实用插件，旨在简化重复安装时的配置流程。
 articleGPT: 本文总结了如何在Notepad++中配置C++和Python开发环境的详细步骤，涵盖插件安装、环境变量设置及编译运行命令配置，并推荐了实用插件，旨在方便用户快速重建开发环境。
 ---
@@ -45,4 +45,3 @@ articleGPT: 本文总结了如何在Notepad++中配置C++和Python开发环境�
   * TextFX Characters：默认安装，功能很强大，很多人认为这个最好的插件，格式化C++、XML、HTML等代码，替换字符，删除空行或者空格等，功能太多，不一一列举，不过没有中文版，命令又多，可参考一下《[notepad++5.9.6 官方中文语言汉化增补，插件汉化](https://hi.baidu.com/homeylife/blog/item/e59176868e13062767096e13.html)》或者《[Notepad++ 插件之 TextFX (安装及作用)](http://zhibin07.iteye.com/blog/1287234)》
   * Subversion：使用SVN的能用到。
   * Explorer或者Light Explorer：在notepad++左侧可生成一个文件列表，浏览文件，我觉得Explorer很好用，但很多人认为Light Explorer是仅次于TextFX Characters的插件。
-

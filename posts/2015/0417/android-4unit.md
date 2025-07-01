@@ -2,7 +2,7 @@
 title: Android学习记录 - 四大组件
 tags: ["Android"]
 categories: ["Android"]
-date: 2015-04-17 23:35:54
+date: 2015-04-17 23:35:54 +08:00
 description: 文章详述了Android应用开发的四大基本组件Activity、Service、BroadcastReceiver和Content Provider的定义、功能、实现方式及相互作用机制。
 articleGPT: Android应用程序的核心由Activity（用户界面）、Service（后台运行）、BroadcastReceiver（处理系统事件）和Content Provider（跨应用数据共享）四大组件构成，其中Activity、Service和BroadcastReceiver主要通过Intent进行通信。
 ---
@@ -80,4 +80,3 @@ URI规则：content://packageName/key/id 几个重要的类：
   * ContentValue，类似HashTable，以键值对存储，键必需是String类型。
   * URIMatcher，通过addURI()添加可以匹配的URI；通过match(URI)类匹配URI。
   * ContentUris，withAppendedId()未URI加上id；parseId(URI)获取URI的id
-

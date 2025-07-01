@@ -2,7 +2,7 @@
 title: 什么才是真正的Hello World！
 tags: ["Hello World"]
 categories: ["随笔"]
-date: 2011-10-02 22:49:50
+date: 2011-10-02 22:49:50 +08:00
 description: 文章阐述了合格的编程入门“Hello World”教程，应深入剖析程序结构与关键组成，而非仅停留于展示运行结果。
 articleGPT: 文章指出，安卓开发教程中的“Hello World”示例未能有效教授代码和项目结构背后的含义，而仅仅停留在演示输出，这不符合其作为编程起点的真正作用。
 ---

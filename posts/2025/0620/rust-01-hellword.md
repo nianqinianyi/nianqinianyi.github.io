@@ -2,7 +2,7 @@
 title: Rust 学习笔记 01 - Hello world 和 格式化输出
 tags: [Rust, 学习, 笔记]
 categories: [Rust]
-date: 2025-06-20 12:55:41
+date: 2025-06-20 12:55:41 +08:00
 description: 通过Hello World示例，介绍了Rust程序的入口函数main及println!宏的多种格式化输出方法。
 articleGPT: 文章介绍了Rust语言中编写Hello world程序的方法，重点讲解了入口函数main的结构和使用println!宏进行格式化输出的多种方式，包括普通占位符、位置参数、命名参数、格式化参数（如调试字符串、十六进制、二进制）、宽度设置、对齐方式、填充字符以及变量宽度的应用，通过代码示例展示了如何灵活控制输出格式。
 broadcast: true

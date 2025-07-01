@@ -2,7 +2,7 @@
 title: 【Spring Cloud学习笔记】04：断路器（Hystrix）
 tags: ["Spring", "Spring Cloud"]
 categories: ["Spring"]
-date: 2017-06-29 00:19:17
+date: 2017-06-29 00:19:17 +08:00
 description: 本文详细阐述了如何在Spring Cloud应用中利用Hystrix在Ribbon和Feign客户端实现断路器功能以防止服务雪崩，并介绍了Hystrix Dashboard的搭建与使用进行监控。
 articleGPT: 本教程详细阐述了如何在Spring Cloud的Ribbon和Feign中集成Hystrix断路器以实现故障容错，并利用Hystrix Dashboard进行可视化监控，从而解决服务阻塞导致的故障传递问题。
 ---

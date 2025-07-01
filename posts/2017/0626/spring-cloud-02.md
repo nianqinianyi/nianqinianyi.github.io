@@ -2,7 +2,7 @@
 title: 【Spring Cloud学习笔记】02：服务消费者（rest+ribbon）
 tags: ["Spring", "Spring Cloud"]
 categories: ["Spring"]
-date: 2017-06-26 00:16:01
+date: 2017-06-26 00:16:01 +08:00
 description: 本文详细介绍了如何在Spring Cloud中，通过Ribbon与RestTemplate实现客户端负载均衡的服务调用。
 articleGPT: 本文详细演示了如何在Spring Cloud中，通过配置多个服务提供者和使用带有Ribbon客户端负载均衡的RestTemplate，实现客户端负载均衡的服务调用。
 ---
@@ -135,4 +135,3 @@ public class HelloController {
 Github 地址：<https://github.com/nianqinianyi/demo-spring-cloud>
 
 对应分支：<https://github.com/nianqinianyi/demo-spring-cloud/tree/lsc02>
-

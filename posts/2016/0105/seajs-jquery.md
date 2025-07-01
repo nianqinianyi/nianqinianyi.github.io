@@ -2,7 +2,7 @@
 title: jQuery在Seajs下的改造
 tags: ["JavaScript", "jQuery", "Seajs"]
 categories: ["JavaScript"]
-date: 2016-01-05 23:38:41
+date: 2016-01-05 23:38:41 +08:00
 description: 文章记录了在Sea.js环境下，通过修改jQuery源码中的模块定义逻辑，成功解决其与Sea.js兼容性问题的实践过程。
 articleGPT: 本文分享了作者在Sea.js中集成jQuery的艰难历程，并最终通过修改压缩版jQuery中对模块定义的判断，使其适应Sea.js的加载机制，从而成功解决了兼容问题。
 ---

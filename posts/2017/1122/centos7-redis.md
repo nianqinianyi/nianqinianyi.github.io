@@ -2,7 +2,7 @@
 title: Centos 7 开发环境之 Redis 的安装及配置
 tags: ["CentOS", "Redis", "运维"]
 categories: ["运维"]
-date: 2017-11-22 00:39:39
+date: 2017-11-22 00:39:39 +08:00
 description: 本文记录了服务器上 Redis 软件的下载、编译、安装及配置的详细步骤。
 articleGPT: 文章详细记录了在服务器上下载、编译、安装及配置 Redis 的完整过程，包括设置开机启动、后台运行、允许远程访问和密码保护。
 ---
@@ -36,4 +36,3 @@ service redis_6379 stop
   2. 设置 Redis 在后台运行，找到`daemonize`，将值改为`yes`。
   3. 运行其他机器访问，注释掉 `bind 127.0.0.1`。
   4. 设置访问密码，找到`requirepass`，改为`requirepass my_pwd`。
-

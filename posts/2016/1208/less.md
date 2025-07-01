@@ -2,7 +2,7 @@
 title: 【笔记】Less基础知识点
 tags: [Less, CSS]
 categories: ["CSS"]
-date: 2016-12-08 23:50:48
+date: 2016-12-08 23:50:48 +08:00
 description: 文章展示了Less CSS的安装、编译过程，并深入探讨了变量、Mixins、嵌套、运算和函数等核心特性。
 articleGPT: Less是一个CSS预处理器，通过提供变量、混合（mixins）、嵌套、运算和函数等功能，增强了CSS的表达力与可维护性，并需要编译为标准CSS才能在浏览器中使用。
 ---

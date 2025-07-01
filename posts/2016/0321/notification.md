@@ -2,7 +2,7 @@
 title: HTML5的Notification使用
 tags: [Notification, HTML5, JavaScript]
 categories: ["HTML5"]
-date: 2016-03-21 23:43:38
+date: 2016-03-21 23:43:38 +08:00
 description: 本文详细介绍了HTML5标准Notification的完整使用流程，包括浏览器支持检测、权限检查与获取、通知创建与显示，以及事件处理。
 articleGPT: 本文详细阐述了如何使用HTML5 Notification API在网页中实现通知功能，包括浏览器支持检测、权限管理、通知创建与事件处理。
 ---

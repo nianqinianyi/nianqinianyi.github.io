@@ -2,7 +2,7 @@
 title: Android学习总结02之布局
 tags: ["Android", "Android学习总结", "学习总结"]
 categories: ["Android"]
-date: 2013-03-31 23:04:04
+date: 2013-03-31 23:04:04 +08:00
 description: 本文阐述了Android应用界面通过XML文件定义的方式，并详细介绍了线性、相对、绝对、帧以及表格等多种布局的类型与特性。
 articleGPT: Android应用的界面在`/res/layout`的XML文件中定义，并通过线性、相对、绝对、帧和表格等多种布局类型来组织UI元素。
 ---

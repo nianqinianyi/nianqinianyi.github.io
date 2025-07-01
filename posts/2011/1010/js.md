@@ -2,7 +2,7 @@
 title: 近期学习 JavaScript 总结
 tags: ["JavaScript"]
 categories: ["JavaScript"]
-date: 2011-10-10 22:52:54
+date: 2011-10-10 22:52:54 +08:00
 description: 本文记录了通过在线平台学习JavaScript所掌握的基础知识，涵盖常用功能及代码示例。
 articleGPT: 本文记录了作者通过Codecademy网站学习JavaScript后所掌握的警告框、字符串操作等基础知识和常用功能，以作个人备忘。
 ---

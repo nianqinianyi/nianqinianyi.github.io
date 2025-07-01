@@ -2,7 +2,7 @@
 title: 重拾Python笔记二
 tags: ["Python", "重拾Python笔记"]
 categories: ["Python"]
-date: 2013-05-07 23:12:58
+date: 2013-05-07 23:12:58 +08:00
 description: 这篇Python笔记主要概述了类定义、面向对象特性，以及字典的基础操作和常用方法。
 articleGPT: 这篇Python笔记主要回顾了类的定义、对象特性、运算符重载，并详细阐述了字典的创建、访问、操作和遍历方法。
 ---
@@ -19,4 +19,3 @@ articleGPT: 这篇Python笔记主要回顾了类的定义、对象特性、运�
   8. 创建空词典：`adict={}`,词典添加值`adict['New']=22`，词典删除某一个值del adict[‘tom’]，清空词典`adict.clear()`。
   9. `adict.keys()`、`adict.values()`、`adict.items()`分别返回字典的所有键、所有值、所有键值对，返回的都是列表，其中`items()`中每一个元素都是一个元组。
   10. 对于词典`for a in adict:`则a将遍历词典中所有的键。
-

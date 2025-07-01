@@ -2,7 +2,7 @@
 title: SixTools开发手记 - JavaFx控件点滴记录一
 tags: ["JavaFx", "项目", "开源项目", "Java", "随笔"]
 categories: ["项目"]
-date: 2015-04-16 23:34:45
+date: 2015-04-16 23:34:45 +08:00
 description: 文章汇集了在开发SixTools应用过程中遇到的JavaFX GUI编程技巧与解决方案。
 articleGPT: 本文记录了作者在凭兴趣开发JavaFX GUI程序SixTools过程中，为避免遗忘而总结的各类开发经验和解决方案。
 ---

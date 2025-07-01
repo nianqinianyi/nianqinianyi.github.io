@@ -2,7 +2,7 @@
 title: Weex 入门01 - 环境搭建与初步体验
 tags: ["Weex", "APP开发"]
 categories: ["APP开发"]
-date: 2017-03-14 23:51:25
+date: 2017-03-14 23:51:25 +08:00
 description: 详细介绍了Weex开发环境的配置、工具的安装以及快速创建和运行Weex应用示例的步骤。
 articleGPT: 本文介绍了安装Weex开发工具、创建.we文件以及在浏览器或手机上快速预览其运行效果的步骤。
 ---

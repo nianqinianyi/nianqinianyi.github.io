@@ -2,7 +2,7 @@
 title: Hexo 主题 hexo-theme-tranquilpeak 部分功能总结
 tags: ["Hexo", "Hexo主题", "主题"]
 categories: ["工具"]
-date: 2018-08-30 00:57:30
+date: 2018-08-30 00:57:30 +08:00
 description: 文章总结了 Hexo 主题 tranquilpeak 的安装使用要点，并提供了多项内置功能的用法示例。
 articleGPT: 本文总结了 Hexo 主题 tranquilpeak 的安装使用注意事项，并详细介绍了其Tags、高亮文本、图片、代码块等多种特色功能的语法示例。
 ---

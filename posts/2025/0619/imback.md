@@ -2,7 +2,7 @@
 title: 我又回来啦
 tags: [随想]
 categories: [随想]
-date: 2025-06-19 15:34:40
+date: 2025-06-19 15:34:40 +08:00
 description: 文章系统梳理了从WordPress迁移至Vitepress博客平台的技术路径，包括内容格式转换、AI工具链应用及主题定制优化等关键环节，并规划了Rust语言与AI技术的后续研究方向。
 articleGPT: 作者回顾了从2015年使用WordPress建站到2020年断更的博客历程，后因服务器到期导出内容并尝试通过博客园导入但未续更。近期为重建博客，采用Vitepress框架及vitepress-theme-curve主题部署于GitHub Pages，借助AI工具Trae将旧WordPress XML内容转换为Markdown格式，并通过多轮优化解决代码块处理、死链修正及文件结构化问题，最终利用Gemini模型生成文章摘要。未来计划分享Rust语言学习及AI技术相关内容。
 ---

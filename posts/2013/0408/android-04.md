@@ -2,7 +2,7 @@
 title: Android学习总结04之Intent
 tags: ["Android", "Android学习总结", "学习总结"]
 categories: ["Android"]
-date: 2013-04-08 23:07:51
+date: 2013-04-08 23:07:51 +08:00
 description: 文章聚焦Android四大组件间的通信枢纽Intent，并通过实例阐释了其在发起系统动作、传递数据以及实现Activity间数据回传中的应用。
 articleGPT: Android的四大组件（Activity、Service、Content Provider和BroadcastReceiver）主要通过Intent进行通信，Intent封装了动作、数据和附加属性，从而实现拨打电话、启动组件以及组件间的数据传递与返回等多种功能。
 ---

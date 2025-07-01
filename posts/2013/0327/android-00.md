@@ -2,7 +2,7 @@
 title: Android学习总结00之废话
 tags: ["Android", "Android学习总结", "学习总结"]
 categories: ["Android"]
-date: 2013-03-27 22:59:34
+date: 2013-03-27 22:59:34 +08:00
 description: 作者总结了若水老师《Android开发从零开始》系列教程的学习内容，按视频顺序调整结构并参考API文档等资料进行整理，同时提及教程来源及博主链接。
 articleGPT: 作者在看完《Android开发从零开始》系列视频教程后，将撰写一份学习总结，该总结会参照Android官方文档并适当调整内容顺序。
 ---
@@ -19,4 +19,3 @@ Status.Bar.Notificationscamproj会放在一起等等。还有就是关于Android
 由于是总结，所以有些地方比较简单。
 
 若水老师CSDN博客：<http://blog.csdn.net/coolszy> 《Android开发从零开始》下载地址详见若水老师博客。
-

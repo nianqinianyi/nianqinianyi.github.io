@@ -2,7 +2,7 @@
 title: 【Spring Cloud学习笔记】09：服务链路追踪(Spring Cloud Sleuth)
 tags: ["Spring Cloud"]
 categories: ["Spring"]
-date: 2017-07-02 00:27:11
+date: 2017-07-02 00:27:11 +08:00
 description: 本教程详细演示了如何通过搭建Zipkin服务器并配置互相调用的服务，利用Spring Cloud Sleuth实现分布式服务链路追踪。
 articleGPT: 该教程详细介绍了如何集成Spring Cloud Sleuth和Zipkin，以实现分布式服务链路的追踪与可视化。
 ---

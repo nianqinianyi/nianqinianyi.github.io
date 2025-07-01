@@ -2,7 +2,7 @@
 title: 【Spring Cloud学习笔记】05：路由网关（zuul）
 tags: ["Spring", "Spring Cloud"]
 categories: ["Spring"]
-date: 2017-06-29 00:20:21
+date: 2017-06-29 00:20:21 +08:00
 description: 文章详细介绍了如何创建Spring Cloud Zuul路由模块，实现微服务间的API网关路由，并演示了如何添加自定义请求过滤器进行访问控制。
 articleGPT: 该文章详细介绍了如何创建Spring Cloud Zuul路由模块，实现对不同微服务的请求转发（如Ribbon和Feign），并演示了如何通过自定义过滤器进行请求预处理和访问控制。
 ---
@@ -130,4 +130,3 @@ public class MyFilter extends ZuulFilter {
 Github 地址：<https://github.com/nianqinianyi/demo-spring-cloud>
 
 对应分支：<https://github.com/nianqinianyi/demo-spring-cloud/tree/lsc05>
-

@@ -2,7 +2,7 @@
 title: 重拾Python笔记四
 tags: ["Python", "重拾Python笔记"]
 categories: ["Python"]
-date: 2013-05-09 23:15:54
+date: 2013-05-09 23:15:54 +08:00
 description: 内容涵盖Python中函数参数的灵活封装与解包、高效迭代机制，以及生成器与列表推导式等核心数据处理与生成技巧。
 articleGPT: 该文介绍了Python中灵活的参数传递（包裹与解包裹）、高效的数据迭代（enumerate, zip）以及内存优化的数据生成方式（生成器、列表解析）等核心特性。
 ---
@@ -19,4 +19,3 @@ articleGPT: 该文介绍了Python中灵活的参数传递（包裹与解包裹�
   8. 生成器：生成一个自定义的循环对象，和定义方法一样，不过不使用return，而是用yield，当生成器遇到一个yield时，会暂停运行生成器，返回yield后面的值。当再次调用生成器的时候，会从刚才暂停的地方继续运行，直到下一个yield：`def gen(): a = 100 yield a a = a*8 yield a yield 1000 for i in gen(): print i `生成器有一个简便的写法，即使用生成器表达式(Generator Expression)：G = (x for x in range(4))，这个写法相当于`def gen(): for i in range(4): yield i; `
   9. 表理解(list comprehension)：一种快速生成表的方式，对于L = [x**2 for x in range(10)]，相当于：`L = [] for x in range(10): L.append(x**2) `
   10. iter()函数和循环器(iterator)：for循环调用循环对象的时候，是通过iter()方法先将循环对象转换为循环器(iterator)。但这只是技术层面，逻辑层面可以忽略这层关系。
-

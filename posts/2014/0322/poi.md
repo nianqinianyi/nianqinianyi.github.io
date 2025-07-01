@@ -2,7 +2,7 @@
 title: 使用POI操作word文档中文本框中的内容
 tags: ["POI", "Java", "Word"]
 categories: ["Java"]
-date: 2014-03-22 23:20:47
+date: 2014-03-22 23:20:47 +08:00
 description: 文章记录了如何利用POI结合XMLBeans的XMLCursor，攻克了Word文档中修改文本框内容的挑战。
 articleGPT: 本文介绍如何使用Apache POI通过XMLBeans的`XMLCursor`功能，修改Word `.docx`文件中文本框内的文字内容。
 ---

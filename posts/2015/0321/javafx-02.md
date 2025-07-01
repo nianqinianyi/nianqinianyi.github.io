@@ -2,7 +2,7 @@
 title: JavaFx非详细入门教程 2 - FXML
 tags: ["JavaFx", "Java", "GUI"]
 categories: ["JavaFx"]
-date: 2015-03-21 23:33:23
+date: 2015-03-21 23:33:23 +08:00
 description: 文章深入探讨了FXML在JavaFX中构建用户界面的方法，涵盖其文件定义、加载、与Java控制器的联动，并介绍了国际化、CSS样式和JavaScript脚本的集成应用。
 articleGPT: 本教程详细讲解了如何在JavaFX应用中使用FXML来定义用户界面，包括主Java类加载FXML布局、Java控制器处理事件，以及整合CSS样式、国际化资源和JavaScript脚本的方法。
 ---
@@ -146,4 +146,3 @@ js脚本要注意3个地方：
 处理密码点击效果图（Js脚本处理）：  
 
 ![图片丢失](https://sixlab.cn/wp-content/uploads/2019/10/2015120414473781.png)
-

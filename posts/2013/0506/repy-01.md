@@ -2,7 +2,7 @@
 title: 重拾Python笔记一
 tags: ["Python", "重拾Python笔记"]
 categories: ["Python"]
-date: 2013-05-06 23:11:18
+date: 2013-05-06 23:11:18 +08:00
 description: 本笔记仅收录了Python语言中部分需要关注或加深理解的基础概念，内容涵盖数据类型、运算符、程序结构及函数定义等方面。
 articleGPT: 这份笔记总结了作者当时对Python中一些不熟悉的基础语法、数据类型和函数等核心概念。
 ---
@@ -21,4 +21,3 @@ articleGPT: 这份笔记总结了作者当时对Python中一些不熟悉的基�
   10. 给函数传参数，基本数据类型是传的值，其他的是传的指针。
 
 这篇文章是我于2013-05-06发表于oschina.net的文章。[http://my.oschina.net/sixlab/blog/127789](https://my.oschina.net/sixlab/blog/127789)
-

@@ -2,7 +2,7 @@
 title: Java 8 新特性系列 – 函数式接口
 tags: ["Java", "Java8", "Lambda", "函数式接口", "新特性"]
 categories: ["Java"]
-date: 2020-05-29 11:00:00
+date: 2020-05-29 11:00:00 +08:00
 description: 文章描述了函数式接口作为仅含一个抽象方法的接口，其定义、语法、与Lambda表达式的关联，并列举了Java 8之前及之后内置的各类函数式接口，同时探讨了其使用限制与特殊情况。
 articleGPT: 函数式接口是Java中**有且仅有一个抽象方法**的接口，**主要用于支持Lambda表达式**，并**可选地使用`@FunctionalInterface`注解**进行标识。
 ---
