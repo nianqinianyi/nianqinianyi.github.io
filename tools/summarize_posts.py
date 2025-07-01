@@ -90,7 +90,7 @@ for file_path in md_files:
         # 重建Front Matter
         new_front_matter = '\n'.join(new_lines)
         # 重建完整文件内容
-        new_content = f'---\n{new_front_matter}\n---\n{body}\n'
+        new_content = f'---\n{new_front_matter}\n---\n\n{body}\n'
         
         # 写回文件
         with open(file_path, 'w', encoding='utf-8') as f:

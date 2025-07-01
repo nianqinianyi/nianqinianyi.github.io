@@ -3,10 +3,9 @@ import re
 import sys
 import traceback
 import requests
+import argparse
 
 print(f"current path is:{os.getcwd()}")
-
-file_path = "posts/2025/0630/rust-02-var.md"
 
 # Ollama API配置
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
@@ -45,7 +44,7 @@ def generate_summary(content, tag):
             }
         )
         response.raise_for_status()  # 检查HTTP错误
-        
+
         # 解析响应
         result = response.json()
         cleaned_content = result["candidates"][0]["content"]["parts"][0]["text"]
@@ -91,7 +90,7 @@ def replace_summary(content, front_matter, tag):
     return new_front_matter
 
 
-def main():
+def main(file_path):
     try:
         # 读取文件内容
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -132,4 +131,13 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    # 创建命令行参数解析器
+    parser = argparse.ArgumentParser(description='将Markdown文件')
+    parser.add_argument('file_path', nargs='?', help='Markdown 文件路径')
+
+    args = parser.parse_args()
+
+    if args.file_path is None:
+        args.file_path = input("请输入MD文件路径: ").strip()
+
+    main(args.file_path)
